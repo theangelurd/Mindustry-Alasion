@@ -1,0 +1,61 @@
+type: flying
+name: Dice
+description: Fires bullets in a quick manner and a railgun blast at all enemies.
+flying: true
+health: 560
+speed: 3.5
+drag: 0.025
+accel: 0.05
+hitSize: 13
+rotateSpeed: 8
+commandLimit: 5
+lowAltitude: true
+weapons: [
+  {
+    name: slice-weapon
+    x: 6.5
+    y: 4
+    mirror: true
+    shootSound: pew
+    rotate: true
+    rotateSpeed: 10
+    recoil: 1.5
+    inaccuracy: 5
+    top: true
+    shootY: 3
+    reload: 5
+    bullet: {
+      type: BasicBulletType
+      damage: 9
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+    }
+  }
+    {
+    name: air-gatling-b-weapon
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: shootBig
+    rotate: true
+    rotateSpeed: 4
+    recoil: 3.5
+    inaccuracy: 0
+    top: true
+    shootY: 3
+    reload: 25
+    bullet: {
+      type: RailBulletType
+      damage: 60
+      pierceDamageFactor: 0
+      length: 160
+      recoil: 0.5
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+    }
+  }
+]
