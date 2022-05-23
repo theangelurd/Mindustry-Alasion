@@ -1,0 +1,99 @@
+type: flying
+name: Sword
+description: Fires artillery at ground units and flak at air units.
+flying: true
+health: 1100
+speed: 2.3
+drag: 0.04
+accel: 0.085
+hitSize: 19
+rotateSpeed: 5
+commandLimit: 6
+lowAltitude: true
+weapons: [
+  {
+    name: air-gatling-c-flak
+    x: 9
+    y: 11
+    mirror: true
+    shootSound: shootSnap
+    rotate: true
+    rotateSpeed: 8
+    recoil: 2.2
+    inaccuracy: 15
+    top: true
+    shootY: 5
+    reload: 12
+    bullet: {
+      type: BasicBulletType
+      damage: 8
+      splashDamage: 32
+      splashDamageRadius: 30
+      collidesAir: true
+      collidesGround: false
+      speed: 4.5
+      pierceDamageFactor: 0
+      height: 12
+      width: 12
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosion
+      despawnEffect: flakExplosion
+    }
+  }
+  {
+    name: air-gatling-c-artillery
+    x: 0
+    y: 12
+    mirror: false
+    shootSound: artillery
+    rotate: true
+    rotateSpeed: 5
+    recoil: 3
+    top: true
+    shootY: 4.5
+    reload: 30
+    bullet: {
+      type: ArtilleryBulletType
+          collidesGround: true
+    collidesAir: false
+      splashDamage: 85
+      splashDamageRadius: 40
+      collidesAir: true
+      collidesGround: false
+      speed: 3.5
+      lifetime: 60
+      height: 15
+      width: 15
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+    }
+  }
+  {
+    name: air-gatling-c-railgun
+    x: 0
+    y: -2.5
+    mirror: false
+    shootSound: railgun
+    rotate: true
+    rotateSpeed: 3
+    recoil: 4.5
+    inaccuracy: 0
+    top: true
+    shootY: 8
+    reload: 60
+    bullet: {
+      type: RailBulletType
+      damage: 300
+      pierceDamageFactor: 0.5
+      updateEffectSeg: 60
+      updateEffect: railTrail
+      length: 350
+      recoil: 0.4
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+    }
+  }
+]
