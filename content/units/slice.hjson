@@ -2,12 +2,13 @@ type: flying
 name: Slice
 description: Fires bullets in a quick manner at all enemies.
 flying: true
-health: 75
-speed: 3.4
+health: 160
+speed: 3.5
+drag: 0.02
+accel: 0.018
+hitSize: 9
 rotateSpeed: 20
-circleTarget: true
-lightRadius: 25
-lightColor: e65555
+lowAltitude: true
 weapons: [
   {
     name: slice-weapon
