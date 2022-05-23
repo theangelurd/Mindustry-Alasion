@@ -1,0 +1,32 @@
+type: flying
+flying: true
+health: 75
+speed: 3.4
+rotateSpeed: 20
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  {
+    name: slice-weapon
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: pew
+    rotate: true
+    rotateSpeed: 6
+    recoil: 1.5
+    top: true
+    shootY: 3
+    reload: 5
+    bullet: {
+      type: BasicBulletType
+      damage: 9
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+    }
+  }
+]
