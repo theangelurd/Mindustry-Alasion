@@ -52,9 +52,9 @@ weapons: [
       type: RailBulletType
       damage: 60
       pierceDamageFactor: 1
-      pointEffectSpace: 40
-      pointEffect: railTrail
-      length: 160
+      updateEffectSeg: 40
+      updateEffect: railTrail
+      length: 200
       recoil: 0.25
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
