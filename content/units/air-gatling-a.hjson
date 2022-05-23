@@ -8,6 +8,7 @@ drag: 0.02
 accel: 0.04
 hitSize: 9
 rotateSpeed: 20
+commandLimit: 4
 lowAltitude: true
 weapons: [
   {
