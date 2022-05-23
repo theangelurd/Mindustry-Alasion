@@ -20,6 +20,7 @@ weapons: [
     rotate: true
     rotateSpeed: 10
     recoil: 1.5
+    inaccuracy: 4
     top: true
     shootY: 3
     reload: 5
