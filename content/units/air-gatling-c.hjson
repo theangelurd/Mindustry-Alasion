@@ -21,6 +21,8 @@ weapons: [
     rotateSpeed: 8
     recoil: 2.2
     inaccuracy: 15
+    targetGround: false
+    targetAir: true
     top: true
     shootY: 5
     reload: 12
@@ -48,6 +50,8 @@ weapons: [
     mirror: false
     shootSound: artillery
     rotate: true
+    targetGround: true
+    targetAir: false
     rotateSpeed: 5
     recoil: 3
     top: true
