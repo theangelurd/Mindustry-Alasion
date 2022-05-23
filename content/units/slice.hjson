@@ -1,4 +1,6 @@
 type: flying
+name: Slice
+description: Fires bullets in a quick manner at all enemies.
 flying: true
 health: 75
 speed: 3.4
@@ -14,7 +16,7 @@ weapons: [
     mirror: false
     shootSound: pew
     rotate: true
-    rotateSpeed: 6
+    rotateSpeed: 10
     recoil: 1.5
     top: true
     shootY: 3
@@ -22,6 +24,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 9
+      speed: 5
       pierceDamageFactor: 0
       height: 9
       width: 9
