@@ -13,8 +13,8 @@ lowAltitude: true
 weapons: [
   {
     name: slice-weapon
-    x: 6.5
-    y: 4
+    x: 5.5
+    y: 5
     mirror: true
     shootSound: pew
     rotate: true
