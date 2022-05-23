@@ -36,7 +36,7 @@ weapons: [
     }
   }
     {
-    name: air-gatling-b-weapon
+    name: air-gatling-b-railgun
     x: 0
     y: 0
     mirror: false
@@ -46,12 +46,14 @@ weapons: [
     recoil: 3.5
     inaccuracy: 0
     top: true
-    shootY: 3
+    shootY: 5
     reload: 25
     bullet: {
       type: RailBulletType
       damage: 60
       pierceDamageFactor: 0
+      pointEffectSpace: 40
+      pointEffect: railTrail
       length: 160
       recoil: 0.5
       shootEffect: shootBig
