@@ -6,14 +6,14 @@ health: 1100
 speed: 2.3
 drag: 0.04
 accel: 0.085
-hitSize: 19
+hitSize: 16
 rotateSpeed: 5
 commandLimit: 6
 lowAltitude: true
 weapons: [
   {
     name: air-gatling-c-flak
-    x: 9
+    x: 7
     y: 11
     mirror: true
     shootSound: shootSnap
@@ -61,7 +61,7 @@ weapons: [
       splashDamageRadius: 40
       collidesAir: true
       collidesGround: false
-      speed: 3.5
+      speed: 5
       lifetime: 60
       height: 15
       width: 15
@@ -83,7 +83,7 @@ weapons: [
     inaccuracy: 0
     top: true
     shootY: 8
-    reload: 60
+    reload: 70
     bullet: {
       type: RailBulletType
       damage: 300
