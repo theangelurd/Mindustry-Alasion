@@ -25,7 +25,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 9
-      speed: 5
+      speed: 4
       pierceDamageFactor: 0
       height: 9
       width: 9
