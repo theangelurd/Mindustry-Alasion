@@ -51,11 +51,11 @@ weapons: [
     bullet: {
       type: RailBulletType
       damage: 60
-      pierceDamageFactor: 0
+      pierceDamageFactor: 1
       pointEffectSpace: 40
       pointEffect: railTrail
       length: 160
-      recoil: 0.5
+      recoil: 0.25
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
     }
