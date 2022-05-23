@@ -5,7 +5,7 @@ flying: true
 health: 160
 speed: 3.5
 drag: 0.02
-accel: 0.018
+accel: 0.04
 hitSize: 9
 rotateSpeed: 20
 lowAltitude: true
@@ -25,7 +25,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 9
-      speed: 4
+      speed: 3.5
       pierceDamageFactor: 0
       height: 9
       width: 9
