@@ -1,0 +1,36 @@
+type: PowerTurret
+name: Range
+description: Shoots units from a very far distance.
+health: 80
+reloadTime: 80
+rotateSpeed: 7
+recoilAmount: 1
+size: 1
+range: 360
+consumes: {
+  power: 4
+}
+shootType: {
+           type: BasicBulletType
+           pierce: false
+           damage: 40
+           width: 9
+           height: 9
+           lifetime: 60
+           weaveScale: 3
+           weaveMag: 0.5
+           homingPower: 0.2
+           homingRange: 80
+           speed: 6
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+}
+requirements: [
+  copper/50
+  lead/30
+  silicon/50
+]
+category: turret
+research: lacer
