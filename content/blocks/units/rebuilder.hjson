@@ -1,0 +1,32 @@
+type: Reconstructor
+name: Rebuilder
+description: Rebuilds units into stronger versions.
+size: 3
+constructTime: 1000
+consumes: {
+  power: 8
+    items: {
+      items: [
+        lead/100
+        silicon/120
+        thorium/40
+        titanium/50
+        graphite/80
+      ]
+    }
+}
+upgrades: [
+  [slice, dice]
+]
+requirements: [
+  titanium/200
+  silicon/280
+  metaglass/180
+  thorium/120
+  graphite/120
+]
+category: units
+research: {
+  parent: producer
+  objectives: [additive-reconstructor, tar-fields, fungal-pass]
+}
