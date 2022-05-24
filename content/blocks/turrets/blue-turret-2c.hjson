@@ -1,17 +1,17 @@
 type: PowerTurret
 name: Langhast
-description: Shoots a latching bullet that stays on units until they die.
+description: Shoots a bullet that can ricochet towards every unit around it once.
 health: 320
 reloadTime: 100
 rotateSpeed: 4
 recoilAmount: 3
 size: 2
-range: 500
+range: 400
 shots: 1
 powerUse: 11
 shootType: {
            type: BasicBulletType
-           damage: 20
+           damage: 60
            pierce: true
            pierceBuilding: false
            width: 20
@@ -21,7 +21,7 @@ shootType: {
            weaveMag: 0.5
            homingPower: 1
            homingRange: 500
-           speed: 5
+           speed: 10
            despawnEffect: hitLaserBlast
            hitEffect: hitLaserBlast
            backColor: 808eff
