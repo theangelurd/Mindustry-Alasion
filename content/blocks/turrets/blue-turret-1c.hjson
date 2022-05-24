@@ -7,9 +7,7 @@ rotateSpeed: 7
 recoilAmount: 1
 size: 1
 range: 360
-consumes: {
-  power: 4
-}
+powerUse: 4
 shootType: {
            type: BasicBulletType
            pierce: false
