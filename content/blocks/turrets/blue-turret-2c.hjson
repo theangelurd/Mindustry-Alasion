@@ -6,7 +6,7 @@ reloadTime: 100
 rotateSpeed: 4
 recoilAmount: 3
 size: 2
-range: 30
+range: 300
 shots: 1
 powerUse: 11
 shootType: {
