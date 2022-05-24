@@ -1,0 +1,41 @@
+type: Reconstructor
+name: Remasterer
+description: Remasters units into stronger versions.
+size: 7
+constructTime: 5500
+consumes: {
+  power: 15
+    items: {
+      items: [
+        lead/800
+        silicon/1500
+        thorium/1200
+        titanium/1400
+        graphite/500
+        plastanium/2000
+        phase-fabric/500
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 2.5
+  }
+}
+upgrades: [
+  [air-gatling-c, air-gatling-d]
+]
+requirements: [
+  titanium/4000
+  silicon/4500
+  metaglass/3200
+  thorium/3000
+  graphite/2500
+  copper/4000
+  phase-fabric/1250
+  plastanium/2500
+]
+category: units
+research: {
+  parent: remaker
+  objectives: [exponential-reconstructor, antumbra, scepter]
+}
