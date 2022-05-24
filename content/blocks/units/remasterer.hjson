@@ -3,6 +3,8 @@ name: Remasterer
 description: Remasters units into stronger versions.
 size: 7
 constructTime: 5500
+hasLiquid: true
+liquidCapacity: 150
 consumes: {
   power: 15
     items: {
@@ -18,7 +20,7 @@ consumes: {
     }
   liquid: {
     liquid: cryofluid
-    amount: 2.5
+    amount: 1.2
   }
 }
 upgrades: [
