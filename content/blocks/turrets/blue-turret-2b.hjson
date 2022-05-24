@@ -1,0 +1,48 @@
+type: PowerTurret
+name: Threepoint
+description: Shoots a lot of bullets at once.
+health: 320
+reloadTime: 140
+rotateSpeed: 14
+recoilAmount: 1.5
+inaccuracy: 15
+size: 2
+range: 280
+shots: 26
+spacing: 15
+burstSpacing: 3
+consumes: {
+  power: 10
+}
+shootType: {
+           type: BasicBulletType
+           damage: 9
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 4
+           width: 14
+           height: 14
+           lifetime: 70
+           weaveScale: 3
+           weaveMag: 0.5
+           homingPower: 0.04
+           homingRange: 200
+           speed: 4
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 2
+           shrinkY: 0
+}
+requirements: [
+  graphite/40
+  lead/89
+  silicon/80
+  titanium/120
+]
+category: turret
+research: {
+   parent: blue-turret-1b
+   objectives: [blue-turret-1c]
+}
