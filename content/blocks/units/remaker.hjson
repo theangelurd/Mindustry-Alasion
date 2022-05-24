@@ -1,0 +1,33 @@
+type: Reconstructor
+name: Remaker
+description: Remakes units into stronger versions.
+size: 5
+constructTime: 2500
+consumes: {
+  power: 8
+    items: {
+      items: [
+        lead/200
+        silicon/220
+        thorium/120
+        titanium/270
+        graphite/140
+      ]
+    }
+}
+upgrades: [
+  [air-gatling-b, air-gatling-c]
+]
+requirements: [
+  titanium/900
+  silicon/800
+  metaglass/700
+  thorium/400
+  graphite/500
+  copper/800
+]
+category: units
+research: {
+  parent: rebuilder
+  objectives: [multiplicative-reconstructor, fortress, quasar, zenith, mega, bryde]
+}
