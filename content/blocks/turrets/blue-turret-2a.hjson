@@ -11,9 +11,7 @@ range: 300
 shots: 5
 spacing: 15
 burstSpacing: 8
-consumes: {
-  power: 6
-}
+powerUse: 6
 shootType: {
            type: BasicBulletType
            damage: 20
