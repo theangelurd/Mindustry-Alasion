@@ -16,14 +16,14 @@ consumes: {
     }
 }
 upgrades: [
-  [slice, dice]
+  [air-gatling-a, air-gatling-b]
 ]
 requirements: [
-  titanium/200
-  silicon/280
-  metaglass/180
-  thorium/120
-  graphite/120
+  titanium/460
+  silicon/600
+  metaglass/400
+  thorium/360
+  graphite/400
 ]
 category: units
 research: {
