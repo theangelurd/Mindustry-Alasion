@@ -9,9 +9,7 @@ inaccuracy: 12
 size: 1
 range: 240
 shots: 1
-consumes: {
-  power: 3
-}
+powerUse: 3
 shootType: {
            type: BasicBulletType
            pierce: false
