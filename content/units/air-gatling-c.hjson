@@ -63,8 +63,8 @@ weapons: [
     collidesAir: false
       splashDamage: 85
       splashDamageRadius: 40
-      collidesAir: true
-      collidesGround: false
+      collidesAir: false
+      collidesGround: true
       speed: 5
       lifetime: 60
       height: 15
