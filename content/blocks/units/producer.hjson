@@ -1,0 +1,26 @@
+type: UnitFactory
+size: 3
+name: Producer
+description: Produces advanced units.
+consumes: {
+  power: 2.5
+}
+plans: [
+  {
+    unit: slice
+    time: 1400
+    requirements: [
+      silicon/20
+      lead/20
+      titanium/20
+    ]
+  }
+]
+requirements: [
+  titanium/320
+  thorium/250
+  graphite/180
+  silicon/200
+]
+research: ground-factory
+category: units
