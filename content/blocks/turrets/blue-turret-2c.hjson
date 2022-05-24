@@ -6,7 +6,7 @@ reloadTime: 100
 rotateSpeed: 4
 recoilAmount: 3
 size: 2
-range: 400
+range: 30
 shots: 1
 powerUse: 11
 shootType: {
@@ -16,12 +16,12 @@ shootType: {
            pierceBuilding: false
            width: 20
            height: 14
-           lifetime: 120
+           lifetime: 1000
            weaveScale: 3
            weaveMag: 0.5
            homingPower: 1
            homingRange: 500
-           speed: 10
+           speed: 3
            despawnEffect: hitLaserBlast
            hitEffect: hitLaserBlast
            backColor: 808eff
