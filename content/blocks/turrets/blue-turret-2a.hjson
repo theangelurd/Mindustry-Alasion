@@ -1,0 +1,48 @@
+type: PowerTurret
+name: Iderator
+description: Shoots a wave of bullets.
+health: 320
+reloadTime: 100
+rotateSpeed: 10
+recoilAmount: 0.8
+inaccuracy: 12
+size: 2
+range: 300
+shots: 5
+spacing: 15
+burstSpacing: 8
+consumes: {
+  power: 6
+}
+shootType: {
+           type: BasicBulletType
+           damage: 20
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 4
+           width: 10
+           height: 14
+           lifetime: 60
+           weaveScale: 3
+           weaveMag: 0.5
+           homingPower: 0.1
+           homingRange: 150
+           speed: 6
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 2
+           shrinkY: 0
+}
+requirements: [
+  graphite/80
+  lead/40
+  silicon/100
+  titanium/80
+]
+category: turret
+research: [
+   parent: blue-turret-1a
+   objectives: [blue-turret-1b, blue-turret-1c]
+]
