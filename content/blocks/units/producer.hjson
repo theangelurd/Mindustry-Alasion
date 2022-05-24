@@ -7,7 +7,7 @@ consumes: {
 }
 plans: [
   {
-    unit: slice
+    unit: air-gatling-a
     time: 1400
     requirements: [
       silicon/20
