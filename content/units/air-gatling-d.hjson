@@ -59,8 +59,9 @@ weapons: [
   }
     {
     name: air-gatling-d-sniper
+    x: 6
     y: 14
-    mirror: false
+    mirror: true
     shootSound: shootBig
     rotate: true
     rotateSpeed: 12
@@ -112,8 +113,8 @@ weapons: [
   }
   {
     name: air-gatling-c-artillery
-    x: 10
-    y: 18
+    x: 6
+    y: -12
     mirror: true
     shootSound: artillery
     rotate: true
