@@ -28,5 +28,5 @@ requirements: [
 category: units
 research: {
   parent: producer
-  objectives: [additive-reconstructor, tar-fields, fungal-pass]
+  objectives: [additive-reconstructor, mace, pulsar, horizon, poly, minke]
 }
