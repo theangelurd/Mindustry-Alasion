@@ -9,11 +9,8 @@ inaccuracy: 15
 size: 2
 range: 280
 shots: 26
-spacing: 15
 burstSpacing: 3
-consumes: {
-  power: 10
-}
+powerUse: 10
 shootType: {
            type: BasicBulletType
            damage: 9
