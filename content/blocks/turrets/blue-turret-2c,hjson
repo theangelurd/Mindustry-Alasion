@@ -1,0 +1,43 @@
+type: PowerTurret
+name: Langhast
+description: Shoots a latching bullet that stays on units until they die.
+health: 320
+reloadTime: 100
+rotateSpeed: 4
+recoilAmount: 3
+size: 2
+range: 500
+shots: 1
+powerUse: 11
+shootType: {
+           type: BasicBulletType
+           damage: 20
+           pierce: true
+           pierceBuilding: false
+           width: 20
+           height: 14
+           lifetime: 120
+           weaveScale: 3
+           weaveMag: 0.5
+           homingPower: 1
+           homingRange: 500
+           speed: 5
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 3
+           shrinkY: 0
+}
+requirements: [
+  graphite/100
+  lead/140
+  silicon/200
+  titanium/100
+  plastanium/40
+]
+category: turret
+research: {
+   parent: blue-turret-1c
+   objectives: [blue-turret-1b]
+}
