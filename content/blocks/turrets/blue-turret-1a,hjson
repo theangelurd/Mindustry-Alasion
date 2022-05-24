@@ -1,0 +1,43 @@
+type: PowerTurret
+name: Lacer
+description: Shoots strong bullets quickly.
+health: 80
+reloadTime: 20
+rotateSpeed: 10
+recoilAmount: 0.8
+inaccuracy: 12
+size: 1
+range: 240
+shots: 1
+consumes: {
+  power: 3
+}
+shootType: {
+           type: BasicBulletType
+           pierce: false
+           damage: 15
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 2
+           width: 6
+           height: 9
+           lifetime: 40
+           weaveScale: 3
+           weaveMag: 0.5
+           homingPower: 0.1
+           homingRange: 100
+           speed: 6
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 1
+           shrinkY: 0
+}
+requirements: [
+  copper/50
+  lead/30
+  silicon/40
+]
+category: turret
+research: duo
