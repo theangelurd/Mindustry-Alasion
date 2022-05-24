@@ -1,0 +1,171 @@
+type: flying
+name: Saber
+description: Fires artillery at ground units and flak at air units.
+flying: true
+health: 10000
+speed: 1.4
+drag: 0.07
+accel: 0.1
+hitSize: 30
+rotateSpeed: 3
+commandLimit: 7
+lowAltitude: true
+weapons: [
+  {
+    name: air-gatling-d-gatling
+    x: 10
+    y: 6
+    mirror: true
+    shootSound: pew
+    rotate: true
+    rotateSpeed: 12
+    recoil: 2
+    inaccuracy: 6
+    top: true
+    shootY: 3
+    reload: 2
+    bullet: {
+      type: BasicBulletType
+      damage: 9
+      collidesAir: true
+      collidesGround: false
+      speed: 5
+      height: 9
+      width: 9
+    }
+  }
+    {
+    name: air-gatling-d-gatling
+    x: 13
+    y: 9
+    mirror: true
+    shootSound: pew
+    rotate: true
+    rotateSpeed: 12
+    recoil: 2
+    inaccuracy: 6
+    top: true
+    shootY: 3
+    reload: 2
+    bullet: {
+      type: BasicBulletType
+      damage: 9
+      collidesAir: true
+      collidesGround: false
+      speed: 5
+      height: 9
+      width: 9
+    }
+  }
+    {
+    name: air-gatling-d-sniper
+    y: 14
+    mirror: false
+    shootSound: shootBig
+    rotate: true
+    rotateSpeed: 12
+    recoil: 4
+    top: true
+    shootY: 5
+    reload: 50
+    bullet: {
+      type: BasicBulletType
+      damage: 100
+      pierce: true
+      pierceCap: 6
+      speed: 10
+      height: 11
+      width: 18
+    }
+  }
+  {
+    name: air-gatling-c-flak
+    x: 12
+    y: 20
+    mirror: true
+    shootSound: shootSnap
+    rotate: true
+    rotateSpeed: 8
+    recoil: 2.2
+    inaccuracy: 15
+    targetGround: false
+    targetAir: true
+    top: true
+    shootY: 5
+    reload: 12
+    bullet: {
+      type: BasicBulletType
+      damage: 12
+      splashDamage: 48
+      splashDamageRadius: 48
+      collidesAir: true
+      collidesGround: false
+      speed: 4.5
+      pierceDamageFactor: 0
+      height: 12
+      width: 12
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosionBig
+      despawnEffect: flakExplosionBig
+    }
+  }
+  {
+    name: air-gatling-c-artillery
+    x: 10
+    y: 18
+    mirror: true
+    shootSound: artillery
+    rotate: true
+    targetGround: true
+    targetAir: false
+    rotateSpeed: 5
+    recoil: 3
+    top: true
+    shootY: 4.5
+    reload: 30
+    bullet: {
+      type: ArtilleryBulletType
+          collidesGround: true
+    collidesAir: false
+      splashDamage: 150
+      splashDamageRadius: 60
+      collidesAir: false
+      collidesGround: true
+      speed: 5
+      lifetime: 60
+      height: 18
+      width: 18
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+    }
+  }
+  {
+    name: air-gatling-c-railgun
+    x: 0
+    y: 4
+    mirror: false
+    shootSound: railgun
+    rotate: true
+    rotateSpeed: 3
+    recoil: 6
+    inaccuracy: 0
+    top: true
+    shootY: 8
+    reload: 100
+    bullet: {
+      type: RailBulletType
+      damage: 700
+      shootEffect: railShoot
+      pierceEffect: railHit
+      pierceDamageFactor: 0.25
+      updateEffectSeg: 60
+      updateEffect: railTrail
+      length: 500
+      recoil: 0.5
+    }
+  }
+]
+research: air-gatling-c
