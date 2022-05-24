@@ -10,9 +10,7 @@ size: 1
 range: 180
 shots: 4
 burstSpacing: 5
-consumes: {
-  power: 5
-}
+powerUse: 5
 shootType: {
            type: BasicBulletType
            pierce: false
