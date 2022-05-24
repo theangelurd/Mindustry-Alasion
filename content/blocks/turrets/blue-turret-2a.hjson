@@ -44,5 +44,5 @@ requirements: [
 category: turret
 research: [
    parent: blue-turret-1a
-   objectives: [blue-turret-1b, blue-turret-1c]
+   objectives: {blue-turret-1b, blue-turret-1c}
 ]
