@@ -5,14 +5,14 @@ health: 720
 reloadTime: 6
 rotateSpeed: 4
 recoilAmount: 4
-restitution: 0.04
-inaccuracy: 12
+restitution: 0.08
+inaccuracy: 3
 size: 3
 range: 320
 alternate: true
 shots: 2
 burstSpacing: 2.25
-spacing: 5
+spread: 5
 shootShake: 4
 powerUse: 14
 shootType: {
