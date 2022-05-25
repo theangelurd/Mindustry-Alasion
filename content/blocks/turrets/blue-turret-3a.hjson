@@ -3,8 +3,9 @@ name: Alteranto
 description: Shoots alternating bullet extremely fast.
 health: 720
 reloadTime: 6
-rotateSpeed: 10
-recoilAmount: 0.8
+rotateSpeed: 4
+recoilAmount: 4
+restitution: 0.04
 inaccuracy: 12
 size: 2
 range: 320
