@@ -15,6 +15,7 @@ burstSpacing: 2.25
 spread: 5
 shootShake: 4
 powerUse: 14
+shootSound: shootBig
 shootType: {
            type: BasicBulletType
            damage: 30
