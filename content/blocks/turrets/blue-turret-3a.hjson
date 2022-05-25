@@ -7,13 +7,12 @@ rotateSpeed: 4
 recoilAmount: 4
 restitution: 0.04
 inaccuracy: 12
-size: 2
+size: 3
 range: 320
+alternate: true
 shots: 2
-spacing: 15
 burstSpacing: 2.25
 spacing: 5
-alternate: true
 shootShake: 4
 powerUse: 14
 shootType: {
