@@ -1,0 +1,51 @@
+type: PowerTurret
+name: Alteranto
+description: Shoots alternating bullet extremely fast.
+health: 720
+reloadTime: 6
+rotateSpeed: 10
+recoilAmount: 0.8
+inaccuracy: 12
+size: 2
+range: 320
+shots: 2
+spacing: 15
+burstSpacing: 2.25
+spacing: 5
+alternate: true
+shootShake: 4
+powerUse: 14
+shootType: {
+           type: BasicBulletType
+           damage: 30
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 5
+           width: 12
+           height: 20
+           lifetime: 40
+           weaveScale: 2
+           weaveMag: 0.5
+           homingPower: 0.03
+           homingRange: 200
+           speed: 8
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 3
+           shrinkY: 0
+}
+requirements: [
+  graphite/650
+  lead/500
+  silicon/700
+  titanium/800
+  plastanium/400
+  thorium/550
+]
+category: turret
+research: {
+   parent: blue-turret-2a
+   objectives: [blue-turret-2b, blue-turret-2c]
+}
