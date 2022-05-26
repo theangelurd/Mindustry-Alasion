@@ -27,6 +27,7 @@ weapons: [
    bullet: {
        pierce: true
        pierceCap: 10
+       speed: 10
        width: 14
        height: 33
        lifetime: 15
@@ -40,6 +41,7 @@ weapons: [
        fragCone: 30
        fragBullet: {
            width: 10
+           speed: 6
            height: 10
            pierce: true
            pierceBuilding: true
