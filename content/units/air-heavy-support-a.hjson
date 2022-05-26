@@ -16,6 +16,8 @@ type: RepairBeamWeapon
 name: none
 x: 0
 mirror: false
+autoTarget: true
+controllable: false
 y: 7
 rotate: false
 shootY: 0
