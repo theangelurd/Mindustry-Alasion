@@ -6,6 +6,9 @@ health: 225
 speed: 3
 accel: 0.025
 drag: 0.02
+mineTier: 4
+mineSpeed: 7
+buildSpeed: 1.25
 controller: builderAI
 weapons: [
 {
