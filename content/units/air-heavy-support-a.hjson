@@ -3,7 +3,7 @@ flying: true
 name: Hop
 description: Helps build and has a healing device.
 health: 225
-speed: 4.4
+speed: 6
 accel: 0.025
 drag: 0.02
 mineTier: 4
@@ -22,12 +22,13 @@ weapons: [
     inaccuracy: 4
     top: true
     shootY: 3
-    reload: 5
+    reload: 8
     bullet: {
       type: BasicBulletType
       damage: 0
       speed: 4
       collidesTeam: true
+      healPercent: 3
       lifetime: 40
       height: 8
       width: 8
@@ -44,8 +45,8 @@ abilities: [
     minSpeed: 1.2
     maxSpeed: 2.3
     damage: 8
-    chance: 0.3
-    length: 6
+    chance: 0.2
+    length: 3
     color: 84f491
     shootSound: spark
   }
