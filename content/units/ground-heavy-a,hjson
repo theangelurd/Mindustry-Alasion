@@ -1,0 +1,49 @@
+type: mech
+name: Anthicid
+description: Fires powerful fragging bullets.
+speed: 0.52
+hitSize: 8
+rotateSpeed: 8
+health: 200
+armor: 2
+mechFrontSway: 0.6
+mechSideSway: 0.7
+weapons: [
+   {
+   name: anthicid-weapon
+   top: false
+   y: 0
+   x: 4
+   shootY: 3
+   reload: 12
+   recoil: 2
+   shake: 2
+   ejectEffect: casing1
+   shootSound: bang
+   bullet: {
+       damage: 15
+       pierceCap: 3
+       speed: 10
+       lifetime: 12
+       pierce: true
+       width: 10
+       height: 21
+       pierceBuilding: true
+       splashDamage: 6
+       splashDamageRadius: 16
+       fragBullets: 3
+       fragCone: 40
+       fragBullet: {
+            damage: 8
+            pierceCap: 2
+            speed: 5
+            lifetime: 10
+            pierce: true
+            pierceBuilding: true
+            splashDamage: 4
+            splashDamageRadius: 10
+          }
+      }
+   }
+]
+research: ground-factory
