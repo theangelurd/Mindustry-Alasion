@@ -1,0 +1,34 @@
+type: flying
+flying: true
+name: Hop
+description: Helps build and has a healing device.
+health: 225
+speed: 3
+accel: 0.025
+drag: 0.02
+controller: builderAI
+weapons: [
+{
+type: RepairBeamWeapon
+name: none
+x: 0
+mirror: false
+y: 7
+rotate: false
+shootY: 0
+beamWidth: 2
+repairSpeed: 5
+fractionRepairSpeed: 0.1
+aimDst: 0
+shootCone: 30
+targetUnits: false
+targetBuildings: true
+autoTarget: false
+controllable: true
+bullet: {
+type: BulletType
+maxRange: 150
+}
+}
+]
+research: producer
