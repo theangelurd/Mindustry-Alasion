@@ -36,4 +36,16 @@ maxRange: 150
 }
 }
 ]
+abilities: [
+  {
+    type: MoveLightningAbility
+    minSpeed: 3
+    maxSpeed: 6
+    damage: 8
+    chance: 0.8
+    length: 12
+    color: 84f491
+    shootSound: spark
+  }
+]
 research: producer
