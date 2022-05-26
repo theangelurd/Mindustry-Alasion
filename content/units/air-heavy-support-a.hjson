@@ -3,7 +3,7 @@ flying: true
 name: Hop
 description: Helps build and has a healing device.
 health: 225
-speed: 3
+speed: 4.4
 accel: 0.025
 drag: 0.02
 mineTier: 4
@@ -42,10 +42,10 @@ abilities: [
   {
     type: MoveLightningAbility
     minSpeed: 1.2
-    maxSpeed: 3
+    maxSpeed: 2.3
     damage: 8
-    chance: 0.5
-    length: 8
+    chance: 0.3
+    length: 6
     color: 84f491
     shootSound: spark
   }
