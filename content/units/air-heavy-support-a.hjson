@@ -13,6 +13,8 @@ buildSpeed: 1.25
 controller: builderAI
 range: 300
 circleTarget: true
+lowAltitude: false
+faceTarget: false
 weapons: [
   {
     name: none
