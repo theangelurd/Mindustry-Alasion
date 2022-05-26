@@ -11,6 +11,8 @@ hitSize: 9
 mineSpeed: 7
 buildSpeed: 1.25
 controller: builderAI
+range: 300
+circleTarget: true
 weapons: [
   {
     name: none
