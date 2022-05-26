@@ -1,7 +1,7 @@
 type: flying
 flying: true
 name: Hop
-description: Helps build and has a healing device.
+description: Can heal blocks and rams into units with lightning.
 health: 300
 speed: 6
 accel: 0.025
@@ -10,7 +10,6 @@ mineTier: 4
 hitSize: 9
 mineSpeed: 7
 buildSpeed: 1.25
-controller: builderAI
 range: 300
 circleTarget: true
 lowAltitude: false
