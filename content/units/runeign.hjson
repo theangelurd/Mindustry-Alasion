@@ -1,8 +1,8 @@
 type: mech
 name:"RUNEIGN!!!"
-description: "[white]GOTTA GO FAST
-GOTTA GO FAST
-GOTTA GO FASTER FASTER FASTER"
+description: "[white]GOTTA [red]GO [blue]FAST
+[pink]GOTTA [yellow]GO [purple]FAST
+[red]GOTTA [yellow]GO [green]FASTER [white]FASTER [pink]FASTER [purple]FASTER [red]FASTER"
 speed: 3.5
 hitSize: 26
 rotateSpeed: 16.5
