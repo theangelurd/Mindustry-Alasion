@@ -19,7 +19,7 @@ mirror: false
 autoTarget: true
 controllable: false
 y: 7
-rotate: false
+rotate: true
 shootY: 0
 beamWidth: 2
 repairSpeed: 5
