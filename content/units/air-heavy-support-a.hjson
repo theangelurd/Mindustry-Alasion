@@ -4,8 +4,9 @@ name: Hop
 description: Can heal blocks and rams into units with lightning.
 health: 300
 speed: 6
-accel: 0.025
-drag: 0.02
+accel: 0.05
+rotateSpeed: 15
+drag: 0.04
 mineTier: 4
 hitSize: 9
 mineSpeed: 7
