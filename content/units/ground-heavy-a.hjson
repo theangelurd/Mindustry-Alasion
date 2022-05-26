@@ -4,7 +4,7 @@ description: Fires powerful fragging bullets.
 speed: 0.52
 hitSize: 8
 rotateSpeed: 8
-health: 200
+health: 170
 armor: 2
 mechFrontSway: 0.6
 mechSideSway: 0.7
@@ -15,6 +15,7 @@ weapons: [
    y: 0
    x: 4
    shootY: 3
+   shootX: -1
    reload: 12
    recoil: 2
    shake: 2
