@@ -10,8 +10,8 @@ armor: 14
 mechStepParticles: true
 mechStepShake: 0.75
 canDrown: false
-mechFrontSway: 1.9
-mechSideSway: 0.6
+mechFrontSway: 3.8
+mechSideSway: 2.4
 weapons: [
    {
    name: runeign-weapon
