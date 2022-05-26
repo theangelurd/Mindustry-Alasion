@@ -17,12 +17,12 @@ plans: [
   }
   {
     unit: ground-heavy-a
-    time: 1800
+    time: 3000
     requirements: [
-      silicon/25
+      silicon/35
       lead/30
-      titanium/25
-      graphite/10
+      titanium/45
+      graphite/30
     ]
   }
 ]
