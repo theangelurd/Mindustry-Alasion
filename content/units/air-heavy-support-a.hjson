@@ -44,8 +44,8 @@ abilities: [
     minSpeed: 1.2
     maxSpeed: 3
     damage: 8
-    chance: 0.8
-    length: 12
+    chance: 0.5
+    length: 8
     color: 84f491
     shootSound: spark
   }
