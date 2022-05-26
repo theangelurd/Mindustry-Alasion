@@ -67,12 +67,12 @@ abilities: [
       layer: 99
       particles: 1
       sizeFrom: 9
-      sizeTo: 9
+      sizeTo: 3
       length: 0.01
-      lifetime: 15
+      lifetime: 30
       region: mindustry-alasion-hop-effect
       colorFrom: ffffff
-      colorTo: 04ff00
+      colorTo: 78ff76
     }
   }
       {
@@ -91,7 +91,7 @@ abilities: [
       sizeFrom: 3
       sizeTo: 0
       length: 0.01
-      lifetime: 20
+      lifetime: 50
       region: mindustry-alasion-circle
       colorFrom: ffffff
       colorTo: 04ff00
