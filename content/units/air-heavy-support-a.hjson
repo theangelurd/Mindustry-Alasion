@@ -47,30 +47,12 @@ abilities: [
   {
     type: MoveLightningAbility
     minSpeed: 0
-    healPercent: 0.5
-    collidesTeam: true
     maxSpeed: 6
-    damage: 5
+    damage: 12
     chance: 1
     length: 3
     color: 84f491
     shootSound: spark
-    fragBullets: 1
-        fragBullet: {
-      type: BasicBulletType
-      damage: 0
-      speed: 0
-      collidesTeam: true
-      healPercent: 0.5
-      lifetime: 40
-      height: 1
-      width: 1
-      lifetime: 1
-      backColor: 84f491
-      frontColor: 84f491
-      shootEffect: shootSmall
-      smokeEffect: shootSmall
-    }
   }
     {
     type: MoveLightningAbility
