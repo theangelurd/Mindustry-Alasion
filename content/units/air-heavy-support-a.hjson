@@ -41,8 +41,8 @@ weapons: [
 abilities: [
   {
     type: MoveLightningAbility
-    minSpeed: 3
-    maxSpeed: 6
+    minSpeed: 1.2
+    maxSpeed: 3
     damage: 8
     chance: 0.8
     length: 12
