@@ -1,0 +1,57 @@
+type: mech
+description: "GOTTA GO FAST
+GOTTA GO FAST
+GOTTA GO FASTER FASTER FASTER"
+speed: 3.5
+hitSize: 26
+rotateSpeed: 16.5
+health: 24000
+armor: 14
+mechStepParticles: true
+mechStepShake: 0.75
+canDrown: false
+mechFrontSway: 1.9
+mechSideSway: 0.6
+weapons: [
+   {
+   name: runeign-weapon
+   top: false
+   y: 1
+   x: 21.5
+   shootY: 11
+   reload: 9
+   recoil: 5
+   shake: 2
+   ejectEffect: casing4
+   shootSound: bang
+   bullet: {
+       pierce: true
+       pierceCap: 10
+       width: 14
+       height: 33
+       lifetime: 15
+       shootEffect: shootBig
+       fragVelocityMin: 0.4
+       hitEffect: blastExplosion
+       splashDamage: 16
+       damage: 70
+       fragBullets: 2
+       fragLifeMin: 0
+       fragCone: 30
+       fragBullet: {
+           width: 10
+           height: 10
+           pierce: true
+           pierceBuilding: true
+           pìerceCap: 3
+           lifetime: 20
+           hitEffect: flakExplosion
+           splashDamage: 15
+           splashDamageRadius: 10
+           damage: 18
+           }
+       splashDamageRadius: 13
+      }
+   }
+]
+research: ground-factory
