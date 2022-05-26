@@ -28,7 +28,7 @@ weapons: [
       damage: 0
       speed: 4
       collidesTeam: true
-      healPercent: 3
+      healPercent: 1
       lifetime: 40
       height: 8
       width: 8
@@ -42,7 +42,9 @@ weapons: [
 abilities: [
   {
     type: MoveLightningAbility
-    minSpeed: 1.2
+    minSpeed: 0
+    healPercent: 0.5
+    collidesTeam: true
     maxSpeed: 6
     damage: 5
     chance: 1
