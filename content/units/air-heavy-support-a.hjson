@@ -11,7 +11,7 @@ mineTier: 4
 hitSize: 9
 mineSpeed: 7
 buildSpeed: 1.25
-range: 300
+range: 100
 circleTarget: true
 lowAltitude: false
 faceTarget: false
