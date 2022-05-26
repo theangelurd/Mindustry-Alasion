@@ -15,16 +15,6 @@ plans: [
       titanium/20
     ]
   }
-    {
-    unit: ground-heavy-a
-    time: 1800
-    requirements: [
-      silicon/25
-      lead/30
-      titanium/25
-      graphite/10
-    ]
-  }
 ]
 requirements: [
   titanium/320
