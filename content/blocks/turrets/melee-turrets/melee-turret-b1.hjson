@@ -13,7 +13,7 @@ shootEffect: none
 smokeEffect: none
 shootShake: 0
 powerUse: 3.72
-rotateSpeed: 
+rotateSpeed: 15
 shootType: {
             type: RailBulletType
             damage: 225
