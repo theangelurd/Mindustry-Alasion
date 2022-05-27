@@ -1,11 +1,11 @@
-name: Livewire
-description: Shoots separate shotgun blasts out of its 3 cannons, dealing area damage. More effective and accurate than Fuse.
+name: Stab
+description: Stabs units.
 type: PowerTurret
 size: 1
 health: 300
-range: 50
+range: 10
 reloadTime: 18
-recoilAmount: -4
+recoilAmount: -5
 restitution: 0.2
 shots: 1
 shootSound: none
@@ -15,7 +15,7 @@ shootShake: 0
 shootType: {
             type: RailBulletType
             damage: 60
-            length: 50
+            length: 10
             pierce: true
             pierceBuilding: true
             pierceDamageFactor: 0
