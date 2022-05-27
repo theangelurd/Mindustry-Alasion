@@ -17,6 +17,7 @@ consumes: {
 }
 upgrades: [
   [air-gatling-a, air-gatling-b]
+  [ground-heavy-a, ground-heavy-b]
 ]
 requirements: [
   titanium/460
