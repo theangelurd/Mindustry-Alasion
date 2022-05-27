@@ -5,7 +5,7 @@ size: 2
 health: 1200
 range: 40
 reloadTime: 20
-recoilAmount: -10
+recoilAmount: -20
 restitution: 0.2
 shots: 1
 shootSound: none
