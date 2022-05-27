@@ -1,0 +1,32 @@
+name: Livewire
+description: Shoots separate shotgun blasts out of its 3 cannons, dealing area damage. More effective and accurate than Fuse.
+type: PowerTurret
+size: 1
+health: 300
+range: 50
+reloadTime: 18
+recoilAmount: -4
+restitution: 0.2
+shots: 1
+shootSound: none
+shootEffect: none
+smokeEffect: none
+shootShake: 0
+shootType: {
+            type: RailBulletType
+            damage: 60
+            length: 50
+            pierce: true
+            pierceBuilding: true
+            pierceDamageFactor: 0
+            updateEffect: none
+}
+category: turret
+research: {
+    parent: duo
+}
+requirements: [
+  copper/45
+  lead/30
+  graphite/20
+]
