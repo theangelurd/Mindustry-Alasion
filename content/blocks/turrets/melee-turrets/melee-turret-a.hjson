@@ -13,6 +13,7 @@ shootEffect: none
 smokeEffect: none
 shootShake: 0
 powerUse: 4.5
+targetAir: false
 rotateSpeed: 22
 shootType: {
             type: RailBulletType
@@ -21,6 +22,7 @@ shootType: {
             pierce: true
             pierceBuilding: true
             pierceDamageFactor: 0
+            collidesAir: false
             updateEffect: none
             shootEffect: none
             smokeEffect: none
