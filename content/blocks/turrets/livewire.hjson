@@ -44,7 +44,10 @@ ammoTypes: {
   }
 }
 category: turret
-research: fuse
+research: {
+    parent: fuse
+    objectives: [meltdown, cyclone, ripple]
+}
 requirements: [
   copper/400
   graphite/350
