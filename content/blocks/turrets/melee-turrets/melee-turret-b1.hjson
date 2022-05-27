@@ -26,9 +26,7 @@ shootType: {
             smokeEffect: none
 }
 category: turret
-research: {
-    parent: melee-turret-a
-}
+research: melee-turret-a
 requirements: [
   copper/90
   lead/65
