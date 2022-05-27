@@ -12,7 +12,7 @@ shootSound: none
 shootEffect: none
 smokeEffect: none
 shootShake: 0
-powerUse: 1.1
+powerUse: 4.5
 rotateSpeed: 22
 shootType: {
             type: RailBulletType
