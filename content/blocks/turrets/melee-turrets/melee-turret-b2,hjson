@@ -1,0 +1,41 @@
+name: Bite
+description: Smashes units with a powerful explosive blast. Higher range than the other two turrets of this type.
+type: PowerTurret
+size: 2
+health: 300
+range: 40
+reloadTime: 30
+recoilAmount: -9
+restitution: 0.1
+shots: 1
+shootSound: explosion
+shootEffect: none
+smokeEffect: none
+shootShake: 0
+powerUse: 1.1
+shootType: {
+            type: RailBulletType
+            damage: 40
+            splashDamage: 100
+            splashDamageRadius: 35
+            length: 10
+            pierce: true
+            pierceBuilding: true
+            pierceDamageFactor: 0
+            updateEffect: none
+            shootEffect: none
+            smokeEffect: none
+            hitEffect: explosion
+            hitSound: explosion
+            despawnEffect: explosion
+}
+category: turret
+research: {
+    parent: melee-turret-a
+}
+requirements: [
+  copper/200
+  lead/350
+  graphite/200
+  silicon/250
+]
