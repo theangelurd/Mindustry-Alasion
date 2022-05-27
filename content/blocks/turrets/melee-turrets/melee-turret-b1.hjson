@@ -3,9 +3,9 @@ description: Stabs units.
 type: PowerTurret
 size: 2
 health: 600
-range: 25
+range: 17
 reloadTime: 20
-recoilAmount: -15
+recoilAmount: -10
 restitution: 0.2
 shots: 1
 shootSound: none
@@ -17,7 +17,7 @@ rotateSpeed: 15
 shootType: {
             type: RailBulletType
             damage: 225
-            length: 18
+            length: 12
             pierce: true
             pierceBuilding: true
             pierceDamageFactor: 0
