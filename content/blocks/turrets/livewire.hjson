@@ -4,7 +4,7 @@ type: ItemTurret
 size: 4
 health: 2880
 range: 120
-reloadTime: 20
+reloadTime: 10
 recoilAmount: 3
 restitution: 0.15
 shots: 3
@@ -24,8 +24,8 @@ ammoTypes: {
       width: 20
       ammoMultiplier: 6
       reloadMultiplier: 1.4
-      colorFrom: 8aa3f4
-      colorTo: 50599b
+      fromColor: 8aa3f4
+      toColor: 50599b
       length: 120
       serrations: 5
   }
@@ -39,8 +39,8 @@ ammoTypes: {
       reloadMultiplier: 1
       length: 120
       serrations: 5
-      colorFrom: bf92f9
-      colorTo: 665c9f
+      fromColor: bf92f9
+      toColor: 665c9f
   }
 }
 category: turret
