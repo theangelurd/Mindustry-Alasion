@@ -3,7 +3,7 @@ description: Stabs units.
 type: PowerTurret
 size: 1
 health: 300
-range: 10
+range: 15
 reloadTime: 15
 recoilAmount: -5
 restitution: 0.2
