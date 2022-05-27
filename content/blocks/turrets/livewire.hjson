@@ -1,0 +1,54 @@
+name: Livewire
+description: Shoots separate shotgun blasts out of its 3 cannons, dealing area damage. More effective and accurate than Fuse.
+type: ItemTurret
+size: 4
+health: 2880
+range: 120
+reloadTime: 20
+recoilAmount: 3
+restitution: 0.15
+shots: 3
+alternate: true
+spacing: 4
+shootSound: shotgun
+shootEffect: lightningShoot
+smokeEffect: lightningShoot
+shootShake: 1
+ammoUseEffect: casing4
+ammoTypes: {
+  titanium: {
+      type: ShrapnelBulletType
+      damage: 55
+      splashDamage: 33
+      splashDamageRadius: 30
+      width: 20
+      ammoMultiplier: 6
+      reloadMultiplier: 1.4
+      colorFrom: 8aa3f4
+      colorTo: 50599b
+      length: 120
+      serrations: 5
+  }
+    thorium: {
+      type: ShrapnelBulletType
+      damage: 85
+      splashDamage: 65
+      splashDamageRadius: 48
+      width: 24
+      ammoMultiplier: 6
+      reloadMultiplier: 1
+      length: 120
+      serrations: 5
+      colorFrom: bf92f9
+      colorTo: 665c9f
+  }
+}
+category: turret
+research: fuse
+requirements: [
+  copper/400
+  graphite/350
+  thorium/200
+  silicon/500
+  titanium/375
+]
