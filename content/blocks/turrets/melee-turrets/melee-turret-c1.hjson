@@ -1,0 +1,37 @@
+name: Blade
+description: Stabs units with a massive force. Has higher range than the previous tier.
+type: PowerTurret
+size: 3
+health: 600
+range: 35
+reloadTime: 10
+recoilAmount: -25
+restitution: 0.2
+shots: 1
+shootSound: none
+shootEffect: none
+smokeEffect: none
+shootShake: 2
+powerUse: 6.54
+rotateSpeed: 12
+shootType: {
+            type: RailBulletType
+            damage: 300
+            length: 15
+            pierce: true
+            pierceBuilding: true
+            pierceDamageFactor: 0
+            updateEffect: none
+            shootEffect: none
+            smokeEffect: none
+}
+category: turret
+research: melee-turret-b1
+requirements: [
+  copper/250
+  lead/350
+  graphite/400
+  silicon/550
+  titanium/350
+  plastanium/200
+]
