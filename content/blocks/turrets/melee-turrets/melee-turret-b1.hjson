@@ -28,8 +28,9 @@ shootType: {
 category: turret
 research: melee-turret-a
 requirements: [
-  copper/90
-  lead/65
-  graphite/80
-  silicon/50
+  copper/150
+  lead/225
+  graphite/350
+  silicon/500
+  titanium/220
 ]
