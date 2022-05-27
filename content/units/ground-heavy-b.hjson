@@ -33,12 +33,11 @@ weapons: [
        speed: 4
        drag: 0.02
        lifetime: 50
-       backColor: ff4f00
-       frontColor: ff4f00
+       backColor: ffa983
+       frontColor: ffa983
        pierce: true
        width: 10
        height: 10
-       sprite: additional-content-circle
        pierceBuilding: true
        shrinkX: 0.2
        shrinkY: 0.2
