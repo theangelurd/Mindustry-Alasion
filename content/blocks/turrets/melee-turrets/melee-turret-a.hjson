@@ -21,6 +21,8 @@ shootType: {
             pierceBuilding: true
             pierceDamageFactor: 0
             updateEffect: none
+            shootEffect: none
+            smokeEffect: none
 }
 category: turret
 research: {
