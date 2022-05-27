@@ -13,6 +13,7 @@ shootEffect: none
 smokeEffect: none
 shootShake: 0
 powerUse: 3.72
+targetAir: false
 rotateSpeed: 15
 shootType: {
             type: RailBulletType
@@ -23,6 +24,7 @@ shootType: {
             pierceDamageFactor: 0
             updateEffect: none
             shootEffect: none
+            collidesAir: false
             smokeEffect: none
 }
 category: turret
