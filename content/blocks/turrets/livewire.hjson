@@ -27,7 +27,7 @@ ammoTypes: {
       fromColor: 8aa3f4
       toColor: 50599b
       length: 120
-      serrations: 5
+      serrations: 10
   }
     thorium: {
       type: ShrapnelBulletType
@@ -38,7 +38,7 @@ ammoTypes: {
       ammoMultiplier: 6
       reloadMultiplier: 1
       length: 120
-      serrations: 5
+      serrations: 14
       fromColor: bf92f9
       toColor: 665c9f
   }
