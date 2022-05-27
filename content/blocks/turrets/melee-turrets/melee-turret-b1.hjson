@@ -2,7 +2,7 @@ name: Dagger
 description: Stabs units.
 type: PowerTurret
 size: 2
-health: 1200
+health: 600
 range: 40
 reloadTime: 20
 recoilAmount: -20
