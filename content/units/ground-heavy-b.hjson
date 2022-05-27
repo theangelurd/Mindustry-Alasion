@@ -20,16 +20,21 @@ weapons: [
    recoil: 2.5
    shootSound: flame
    velocityInaccuracy: 0.2
-   shots: 20
-   inaccuracy: 12
+   shots: 1
    bullet: {
+   lifetime: 0
+   fragBullets: 20
+   fragCone: 30
+   fragVelocityMin: 0.4
+   fragLifeMin: 0
+      fragBullet: {
        damage: 9
        pierceCap: 5
        speed: 4
        drag: 0.02
        lifetime: 50
-       colorFrom: fff6b6
-       colorTo: 000000
+       backColor: ff4f00
+       frontColor: ff4f00
        pierce: true
        width: 10
        height: 10
@@ -38,6 +43,7 @@ weapons: [
        shrinkX: 0.2
        shrinkY: 0.2
       }
+   }
    }
 ]
 research: ground-heavy-a
