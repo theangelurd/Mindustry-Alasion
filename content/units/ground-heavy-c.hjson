@@ -23,6 +23,7 @@ weapons: [
    shake: 2.5
    ejectEffect: casing2
    shootSound: shootBig
+   rotateSpeed: 6
    bullet: {
        damage: 30
        pierceCap: 5
@@ -38,12 +39,12 @@ weapons: [
    name: silphid-weapon
    top: false
    y: 0
-   x: 5
+   x: 7
    shootY: 4
    shootX: -1
    reload: 70
-   rotate: true
-   top: true
+   rotate: false
+   top: false
    recoil: 3
    shake: 4
    ejectEffect: casing3
