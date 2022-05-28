@@ -71,7 +71,18 @@ weapons: [
          smokes: 12
          smokeRad: 120
        }
-       despawnEffect: hitEffect
+       despawnEffect: {
+         type: ExplosionEffect
+         waveRad: 100
+         waveStroke: 4
+         waveRadBase: 5
+         sparks: 15
+         sparkStroke: 3
+         sparkRad: 120
+         sparkLen: 5
+         smokes: 12
+         smokeRad: 120
+       }
        shootEffect: {
          type: ExplosionEffect
          waveRad: 50
