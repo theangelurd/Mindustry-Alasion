@@ -39,7 +39,7 @@ weapons: [
    name: silphid-weapon
    top: false
    y: 0
-   x: 7
+   x: 9
    shootY: 4
    shootX: -1
    reload: 70
@@ -51,7 +51,7 @@ weapons: [
    shootSound: bang
    bullet: {
        type: ArtilleryBulletType
-       splashDamage: 70
+       splashDamage: 120
        splashDamageRadius: 100
        knockback: -5
        speed: 4
