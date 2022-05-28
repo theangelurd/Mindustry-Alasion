@@ -55,7 +55,7 @@ weapons: [
        splashDamage: 450
        splashDamageRadius: 150
        speed: 5
-       pierceCap: 0
+       pierceCap: 1
        pierce: false
        pierceBuilding: false
        lifetime: 60
