@@ -1,6 +1,6 @@
 type: mech
 name: Silphid
-description: Fires powerful vortex artillery that drags units in at all enemies.
+description: Fires powerful artillery at all enemies.
 speed: 0.43
 hitSize: 15
 rotateSpeed: 5
@@ -51,9 +51,8 @@ weapons: [
    shootSound: bang
    bullet: {
        type: ArtilleryBulletType
-       splashDamage: 120
+       splashDamage: 70
        splashDamageRadius: 100
-       knockback: -5
        speed: 4
        lifetime: 60
        pierce: true
@@ -98,6 +97,20 @@ weapons: [
          smokeSize: 4
          smokeSizeRad: 3
         }
+        fragCone: 40
+        fragBullets: 3
+        fragVelocityMin: 0
+        fragLifeMin: 0
+        fragBullet: {
+            pierceCap: 3
+            splashDamage: 22
+            splashDamageRadius: 40
+            speed: 6
+            hitEffect: explosion
+            lifetime: 30
+            pierce: true
+            pierceBuilding: true
+         }
       }
    }
 ]
