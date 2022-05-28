@@ -4,7 +4,7 @@ description: Fires powerful artillery at all enemies.
 speed: 0.43
 hitSize: 15
 rotateSpeed: 5
-health: 170
+health: 1000
 armor: 2
 mechFrontSway: 0.6
 mechSideSway: 0.7
