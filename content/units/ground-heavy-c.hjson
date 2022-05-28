@@ -110,6 +110,30 @@ weapons: [
             lifetime: 30
             pierce: true
             pierceBuilding: true
+      despawnEffect: {
+         type: ExplosionEffect
+         waveRad: 40
+         waveStroke: 3
+         waveRadBase: 4
+         sparks: 12
+         sparkStroke: 3
+         sparkRad: 60
+         sparkLen: 5
+         smokes: 12
+         smokeRad: 60
+       }
+       hitEffect: {
+         type: ExplosionEffect
+         waveRad: 40
+         waveStroke: 3
+         waveRadBase: 4
+         sparks: 12
+         sparkStroke: 3
+         sparkRad: 60
+         sparkLen: 5
+         smokes: 12
+         smokeRad: 60
+       }
          }
       }
    }
