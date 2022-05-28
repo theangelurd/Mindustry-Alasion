@@ -97,8 +97,8 @@ weapons: [
       {
    name: bostrich-weapon
    top: false
-   y: 3
-   x: 17
+   y: 0
+   x: 15
    shootY: 5
    shootX: 0
    reload: 50
