@@ -1,0 +1,92 @@
+type: mech
+name: Silphid
+description: Fires powerful vortex artillery that drags units in at all enemies.
+speed: 0.43
+hitSize: 15
+rotateSpeed: 5
+health: 170
+armor: 2
+mechFrontSway: 0.6
+mechSideSway: 0.7
+weapons: [
+   {
+   name: silphid-mount
+   top: false
+   y: 0
+   x: 5
+   shootY: 4
+   shootX: -1
+   reload: 15
+   rotate: true
+   top: true
+   recoil: 2.5
+   shake: 2.5
+   ejectEffect: casing2
+   shootSound: shootBig
+   bullet: {
+       damage: 30
+       pierceCap: 5
+       speed: 11
+       lifetime: 15
+       pierce: true
+       width: 12
+       height: 25
+       pierceBuilding: true
+      }
+   }
+      {
+   name: silphid-weapon
+   top: false
+   y: 0
+   x: 5
+   shootY: 4
+   shootX: -1
+   reload: 70
+   rotate: true
+   top: true
+   recoil: 3
+   shake: 4
+   ejectEffect: casing3
+   shootSound: bang
+   bullet: {
+       type: ArtilleryBulletType
+       splashDamage: 70
+       splashDamageRadius: 100
+       knockback: -5
+       speed: 4
+       lifetime: 60
+       pierce: true
+       width: 18
+       hitShake: 5
+       height: 18
+       hitEffect: {
+         type: ExplosionEffect
+         waveRad: 100
+         waveStroke: 4
+         waveRadBase: 5
+         sparks: 15
+         sparkStroke: 3
+         sparkRad: 120
+         sparkLen: 5
+         smokes: 12
+         smokeRad: 120
+       }
+       despawnEffect: hitEffect
+       shootEffect: {
+         type: ExplosionEffect
+         waveRad: 50
+         waveStroke: 3
+         waveRadBase: 4
+         sparks: 12
+         sparkStroke: 3
+         sparkRad: 60
+         sparkLen: 5
+         smokes: 8
+         smokeRad: 60
+         smokeSize: 4
+         smokeSizeRad: 3
+        }
+      }
+   }
+]
+research: producer
