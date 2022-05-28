@@ -50,7 +50,7 @@ weapons: [
    shootSound: laser
    bullet: {
        type: BasicBulletType
-       sprite: additional-content-orb
+       sprite: circle-bullet
        damage: 300
        splashDamage: 450
        splashDamageRadius: 150
