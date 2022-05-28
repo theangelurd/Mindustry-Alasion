@@ -35,7 +35,7 @@ weapons: [
       }
    }
       {
-   name: silphid-weapon
+   name: bostrich-orb-shooter
    top: false
    y: 10
    x: 0
@@ -50,16 +50,16 @@ weapons: [
    shootSound: laser
    bullet: {
        type: BasicBulletType
-       sprite: orb
+       sprite: additional-content-orb
        damage: 300
        splashDamage: 450
        splashDamageRadius: 150
        speed: 4
        lifetime: 60
        pierce: true
-       width: 25
+       width: 40
        hitShake: 5
-       height: 25
+       height: 40
        shrinkX: 1
        shrinkY: 1
        hitEffect: {
