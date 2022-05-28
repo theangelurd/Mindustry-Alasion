@@ -12,8 +12,8 @@ weapons: [
    {
    name: bostrich-mounted-weapon
    top: false
-   y: 12
-   x: 8
+   y: 8
+   x: 7
    shootY: 5
    shootX: 0
    reload: 36
@@ -54,7 +54,10 @@ weapons: [
        damage: 300
        splashDamage: 450
        splashDamageRadius: 150
-       speed: 4
+       speed: 5
+       pierceCap: 0
+       pierce: false
+       pierceBuilding: false
        lifetime: 60
        pierce: true
        width: 40
@@ -94,8 +97,8 @@ weapons: [
       {
    name: bostrich-weapon
    top: false
-   y: 2
-   x: 20
+   y: 3
+   x: 17
    shootY: 5
    shootX: 0
    reload: 50
