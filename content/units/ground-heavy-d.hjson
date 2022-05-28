@@ -1,0 +1,136 @@
+type: mech
+name: Bostrich
+description: Fires a large orb at enemies, along with other varying projectiles.
+speed: 0.35
+hitSize: 18
+rotateSpeed: 4
+health: 10000
+armor: 11
+mechFrontSway: 2
+mechSideSway: 1.3
+weapons: [
+   {
+   name: bostrich-mounted-weapon
+   top: false
+   y: 12
+   x: 8
+   shootY: 5
+   shootX: 0
+   reload: 36
+   rotate: false
+   top: true
+   recoil: 3.5
+   shake: 3
+   ejectEffect: casing3
+   shootSound: shootBig
+   bullet: {
+       damage: 50
+       pierceCap: 8
+       speed: 12
+       lifetime: 20
+       pierce: true
+       width: 15
+       height: 33
+       pierceBuilding: true
+      }
+   }
+      {
+   name: silphid-weapon
+   top: false
+   y: 10
+   x: 0
+   shootY: 4
+   shootX: -1
+   reload: 120
+   mirror: false
+   rotate: true
+   top: true
+   recoil: 5
+   shake: 7
+   shootSound: laser
+   bullet: {
+       type: BasicBulletType
+       sprite: orb
+       damage: 300
+       splashDamage: 450
+       splashDamageRadius: 150
+       speed: 4
+       lifetime: 60
+       pierce: true
+       width: 25
+       hitShake: 5
+       height: 25
+       shrinkX: 1
+       shrinkY: 1
+       hitEffect: {
+         type: ExplosionEffect
+         waveRad: 150
+         waveStroke: 8
+         waveColor: ffffff
+         waveRadBase: 10
+         smokes: 0
+       }
+       despawnEffect: {
+         type: ExplosionEffect
+         waveRad: 150
+         waveStroke: 8
+         waveColor: ffffff
+         waveRadBase: 10
+         smokes: 0
+       }
+       shootEffect: {
+         type: ExplosionEffect
+         waveRad: 100
+         waveStroke: 8
+         waveColor: ffffff
+         waveRadBase: 10
+         sparks: 5
+         sparkColor: ffffff
+         smokes: 8
+         smokeColor: ffffff
+        }
+      }
+   }
+      {
+   name: bostrich-weapon
+   top: false
+   y: 2
+   x: 20
+   shootY: 5
+   shootX: 0
+   reload: 50
+   rotate: false
+   top: false
+   recoil: 6
+   shake: 5
+   ejectEffect: casing4
+   shootSound: bang
+   bullet: {
+       damage: 100
+       pierceCap: 10
+       speed: 15
+       lifetime: 20
+       pierce: true
+       width: 18
+       height: 40
+       pierceBuilding: true
+       fragBullets: 5
+       fragCone: 40
+       backColor: bf92f9
+       frontColor: bf92f9
+       fragBullet: {
+          type: SapBulletType
+          sapStrength: 0.3
+          knockback: -3
+          damage: 20
+          width: 0.5
+          length: 150
+          hitColor: bf92f9
+          color: bf92f9
+          lifetime: 20
+          pierce: true
+       }
+      }
+   }
+]
+research: ground-heavy-c
