@@ -20,7 +20,7 @@ shootType: {
             type: ContinuousLaserBulletType
             drawSize: 350
             width: 5
-            colors:
+            colors: [8aa3f4, c3d1ff, ffffffff]
             damage: 84
             length: 180
             pierce: true
