@@ -2,7 +2,7 @@ type: PowerTurret
 name: Dartler
 description: Shoots a massive bullet over incredible distances.
 health: 2740
-reloadTime: 80
+reloadTime: 200
 rotateSpeed: 2.5
 recoilAmount: 5.5
 restitution: 0.01
