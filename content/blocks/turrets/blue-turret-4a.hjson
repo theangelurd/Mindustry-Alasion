@@ -57,7 +57,7 @@ shootType: {
            height: 38
            width: 16
            speed: 10
-           shootEffect:
+           shootEffect: {
            type: MultiEffect
            clip: 1500
            lifetime: 80
@@ -121,7 +121,6 @@ shootType: {
            frontColor: 808eff
            hitShake: 15
            shrinkY: 0
-           }
 }
 requirements: [
   graphite/800
