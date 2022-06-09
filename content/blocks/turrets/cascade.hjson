@@ -35,6 +35,11 @@ shootType: {
             status: freezing
             statusDuration: 400
 }
+consumes: {
+  coolant: {
+    amount: 2
+  }
+}
 category: turret
 research: {
     parent: fuse
