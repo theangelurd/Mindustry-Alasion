@@ -57,7 +57,12 @@ shootType: {
            height: 38
            width: 16
            speed: 10
-           shootEffect:     {
+           shootEffect:
+           type: MultiEffect
+           clip: 1500
+           lifetime: 80
+           
+           {
              type: ParticleEffect
              lifetime: 80
              length: 0
@@ -67,6 +72,17 @@ shootType: {
              sizeTo: 3
              colorFrom: 808eff
              colorTo: c9d5ff
+           }
+               {
+                 type: WaveEffect
+                 lifetime: 20
+                 sizeFrom: 0
+                 sizeTo: 55
+                 strokeFrom: 0
+                 strokeTo: 5
+                 colorFrom: 808eff
+                 colorTo: c9d5ff
+               }
            }
            despawnEffect: {
              type: ExplosionEffect
