@@ -1,0 +1,6 @@
+name: Ice
+description: Plain ice. Nothing about it that's really interesting.
+hardness: 2
+cost: 1
+color: f4f4f4
+research: copper
