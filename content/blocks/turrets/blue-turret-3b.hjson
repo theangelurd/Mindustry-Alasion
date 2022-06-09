@@ -10,9 +10,9 @@ restitution: 0.05
 shots: 1
 shootSound: none
 loopSound: beam
-shootDuration: 20
+shootDuration: 10
 shootLength: 2
-firingMoveFract: 0.7
+firingMoveFract: 2
 shootCone: 30
 shootEffect: shootBigSmoke2
 smokeEffect: none
