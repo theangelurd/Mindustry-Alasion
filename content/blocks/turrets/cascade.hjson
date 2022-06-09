@@ -10,7 +10,7 @@ restitution: 0.02
 shots: 1
 shootSound: laserbig
 loopSound: beam
-shootDuration: 80
+shootDuration: 100
 shootLength: 8
 firingMoveFract: 0.5
 shootCone: 30
