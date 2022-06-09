@@ -1,0 +1,110 @@
+type: PowerTurret
+name: Dartler
+description: Shoots a massive bullet over incredible distances.
+health: 2740
+reloadTime: 80
+rotateSpeed: 2.5
+recoilAmount: 5.5
+restitution: 0.01
+size: 4
+range: 600
+alternate: true
+shots: 1
+shootShake: 15
+powerUse: 25
+shootSound: laserbig
+chargeTime: 150
+chargeBeginEffect: {
+  type: MultiEffect
+  lifetime: 150
+  clip: 1000
+  effects: [
+    {
+      type: ParticleEffect
+      lifetime: 150
+      length: -30
+      baseLength: 30
+      particles: 100
+      sizeFrom: 5
+      sizeTo: 0
+      colorFrom: 808eff
+      colorTo: c9d5ff
+    }
+    {
+      type: WaveEffect
+      lifetime: 150
+      sizeFrom: 60
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: 808eff
+      colorTo: c9d5ff
+    }
+  ]
+}
+shootType: {
+           type: BasicBulletType
+           damage: 250
+           splashDamage: 500
+           splashDamageRadius: 125
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 15
+           width: 12
+           height: 20
+           lifetime: 60
+           hitSize: 10
+           height: 38
+           width: 16
+           speed: 10
+           despawnEffect: {
+             type: ExplosionEffect
+             lifetime: 40
+             waveStroke: 3
+             waveRadBase: 4
+             waveLife: 15
+             waveRad: 125
+             waveColor: 808eff
+             smokeColor: 81ffe9
+             sparkColor: 808eff
+             sparks: 25
+             smokes: 25
+             sparkRad: 111
+             sparkStroke: 2
+             sparkLen: 2
+           }
+           hitEffect: {
+             type: ExplosionEffect
+             lifetime: 40
+             waveStroke: 3
+             waveRadBase: 4
+             waveLife: 15
+             waveRad: 125
+             waveColor: 808eff
+             smokeColor: 81ffe9
+             sparkColor: 808eff
+             sparks: 25
+             smokes: 25
+             sparkRad: 111
+             sparkStroke: 2
+             sparkLen: 2
+           }
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 15
+           shrinkY: 0
+}
+requirements: [
+  graphite/800
+  lead/1000
+  silicon/1100
+  titanium/950
+  plastanium/800
+  thorium/900
+  surge-alloy/400
+]
+category: turret
+research: {
+   parent: blue-turret-3a
+   objectives: [blue-turret-3b]
+}
