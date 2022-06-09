@@ -57,6 +57,17 @@ shootType: {
            height: 38
            width: 16
            speed: 10
+           shootEffect:     {
+             type: ParticleEffect
+             lifetime: 80
+             length: 30
+             baseLength: 50
+             particles: 25
+             sizeFrom: 3
+             sizeTo: 6
+             colorFrom: 808eff
+             colorTo: c9d5ff
+           }
            despawnEffect: {
              type: ExplosionEffect
              lifetime: 40
