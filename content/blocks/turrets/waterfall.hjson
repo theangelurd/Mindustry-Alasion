@@ -70,7 +70,7 @@ consumes: {
   items: {
       items: [
         titanium/3
-        ice/2
+        ice-item/2
       ]
     }
 }
