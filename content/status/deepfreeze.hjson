@@ -3,7 +3,7 @@ name: Deep Freeze
 damage: 0.1
 speedMultiplier: 0.35
 reloadMultiplier: 0.5
-healthMultiplier: 0.9
+healthMultiplier: 0.7
 effect: {
   type: ParticleEffect
   particles: 4
