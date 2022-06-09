@@ -27,7 +27,6 @@ shootType: {
             colors: [8aa3f4, c3d1ff, ffffffff]
             damage: 84
             length: 180
-            lifetime: 100
             pierce: true
             pierceBuilding: true
             incendAmount: 0
@@ -37,7 +36,7 @@ shootType: {
 }
 consumes: {
   coolant: {
-    amount: 4
+    amount: 1
   }
 }
 coolantMultiplier: 0.5
