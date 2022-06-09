@@ -4,14 +4,14 @@ type: LaserTurret
 size: 3
 health: 1240
 range: 165
-reloadTime: 200
+reloadTime: 100
 recoilAmount: 4
 restitution: 0.02
 shots: 1
 shootSound: laserbig
 loopSound: beam
-shootDuration: 180
-shootLength: 16
+shootDuration: 80
+shootLength: 8
 firingMoveFract: 0.5
 shootCone: 30
 shootEffect: shootBigSmoke2
