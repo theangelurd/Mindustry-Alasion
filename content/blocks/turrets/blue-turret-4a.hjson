@@ -60,11 +60,11 @@ shootType: {
            shootEffect:     {
              type: ParticleEffect
              lifetime: 80
-             length: 30
+             length: 0
              baseLength: 50
              particles: 25
-             sizeFrom: 3
-             sizeTo: 6
+             sizeFrom: 1
+             sizeTo: 3
              colorFrom: 808eff
              colorTo: c9d5ff
            }
