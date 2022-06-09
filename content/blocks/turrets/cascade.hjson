@@ -23,6 +23,7 @@ shootType: {
             colors: [8aa3f4, c3d1ff, ffffffff]
             damage: 84
             length: 180
+            lifetime: 180
             pierce: true
             pierceBuilding: true
             incendAmount: 0
