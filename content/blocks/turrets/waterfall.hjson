@@ -1,0 +1,59 @@
+name: Waterfall
+description: Fires 3 beams of deep freezing at all enemies.
+type: LaserTurret
+size: 4
+health: 2560
+range: 200
+reloadTime: 70
+recoilAmount: 6
+restitution: 0.018
+shots: 1
+shootSound: laserbig
+loopSound: beam
+shootDuration: 150
+shootLength: 15
+firingMoveFract: 0.3
+shootCone: 30
+shootEffect: shootBigSmoke2
+smokeEffect: none
+shootShake: 2
+loopSoundVolume: 1.5
+powerUse: 20
+shots: 3
+spread: 30
+shootType: {
+            type: ContinuousLaserBulletType
+            drawSize: 220
+            continuous: true
+            width: 6
+            colors: [6974c4, 8aa3f4, c1d0ff]
+            damage: 88
+            length: 220
+            pierce: true
+            pierceBuilding: true
+            incendAmount: 0
+            incendChance: 0
+            status: deep-freeze
+            statusDuration: 500
+}
+consumes: {
+  coolant: {
+    amount: 1
+  }
+}
+coolantMultiplier: 0.5
+liquidCapacity: 300
+category: turret
+research: {
+    parent: cascade
+}
+requirements: [
+  copper/600
+  lead/780
+  graphite/900
+  silicon/500
+  titanium/700
+  plastanium/350
+  thorium/350
+  surge-alloy/160
+]
