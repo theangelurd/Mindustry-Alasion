@@ -1,23 +1,26 @@
-name: Demolish
-description: Fires a low-ranged explosive blast at ground enemies.
+name: Cascade
+description: Fires a beam at all enemies.
 type: LaserTurret
 size: 3
 health: 1240
 range: 165
-reloadTime: 40
-recoilAmount: 3
-restitution: 0.03
+reloadTime: 90
+recoilAmount: 4
+restitution: 0.02
 shots: 1
 shootSound: beam
 loopSound: laserbig
 shootDuration: 180
 shootEffect: shootBigSmoke2
 smokeEffect: none
-shootShake: 3
+shootShake: 1.5
 loopSoundVolume: 1.5
 powerUse: 8
 shootType: {
-            type: RailBulletType
+            type: ContinuousLaserBulletType
+            drawSize: 350
+            width: 5
+            colors:
             damage: 84
             length: 180
             pierce: true
