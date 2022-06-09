@@ -1,6 +1,6 @@
 name: Triplet
 description: Fires a constant beam along with 9 smaller bullets.
-type: LaserTurret
+type: PowerTurret
 size: 3
 health: 2560
 range: 200
