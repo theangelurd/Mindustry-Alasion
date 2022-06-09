@@ -67,6 +67,12 @@ consumes: {
   coolant: {
     amount: 1
   }
+  items: {
+      items: [
+        titanium/3
+        ice/2
+      ]
+    }
 }
 coolantMultiplier: 0.5
 liquidCapacity: 300
