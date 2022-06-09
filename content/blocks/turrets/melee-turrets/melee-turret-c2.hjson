@@ -4,7 +4,7 @@ type: PowerTurret
 size: 3
 health: 380
 range: 100
-reloadTime: 50
+reloadTime: 80
 recoilAmount: 3
 restitution: 0.03
 shots: 1
@@ -12,13 +12,13 @@ shootSound: shootBig
 shootEffect: none
 smokeEffect: none
 shootShake: 0
-powerUse: 2.3
+powerUse: 3.2
 shootType: {
             type: RailBulletType
             damage: 200
             splashDamage: 100
-            splashDamageRadius: 35
-            length: 40
+            splashDamageRadius: 100
+            length: 100
             pierce: true
             pierceBuilding: true
             pierceDamageFactor: 0.5
@@ -34,8 +34,9 @@ research: {
     parent: melee-turret-b2
 }
 requirements: [
-  copper/300
-  lead/420
-  graphite/500
-  silicon/400
+  copper/380
+  lead/500
+  graphite/700
+  silicon/800
+  titanium/400
 ]
