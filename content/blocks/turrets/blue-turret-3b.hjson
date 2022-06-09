@@ -1,0 +1,61 @@
+name: Triplet
+description: Fires a constant beam along with 3 smaller bullets.
+type: LaserTurret
+size: 3
+health: 2560
+range: 200
+reloadTime: 1
+recoilAmount: 3
+restitution: 0.05
+shots: 1
+shootSound: none
+loopSound: beam
+shootDuration: 5
+shootLength: 0.5
+firingMoveFract: 0.7
+shootCone: 30
+shootEffect: shootBigSmoke2
+smokeEffect: none
+shootShake: 1.5
+loopSoundVolume: 1.5
+powerUse: 15
+shootType: {
+            type: ContinuousLaserBulletType
+            drawSize: 250
+            continuous: true
+            width: 4
+            colors: [6974c4, 8aa3f4, c1d0ff]
+            damage: 50
+            length: 250
+            pierce: true
+            pierceBuilding: true
+            incendAmount: 0.1
+            incendChance: 0.22
+            status: burning
+            statusDuration: 500
+            fragBullets: 3
+            fragCone: 50
+            fragBullet: {
+             backColor: 6974c4
+             frontColor: c1d0ff
+             homingPower: 0.05
+             homingRange: 100
+             damage: 8
+             splashDamage: 8
+             splashDamageRadius: 38
+            }
+}
+category: turret
+research: {
+    parent: blue-turret-2b
+    objectives: [blue-turret-2a, blue-turret-2c]
+}
+requirements: [
+  copper/450
+  lead/360
+  graphite/200
+  silicon/300
+  titanium/320
+  plastanium/220
+  thorium/250
+]
