@@ -21,6 +21,33 @@ loopSoundVolume: 1.5
 powerUse: 20
 shots: 3
 spread: 30
+chargeTime: 80
+chargeBeginEffect: {
+  type: MultiEffect
+  lifetime: 80
+  clip: 1000
+  effects: [
+    {
+      type: ParticleEffect
+      lifetime: 80
+      length: 5
+      baseLength: 10
+      particles: 50
+      sizeFrom: 5
+      sizeTo: 0
+      colorFrom: cbd1ff
+    }
+    {
+      type: WaveEffect
+      lifetime: 80
+      sizeFrom: 30
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: cbd1ff
+    }
+  ]
+}
 shootType: {
             type: ContinuousLaserBulletType
             drawSize: 220
