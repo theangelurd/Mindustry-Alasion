@@ -1,0 +1,41 @@
+name: Demolish
+description: Fires a low-ranged explosive blast at ground enemies.
+type: PowerTurret
+size: 3
+health: 380
+range: 100
+reloadTime: 50
+recoilAmount: 3
+restitution: 0.03
+shots: 1
+shootSound: shootBig
+shootEffect: none
+smokeEffect: none
+shootShake: 0
+powerUse: 2.3
+shootType: {
+            type: RailBulletType
+            damage: 200
+            splashDamage: 100
+            splashDamageRadius: 35
+            length: 40
+            pierce: true
+            pierceBuilding: true
+            pierceDamageFactor: 0.5
+            updateEffect: railTrail
+            shootEffect: none
+            smokeEffect: none
+            pierceEffect: explosion
+            hitSound: explosion
+            despawnEffect: explosion
+}
+category: turret
+research: {
+    parent: melee-turret-b2
+}
+requirements: [
+  copper/300
+  lead/420
+  graphite/500
+  silicon/400
+]
