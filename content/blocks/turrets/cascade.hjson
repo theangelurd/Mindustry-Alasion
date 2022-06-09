@@ -11,6 +11,8 @@ shots: 1
 shootSound: laserbig
 loopSound: beam
 shootDuration: 180
+shootLength: 16
+
 firingMoveFract: 0.5
 shootCone: 30
 shootEffect: shootBigSmoke2
@@ -20,12 +22,12 @@ loopSoundVolume: 1.5
 powerUse: 8
 shootType: {
             type: ContinuousLaserBulletType
-            drawSize: 350
+            drawSize: 180
             width: 5
             colors: [8aa3f4, c3d1ff, ffffffff]
             damage: 84
             length: 180
-            lifetime: 180
+            lifetime: 140
             pierce: true
             pierceBuilding: true
             incendAmount: 0
