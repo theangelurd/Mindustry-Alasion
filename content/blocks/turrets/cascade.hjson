@@ -4,7 +4,7 @@ type: LaserTurret
 size: 3
 health: 1240
 range: 165
-reloadTime: 100
+reloadTime: 40
 recoilAmount: 4
 restitution: 0.02
 shots: 1
