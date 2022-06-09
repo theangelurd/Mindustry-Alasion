@@ -60,7 +60,7 @@ shootType: {
             pierceBuilding: true
             incendAmount: 0
             incendChance: 0
-            status: additional-content-deep-freeze
+            status: deepfreeze
             statusDuration: 500
 }
 consumes: {
