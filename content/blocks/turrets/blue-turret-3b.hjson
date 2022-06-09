@@ -12,7 +12,7 @@ shootSound: none
 loopSound: beam
 shootDuration: 10
 shootLength: 2
-firingMoveFract: 2
+firingMoveFract: 50
 shootCone: 30
 shootEffect: shootBigSmoke2
 smokeEffect: none
