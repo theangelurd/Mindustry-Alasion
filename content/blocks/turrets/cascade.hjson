@@ -25,7 +25,7 @@ shootType: {
             drawSize: 180
             width: 5
             colors: [8aa3f4, c3d1ff, ffffffff]
-            damage: 84
+            damage: 56
             length: 180
             pierce: true
             pierceBuilding: true
