@@ -1,5 +1,5 @@
 name: Triplet
-description: Fires a constant beam along with 3 smaller bullets.
+description: Fires a constant beam along with 9 smaller bullets.
 type: LaserTurret
 size: 3
 health: 2560
@@ -10,7 +10,7 @@ restitution: 0.05
 shots: 1
 shootSound: none
 loopSound: beam
-shootDuration: 10
+shootDuration: 20
 shootLength: 2
 firingMoveFract: 50
 shootCone: 30
