@@ -12,14 +12,13 @@ shootSound: laserbig
 loopSound: beam
 shootDuration: 180
 shootLength: 16
-
 firingMoveFract: 0.5
 shootCone: 30
 shootEffect: shootBigSmoke2
 smokeEffect: none
 shootShake: 1.5
 loopSoundVolume: 1.5
-powerUse: 8
+powerUse: 14
 shootType: {
             type: ContinuousLaserBulletType
             drawSize: 180
@@ -36,7 +35,7 @@ shootType: {
 }
 consumes: {
   coolant: {
-    amount: 1
+    amount: 0.6
   }
 }
 coolantMultiplier: 0.5
