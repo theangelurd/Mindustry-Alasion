@@ -10,7 +10,7 @@ restitution: 0.05
 shots: 1
 shootSound: none
 loopSound: beam
-shootDuration: 5
+shootDuration: 20
 shootLength: 2
 firingMoveFract: 0.7
 shootCone: 30
@@ -27,7 +27,6 @@ shootType: {
             colors: [6974c4, 8aa3f4, c1d0ff]
             damage: 100
             length: 250
-            lifetime: 5
             pierce: true
             pierceBuilding: true
             incendAmount: 0.1
@@ -37,6 +36,7 @@ shootType: {
             fragBullets: 3
             fragCone: 50
             fragBullet: {
+            speed: 5
              backColor: 6974c4
              frontColor: c1d0ff
              homingPower: 0.05
