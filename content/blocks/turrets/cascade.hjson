@@ -27,7 +27,7 @@ shootType: {
             colors: [8aa3f4, c3d1ff, ffffffff]
             damage: 84
             length: 180
-            lifetime: 140
+            lifetime: 100
             pierce: true
             pierceBuilding: true
             incendAmount: 0
@@ -37,9 +37,11 @@ shootType: {
 }
 consumes: {
   coolant: {
-    amount: 2
+    amount: 4
   }
 }
+coolantMultiplier: 0.5
+liquidCapacity: 250
 category: turret
 research: {
     parent: fuse
