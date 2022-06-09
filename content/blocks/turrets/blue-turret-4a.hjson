@@ -121,6 +121,7 @@ shootType: {
            frontColor: 808eff
            hitShake: 15
            shrinkY: 0
+           }
 }
 requirements: [
   graphite/800
