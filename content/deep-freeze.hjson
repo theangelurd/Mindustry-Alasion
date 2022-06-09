@@ -1,0 +1,14 @@
+damage: 2
+speedMultiplier: 0.35
+reloadMultiplier: 0.5
+healthMultiplier: 0.9
+effect: {
+  type: ParticleEffect
+  particles: 4
+  length: 0
+  lifetime: 35
+  sizeFrom: 2
+  sizeTo: 0
+  colorFrom: 8aa3f4
+  colorTo: 50599b
+}
