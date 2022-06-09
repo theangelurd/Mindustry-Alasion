@@ -54,6 +54,8 @@ shootType: {
            height: 20
            lifetime: 60
            hitSize: 10
+           homingPower: 0.05
+           homingRange: 220
            height: 38
            width: 16
            speed: 10
