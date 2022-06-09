@@ -69,11 +69,12 @@ consumes: {
   }
   items: {
       items: [
-        titanium/3
-        ice-item/2
+        titanium/100
+        ice-item/100
       ]
     }
 }
+itemCapacity: 100
 coolantMultiplier: 0.5
 liquidCapacity: 300
 category: turret
