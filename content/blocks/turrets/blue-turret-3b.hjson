@@ -11,7 +11,7 @@ shots: 1
 shootSound: none
 loopSound: beam
 shootDuration: 5
-shootLength: 0.5
+shootLength: 2
 firingMoveFract: 0.7
 shootCone: 30
 shootEffect: shootBigSmoke2
@@ -25,8 +25,9 @@ shootType: {
             continuous: true
             width: 4
             colors: [6974c4, 8aa3f4, c1d0ff]
-            damage: 50
+            damage: 100
             length: 250
+            lifetime: 5
             pierce: true
             pierceBuilding: true
             incendAmount: 0.1
