@@ -16,7 +16,7 @@ weapons: [
    x: 15
    shootY: 14
    shootX: 0
-   reload: 13
+   reload: 9
    rotate: false
    top: false
    recoil: 8
@@ -58,7 +58,7 @@ weapons: [
    x: 7
    shootY: 1
    shootX: 0
-   reload: 17
+   reload: 13
    rotate: true
    top: true
    recoil: 4
