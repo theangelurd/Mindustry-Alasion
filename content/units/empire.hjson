@@ -78,7 +78,7 @@ weapons: [
    {
    name: empire-duo
    top: false
-   y: 4
+   y: 5
    x: 5
    shootY: 1
    shootX: 0
