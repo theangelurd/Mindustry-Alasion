@@ -13,7 +13,7 @@ weapons: [
    name: empire-weapon
    top: false
    y: 2
-   x: -18.5
+   x: -20
    shootY: 14
    shootX: 0
    reload: 9
