@@ -1,0 +1,43 @@
+type: naval
+name: Idai
+description: Fires powerful gatling gun blasts at enemies.
+speed: 1.05
+hitSize: 8
+rotateSpeed: 4
+rotateShooting: false
+health: 80
+accel: 0.04
+drag: 0.06
+armor: 0
+trailScl: 1.5
+trailLength: 20
+trailX: 0
+weapons: [
+   {
+   name: idai-weapon
+   top: true
+   mirror: false
+   y: 0
+   x: 0
+   shootY: 3
+   shootX: 0
+   reload: 12
+   recoil: 1.5
+   shake: 1
+   inaccuracy: 0
+   ejectEffect: casing1
+   shootSound: shootSnap
+   rotate: true
+   rotateSpeed: 20
+   reload: 2
+   bullet: {
+       damage: 10
+       pierceCap: 3
+       speed: 4
+       lifetime: 30
+       width: 8
+       height: 10
+      }
+   }
+]
+research: naval-factory
