@@ -14,7 +14,7 @@ shoot.shots: 2
 spread: 5
 shake: 4
 shootCone: 18
-powerUse: 14
+consumePower: 14
 shootSound: shootBig
 shootType: {
            type: BasicBulletType
