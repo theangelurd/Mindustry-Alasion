@@ -4,14 +4,14 @@ type: PowerTurret
 size: 2
 health: 600
 range: 17
-reloadTime: 20
-recoilAmount: -10
+reload: 20
+recoil: -10
 restitution: 0.2
 shots: 1
 shootSound: none
 shootEffect: none
 smokeEffect: none
-shootShake: 0
+shake: 0
 powerUse: 3.72
 targetAir: false
 rotateSpeed: 15
