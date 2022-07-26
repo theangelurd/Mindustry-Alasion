@@ -4,9 +4,9 @@ type: LaserTurret
 size: 3
 health: 1240
 range: 165
-reloadTime: 40
-recoilAmount: 4
-restitution: 0.02
+reload: 40
+recoil: 4
+recoilTime: 0.02
 shots: 1
 shootSound: laserbig
 loopSound: beam
@@ -18,7 +18,7 @@ shootEffect: shootBigSmoke2
 smokeEffect: none
 shootShake: 1.5
 loopSoundVolume: 1.5
-powerUse: 14
+consumePower: 14
 shootType: {
             type: ContinuousLaserBulletType
             drawSize: 180
@@ -33,11 +33,7 @@ shootType: {
             status: freezing
             statusDuration: 400
 }
-consumes: {
-  coolant: {
-    amount: 0.6
-  }
-}
+consumesCoolant: 0.5
 coolantMultiplier: 0.5
 liquidCapacity: 250
 category: turret
