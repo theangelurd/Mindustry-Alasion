@@ -20,9 +20,7 @@ loopSoundVolume: 1.5
 shoot.shots: 3
 spread: 30
 chargeTime: 80
-consumes: {
-  consumePower: 20
-}
+consumePower: 20
 chargeBeginEffect: {
   type: MultiEffect
   lifetime: 80
