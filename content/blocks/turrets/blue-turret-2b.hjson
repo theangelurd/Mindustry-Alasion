@@ -2,13 +2,13 @@ type: PowerTurret
 name: Threepoint
 description: Shoots a lot of bullets at once.
 health: 320
-reloadTime: 140
+reload: 140
 rotateSpeed: 14
-recoilAmount: 1.5
+recoil: 1.5
 inaccuracy: 15
 size: 2
 range: 280
-shots: 26
+shoot.shots: 26
 burstSpacing: 3
 powerUse: 10
 shootType: {
