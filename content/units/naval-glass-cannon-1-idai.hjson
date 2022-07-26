@@ -6,8 +6,8 @@ hitSize: 8
 rotateSpeed: 4
 rotateShooting: false
 health: 80
-accel: 0.04
-drag: 0.06
+accel: 0.2
+drag: 0.2
 armor: 0
 trailScl: 1.5
 trailLength: 20
@@ -29,7 +29,7 @@ weapons: [
    shootSound: shootSnap
    rotate: true
    rotateSpeed: 20
-   reload: 2
+   reload: 4
    bullet: {
        damage: 10
        pierceCap: 3
