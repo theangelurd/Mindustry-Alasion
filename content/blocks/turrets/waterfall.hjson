@@ -4,9 +4,8 @@ type: LaserTurret
 size: 4
 health: 2560
 range: 200
-reloadTime: 70
-recoilAmount: 6
-restitution: 0.018
+reload: 70
+recoil 0.018
 shots: 1
 shootSound: laserbig
 loopSound: beam
@@ -16,10 +15,10 @@ firingMoveFract: 0.3
 shootCone: 30
 shootEffect: shootBigSmoke2
 smokeEffect: none
-shootShake: 2
+shake: 2
 loopSoundVolume: 1.5
-powerUse: 20
-shots: 3
+consumePower: 20
+shoot.shots: 3
 spread: 30
 chargeTime: 80
 chargeBeginEffect: {
