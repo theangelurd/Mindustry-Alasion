@@ -60,7 +60,7 @@ weapons: [
    inaccuracy: 3
     bullet: {
        type: LiquidBulletType
-       liquid: water
+       color: 6873ac
        damage: 40
        speed: 3
        lifetime: 60
