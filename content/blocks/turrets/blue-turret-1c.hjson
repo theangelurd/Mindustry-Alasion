@@ -2,9 +2,9 @@ type: PowerTurret
 name: Range
 description: Shoots units from a very far distance.
 health: 80
-reloadTime: 80
+reload: 80
 rotateSpeed: 7
-recoilAmount: 1
+recoil: 1
 size: 1
 range: 360
 powerUse: 4
