@@ -17,10 +17,12 @@ shootEffect: shootBigSmoke2
 smokeEffect: none
 shake: 2
 loopSoundVolume: 1.5
-consumePower: 20
 shoot.shots: 3
 spread: 30
 chargeTime: 80
+consumes: {
+    power: 20
+}
 chargeBeginEffect: {
   type: MultiEffect
   lifetime: 80
