@@ -1,6 +1,6 @@
 type: naval
-name: Winston
-description: Fires powerful chain bullets at enemies.
+name: Mahina
+description: Fires powerful liquid chain bullets at enemies.
 speed: 1.2
 hitSize: 8
 rotateSpeed: 3.5
