@@ -59,9 +59,8 @@ weapons: [
    reload: 12.5
    inaccuracy: 3
     bullet: {
-       type: BasicBulleType
-       backColor: 6873ac
-       frontColor: 6873ac
+       type: LiquidBulletType
+       color: 6873ac
        damage: 40
        homingPower: 0.1
        homingRange: 100
@@ -72,6 +71,7 @@ weapons: [
        width: 14
        height: 17
        hitEffect: none
+       liquid: water
        despawnEffect: none
        fragCone: 360
        fragBullets: 12
@@ -79,9 +79,9 @@ weapons: [
        damage: 2
        speed: 3
        lifetime: 30
-       type: BasicBulletType
-       backColor: 6873ac
-       frontColor: 6873ac
+       type: LiquidBulletType
+       liquid: water
+       color: 6873ac
        width: 10
        height: 8
        hitEffect: none
