@@ -2,13 +2,13 @@ type: PowerTurret
 name: Langhast
 description: Shoots a bullet that can ricochet towards every unit around it once.
 health: 320
-reloadTime: 200
+reload: 200
 rotateSpeed: 4
-recoilAmount: 3
+recoil: 3
 size: 2
 range: 300
-shots: 1
-powerUse: 14
+shoot.shots: 1
+consumePower: 14
 shootType: {
            type: BasicBulletType
            damage: 60
