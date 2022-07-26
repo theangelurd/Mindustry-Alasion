@@ -52,7 +52,7 @@ weapons: [
    recoil: 1.75
    shake: 2
    inaccuracy: 0
-   ejectEffect: casing2
+   ejectEffect: none
    shootSound: pew
    rotate: true
    rotateSpeed: 20
@@ -60,6 +60,7 @@ weapons: [
    inaccuracy: 3
     bullet: {
        type: LiquidBulletType
+       liquid: water
        color: 6873ac
        damage: 40
        homingPower: 0.1
