@@ -7,7 +7,7 @@ range: 120
 reload: 10
 recoil: 3
 recoilTime: 0.15
-shots: 3
+shoot.shots: 3
 alternate: true
 spacing: 4
 shootSound: shotgun
