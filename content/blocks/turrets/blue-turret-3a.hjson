@@ -10,9 +10,9 @@ inaccuracy: 3
 size: 3
 range: 320
 alternate: true
-shots: 2
+shoot.shots: 2
 spread: 5
-shootShake: 4
+shake: 4
 shootCone: 18
 powerUse: 14
 shootSound: shootBig
