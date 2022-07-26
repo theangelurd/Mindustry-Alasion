@@ -14,7 +14,7 @@ trailLength: 20
 trailX: 0
 weapons: [
    {
-   name: idai-weapon
+   name: idai-gatling
    top: true
    mirror: false
    y: 0
