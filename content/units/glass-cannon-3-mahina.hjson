@@ -62,25 +62,19 @@ weapons: [
        type: LiquidBulletType
        color: 6873ac
        damage: 40
-       speed: 3
-       lifetime: 60
-       width: 16
-       height: 20
-       homing: true
-       homingRange: 100
        homingPower: 0.1
+       homingRange: 100
        pierce: true
        pierceCap: 5
+       lifetime: 60
+       speed: 3
        fragCone: 360
        fragBullets: 12
-       status: wet
-       statusDuration: 150
        fragBullet: {
-          damage: 2
-          type: LiquidBulletType
-          knockback: 0.2
-          status: wet
-          statusDuration: 100
+       damage: 2
+       speed: 3
+       lifetime: 30
+       type: LiquidBulletType
        }
       }
    }
