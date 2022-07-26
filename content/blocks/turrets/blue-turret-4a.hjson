@@ -10,7 +10,7 @@ size: 4
 range: 600
 alternate: true
 shoot.shots: 1
-shootShake: 15
+shake: 15
 powerUse: 25
 shootSound: laserbig
 chargeTime: 150
