@@ -8,7 +8,7 @@ rotateShooting: false
 health: 530
 accel: 0.2
 drag: 0.2
-armor: 0
+armor: 3
 trailScl: 2.4
 trailLength: 30
 trailX: 6
@@ -59,8 +59,9 @@ weapons: [
    reload: 12.5
    inaccuracy: 3
     bullet: {
-       type: LiquidBulletType
-       color: 6873ac
+       type: BasicBulleType
+       backColor: 6873ac
+       frontColor: 6873ac
        damage: 40
        homingPower: 0.1
        homingRange: 100
@@ -68,13 +69,19 @@ weapons: [
        pierceCap: 5
        lifetime: 60
        speed: 3
+       width: 18
+       height: 10
        fragCone: 360
        fragBullets: 12
        fragBullet: {
        damage: 2
        speed: 3
        lifetime: 30
-       type: LiquidBulletType
+       type: BasicBulletType
+       backColor: 6873ac
+       frontColor: 6873ac
+       width: 10
+       height: 5
        }
       }
    }
