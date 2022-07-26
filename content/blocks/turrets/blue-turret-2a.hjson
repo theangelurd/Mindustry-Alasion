@@ -2,13 +2,13 @@ type: PowerTurret
 name: Iderator
 description: Shoots a wave of bullets.
 health: 320
-reloadTime: 100
+reload: 100
 rotateSpeed: 10
-recoilAmount: 0.8
+recoil: 0.8
 inaccuracy: 12
 size: 2
 range: 300
-shots: 5
+shoot.shots: 5
 spacing: 15
 burstSpacing: 8
 powerUse: 6
