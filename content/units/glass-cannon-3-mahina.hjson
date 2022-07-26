@@ -30,7 +30,7 @@ weapons: [
    shootSound: shootSnap
    rotate: true
    rotateSpeed: 20
-   reload: 4
+   reload: 5
    inaccuracy: 5
    bullet: {
        damage: 10
@@ -56,7 +56,7 @@ weapons: [
    shootSound: pew
    rotate: true
    rotateSpeed: 6
-   reload: 12.5
+   reload: 2
    inaccuracy: 3
     bullet: {
        type: LiquidBulletType
