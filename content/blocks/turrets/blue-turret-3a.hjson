@@ -2,9 +2,9 @@ type: PowerTurret
 name: Alteranto
 description: Shoots alternating bullet extremely fast.
 health: 720
-reloadTime: 6
+reload: 6
 rotateSpeed: 4
-recoilAmount: 4
+recoil: 4
 restitution: 0.08
 inaccuracy: 3
 size: 3
