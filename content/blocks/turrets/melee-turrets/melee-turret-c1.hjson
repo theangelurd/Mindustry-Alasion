@@ -6,7 +6,7 @@ health: 600
 range: 35
 reload: 10
 recoil: -23
-restitution: 0.2
+recoilTime: 0.2
 shoot.shots: 1
 shootSound: none
 shootEffect: none
