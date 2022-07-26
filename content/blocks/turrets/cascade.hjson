@@ -11,12 +11,12 @@ shots: 1
 shootSound: laserbig
 loopSound: beam
 shootDuration: 100
-shootLength: 8
+shootY: 8
 firingMoveFract: 0.5
 shootCone: 30
 shootEffect: shootBigSmoke2
 smokeEffect: none
-shootShake: 1.5
+shake: 1.5
 loopSoundVolume: 1.5
 consumePower: 14
 shootType: {
