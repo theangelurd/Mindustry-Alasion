@@ -18,7 +18,7 @@ weapons: [
    name: idai-gatling
    top: true
    mirror: true
-   y: 6
+   y: 9
    x: 1.5
    shootY: 3
    shootX: 0
