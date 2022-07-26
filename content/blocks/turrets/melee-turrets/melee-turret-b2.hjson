@@ -4,14 +4,14 @@ type: PowerTurret
 size: 2
 health: 300
 range: 40
-reloadTime: 30
-recoilAmount: -9
+reload: 30
+recoil: -9
 restitution: 0.1
 shots: 1
 shootSound: explosion
 shootEffect: none
 smokeEffect: none
-shootShake: 0
+shake: 0
 powerUse: 1.1
 shootType: {
             type: RailBulletType
