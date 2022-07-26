@@ -1,6 +1,7 @@
 name: mindustry-alasion
 displayName: Mindustry Alasion
 author: theangelurd
-description: alasion
+description: "alasion
+port to erekir now"
 version: 0 :shrug:
-minGameVersion: 126.2
+minGameVersion: 136
