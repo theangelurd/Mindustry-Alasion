@@ -61,14 +61,14 @@ weapons: [
     bullet: {
        type: LiquidBulletType
        color: 6873ac
-       damage: 40
+       damage: 64
        homingPower: 0.1
        homingRange: 100
        pierce: true
        pierceCap: 5
        lifetime: 60
        speed: 3
-       width: 14
+       width: 17
        height: 17
        hitEffect: none
        liquid: water
