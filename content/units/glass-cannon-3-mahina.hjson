@@ -60,7 +60,7 @@ weapons: [
    inaccuracy: 3
     bullet: {
        type: LiquidBulletType
-       color: 6873ac
+
        damage: 64
        homingPower: 0.1
        homingRange: 100
@@ -68,8 +68,8 @@ weapons: [
        pierceCap: 5
        lifetime: 60
        speed: 3
-       width: 17
-       height: 17
+       width: 34
+       height: 34
        hitEffect: none
        liquid: water
        despawnEffect: none
