@@ -30,9 +30,9 @@ weapons: [
    rotate: true
    rotateSpeed: 20
    reload: 4
+   inaccuracy: 5
    bullet: {
        damage: 10
-       pierceCap: 3
        speed: 4
        lifetime: 30
        width: 8
