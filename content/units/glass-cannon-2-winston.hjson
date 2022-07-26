@@ -1,0 +1,75 @@
+type: naval
+name: Winston
+description: Fires powerful chain bullets at enemies.
+speed: 1.05
+hitSize: 8
+rotateSpeed: 4
+rotateShooting: false
+health: 320
+accel: 0.2
+drag: 0.2
+armor: 0
+trailScl: 1.9
+trailLength: 25
+trailX: 6
+trailY: 7
+weapons: [
+   {
+   name: idai-gatling
+   top: true
+   mirror: true
+   y: -4
+   x: 3
+   shootY: 3
+   shootX: 0
+   reload: 12
+   recoil: 1.5
+   shake: 1
+   inaccuracy: 0
+   ejectEffect: casing1
+   shootSound: shootSnap
+   rotate: true
+   rotateSpeed: 20
+   reload: 5
+   inaccuracy: 5
+   bullet: {
+       damage: 10
+       speed: 4
+       lifetime: 30
+       width: 8
+       height: 10
+      }
+   }
+   {
+   name: winston-chaingun
+   top: true
+   mirror: false
+   y: 4
+   x: 0
+   shootY: 3
+   shootX: 0
+   reload: 12
+   recoil: 1.5
+   shake: 1
+   inaccuracy: 0
+   ejectEffect: casing2
+   shootSound: shootSnap
+   rotate: true
+   rotateSpeed: 20
+   reload: 15
+   inaccuracy: 3
+   bullet: {
+       damage: 45
+       speed: 3.5
+       lifetime: 60
+       width: 8
+       height: 10
+       homing: true
+       homingRange: 100
+       homingPower: 0.1
+       pierce: true
+       pierceCap: 3
+      }
+   }
+]
+research: glass-cannon-1-idai
