@@ -48,20 +48,19 @@ weapons: [
    x: 0
    shootY: 4
    shootX: 0
-   reload: 12
-   recoil: 1.75
-   shake: 2
+   reload: 2
+   recoil: 0.5
+   shake: 0.5
    inaccuracy: 0
    ejectEffect: none
    shootSound: pew
    rotate: true
-   rotateSpeed: 20
+   rotateSpeed: 6
    reload: 12.5
    inaccuracy: 3
     bullet: {
        type: LiquidBulletType
-
-       damage: 64
+       damage: 15
        homingPower: 0.1
        homingRange: 100
        pierce: true
@@ -73,20 +72,6 @@ weapons: [
        hitEffect: none
        liquid: water
        despawnEffect: none
-       fragCone: 360
-       fragBullets: 12
-       fragBullet: {
-       damage: 2
-       speed: 3
-       lifetime: 30
-       type: LiquidBulletType
-       liquid: water
-       color: 6873ac
-       width: 10
-       height: 8
-       hitEffect: none
-       despawnEffect: none
-       }
       }
    }
 ]
