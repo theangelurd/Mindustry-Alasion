@@ -50,7 +50,7 @@ weapons: [
    shootX: 0
    reload: 12
    recoil: 1.5
-   shake: 1
+   shake: 2
    inaccuracy: 0
    ejectEffect: casing2
    shootSound: shootSnap
@@ -62,8 +62,8 @@ weapons: [
        damage: 45
        speed: 3.5
        lifetime: 60
-       width: 8
-       height: 10
+       width: 16
+       height: 20
        homing: true
        homingRange: 100
        homingPower: 0.1
