@@ -30,7 +30,7 @@ weapons: [
    shootSound: shootSnap
    rotate: true
    rotateSpeed: 20
-   reload: 5
+   reload: 3.5
    inaccuracy: 5
    bullet: {
        damage: 10
@@ -60,7 +60,7 @@ weapons: [
    inaccuracy: 3
     bullet: {
        type: LiquidBulletType
-       damage: 15
+       damage: 8
        homingPower: 0.1
        homingRange: 100
        pierce: true
