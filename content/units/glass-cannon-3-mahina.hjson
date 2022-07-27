@@ -53,7 +53,7 @@ weapons: [
    shake: 0.5
    inaccuracy: 0
    ejectEffect: none
-   shootSound: pew
+   shootSound: spray
    rotate: true
    rotateSpeed: 6
    reload: 2
