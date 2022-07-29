@@ -44,7 +44,7 @@ weapons: [
    name: patricia-burstling-gun
    top: true
    mirror: true
-   y: 13
+   y: 15
    x: -4
    shootY: 5
    shootX: 2
@@ -61,8 +61,8 @@ weapons: [
    inaccuracy: 5
    shoot: {
      shots: 40
-     shotDelay: 2
-     spacing: 2
+     shotDelay: 1
+     spacing: 1
    }
    bullet: {
        type: BasicBulletType
