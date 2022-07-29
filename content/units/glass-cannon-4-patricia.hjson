@@ -1,8 +1,8 @@
 type: naval
-name: Mahina
-description: Fires powerful liquid chain bullets at enemies.
+name: Patricia
+description: Fires powerful electricity and burst bullets at enemies.
 speed: 0.9
-hitSize: 28
+hitSize: 35
 rotateSpeed: 3
 rotateShooting: false
 health: 4950
@@ -22,7 +22,7 @@ weapons: [
    x: 5
    shootY: 3
    shootX: 1.5
-   reload: 15
+   reload: 20
    recoil: 3
    shake: 1
    inaccuracy: 0
@@ -36,8 +36,8 @@ weapons: [
        damage: 100
        speed: 0.01
        lifetime: 10
-       lightningLength: 30
-       lightningLengthRand: 30
+       lightningLength: 15
+       lightningLengthRand: 15
       }
    }
    {
@@ -63,10 +63,11 @@ weapons: [
    bullet: {
        type: BasicBulletType
        damage: 20
-       speed: 0.01
+       speed: 4
+       lifetime: 60
        lifetime: 10
-       lightningLength: 30
-       lightningLengthRand: 30
+       height: 13
+       width: 9
       }
    }
    {
