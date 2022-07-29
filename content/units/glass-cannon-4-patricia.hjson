@@ -45,7 +45,7 @@ weapons: [
    top: true
    mirror: true
    y: 13
-   x: 3
+   x: -4
    shootY: 5
    shootX: 2
    reload: 60
