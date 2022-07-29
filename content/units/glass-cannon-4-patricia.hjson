@@ -27,7 +27,7 @@ weapons: [
    shake: 1
    inaccuracy: 0
    ejectEffect: casing1
-   shootSound: shootSnap
+   shootSound: spark
    rotate: true
    rotateSpeed: 10
    inaccuracy: 3
@@ -53,7 +53,9 @@ weapons: [
    shake: 1.5
    inaccuracy: 0
    ejectEffect: casing1
-   shootSound: shootSnap
+   chargeSound: bang
+   firstShotDelay: 1
+   shootSound: pew
    rotate: true
    rotateSpeed: 10
    inaccuracy: 5
