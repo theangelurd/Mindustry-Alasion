@@ -1,0 +1,107 @@
+type: naval
+name: Mahina
+description: Fires powerful liquid chain bullets at enemies.
+speed: 0.9
+hitSize: 28
+rotateSpeed: 3
+rotateShooting: false
+health: 4950
+accel: 0.2
+drag: 0.2
+armor: 3
+trailScl: 3
+trailLength: 45
+trailX: 12
+trailY: -15
+weapons: [
+   {
+   name: patricia-shockling-gun
+   top: true
+   mirror: true
+   y: 7
+   x: 5
+   shootY: 3
+   shootX: 1.5
+   reload: 15
+   recoil: 3
+   shake: 1
+   inaccuracy: 0
+   ejectEffect: casing1
+   shootSound: shootSnap
+   rotate: true
+   rotateSpeed: 10
+   inaccuracy: 3
+   bullet: {
+       type: LightningBulletType
+       damage: 100
+       speed: 0.01
+       lifetime: 10
+       lightningLength: 30
+       lightningLengthRand: 30
+      }
+   }
+   {
+   name: patricia-shockling-gun
+   top: true
+   mirror: true
+   y: 12
+   x: 5
+   shootY: 5
+   shootX: 2
+   reload: 60
+   recoil: 1.5
+   shake: 1.5
+   inaccuracy: 0
+   ejectEffect: casing1
+   shootSound: shootSnap
+   rotate: true
+   rotateSpeed: 10
+   inaccuracy: 5
+   shots: 40
+   shotDelay: 0.5
+   spacing: 0.5
+   bullet: {
+       type: BasicBulletType
+       damage: 20
+       speed: 0.01
+       lifetime: 10
+       lightningLength: 30
+       lightningLengthRand: 30
+      }
+   }
+   {
+   name: mahina-liquidchaingun
+   top: true
+   mirror: false
+   y: -5
+   x: 0
+   shootY: 4
+   shootX: 0
+   reload: 2
+   recoil: 0.5
+   shake: 0.5
+   inaccuracy: 0
+   ejectEffect: none
+   shootSound: spray
+   rotate: true
+   rotateSpeed: 6
+   reload: 2
+   inaccuracy: 3
+    bullet: {
+       type: LiquidBulletType
+       damage: 8
+       homingPower: 0.1
+       homingRange: 100
+       pierce: true
+       pierceCap: 5
+       lifetime: 60
+       speed: 3
+       width: 34
+       height: 34
+       hitEffect: none
+       liquid: water
+       despawnEffect: none
+      }
+   }
+]
+research: glass-cannon-2-winston
