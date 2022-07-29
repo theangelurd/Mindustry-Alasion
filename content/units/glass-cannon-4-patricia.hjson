@@ -50,7 +50,7 @@ weapons: [
    shootX: 2
    reload: 60
    recoil: 1.5
-   shake: 1.5
+   shake: 3
    inaccuracy: 0
    ejectEffect: casing1
    chargeSound: bang
@@ -62,8 +62,8 @@ weapons: [
    shoot: {
      shots: 40
    }
-   shotDelay: 0.5
-   spacing: 0.5
+   shotDelay: 2
+   spacing: 2
    bullet: {
        type: BasicBulletType
        damage: 20
