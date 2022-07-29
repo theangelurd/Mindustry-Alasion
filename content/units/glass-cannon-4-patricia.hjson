@@ -61,9 +61,9 @@ weapons: [
    inaccuracy: 5
    shoot: {
      shots: 40
+     shotDelay: 2
+     spacing: 2
    }
-   shotDelay: 2
-   spacing: 2
    bullet: {
        type: BasicBulletType
        damage: 20
