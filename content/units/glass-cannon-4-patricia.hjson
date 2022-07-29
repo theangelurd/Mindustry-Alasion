@@ -57,7 +57,9 @@ weapons: [
    rotate: true
    rotateSpeed: 10
    inaccuracy: 5
-   shots: 40
+   shoot: {
+     shots: 40
+   }
    shotDelay: 0.5
    spacing: 0.5
    bullet: {
@@ -65,7 +67,6 @@ weapons: [
        damage: 20
        speed: 4
        lifetime: 60
-       lifetime: 10
        height: 13
        width: 9
       }
