@@ -18,7 +18,7 @@ weapons: [
    name: patricia-shockling-gun
    top: true
    mirror: true
-   y: 7
+   y: 4
    x: 5
    shootY: 3
    shootX: 1.5
@@ -41,11 +41,11 @@ weapons: [
       }
    }
    {
-   name: patricia-shockling-gun
+   name: patricia-burstling-gun
    top: true
    mirror: true
-   y: 12
-   x: 5
+   y: 13
+   x: 3
    shootY: 5
    shootX: 2
    reload: 60
@@ -73,7 +73,7 @@ weapons: [
    name: mahina-liquidchaingun
    top: true
    mirror: false
-   y: -5
+   y: -8
    x: 0
    shootY: 4
    shootX: 0
