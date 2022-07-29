@@ -48,7 +48,7 @@ weapons: [
    x: -4
    shootY: 5
    shootX: 2
-   reload: 60
+   reload: 90
    recoil: 1.5
    shake: 3
    inaccuracy: 0
@@ -61,8 +61,8 @@ weapons: [
    inaccuracy: 5
    shoot: {
      shots: 40
-     shotDelay: 1
-     spacing: 1
+     shotDelay: 1.5
+     spacing: 1.5
    }
    bullet: {
        type: BasicBulletType
