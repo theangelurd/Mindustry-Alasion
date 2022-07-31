@@ -14,7 +14,7 @@ rotateShooting: false
 engineOffset: 5
 parts: [
   {
-    RegionPart: -jaw
+    RegionPart: hit-jaw
     moveRot: -20
     moveX: 1
     moveY: -1
