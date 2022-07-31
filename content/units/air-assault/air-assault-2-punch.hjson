@@ -24,45 +24,33 @@ parts: [
     under: true
   }
   {
-    RegionPart: blade-1
+    RegionPart: punch-blade
     suffix: -blade
     moveRot: 0
     moveX: 3.5
     moveY: 0
     mirror: true
     layerOffset: -0.01
-    heatLayerOffset: 0.005
-    progress: 0.02
-    heatProgress: 0.01
-    heatColor: ffc092
     under: true
   }
   {
-    RegionPart: blade-2
+    RegionPart: punch-blade
     suffix: -blade
     moveRot: -25
     moveX: 2.5
     moveY: -2
     mirror: true
     layerOffset: -0.01
-    heatLayerOffset: 0.005
-    progress: 0.02
-    heatProgress: 0.01
-    heatColor: ffc092
     under: true
   }
   {
-    RegionPart: blade-3
+    RegionPart: punch-blade
     suffix: -blade
     moveRot: -50
     moveX: 1.5
     moveY: -3.5
     mirror: true
     layerOffset: -0.01
-    heatLayerOffset: 0.005
-    progress: 0.02
-    heatProgress: 0.01
-    heatColor: ffc092
     under: true
   }
 ]
