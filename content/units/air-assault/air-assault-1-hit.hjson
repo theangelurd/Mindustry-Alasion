@@ -12,7 +12,6 @@ commandLimit: 0
 lowAltitude: true
 rotateShooting: false
 engineOffset: 5
-drawer: {
 parts: [
   {
     RegionPart: hit-jaw
@@ -23,7 +22,6 @@ parts: [
     under: false
   }
 ]
-}
 weapons: [
   {
   name: none
@@ -43,6 +41,7 @@ weapons: [
      knockback: 3
      speed: 0.01
      damage: 9
+     drawSize: 320
      shake: 0.5
      damage: 5
      lifetime: 80
