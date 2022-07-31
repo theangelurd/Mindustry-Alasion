@@ -1,6 +1,6 @@
 type: flying
 name: Punch
-description: "Fires a very strong bullet."
+description: "Fires a very strong charged bullet."
 flying: true
 health: 440
 speed: 2.2
@@ -76,16 +76,17 @@ weapons: [
      damage: 15
      recoil: 3
      splashDamage: 30
+     splashDamageRadius: 22
      lightning: 3
      lightningDamage: 9
      lightningLength: 6
      lightningLengthRand: 6
      lightningColor: ffc092
-     weaveMag: 13
+     weaveMag: 5
      homing: true
      homingPower: 0.05
-     homignRange: 30
-     weaveRad: 8
+     homingRange: 50
+     weaveRad: 14
      hitSound: explosion
      shake: 0.5
      lifetime: 30
