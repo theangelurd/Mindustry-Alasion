@@ -31,7 +31,7 @@ parts: [
     moveY: 0
     mirror: true
     under: true
-    layerOffset: -0.01
+    layerOffset: -0.001
   }
   {
     RegionPart: punch-blade
@@ -41,17 +41,17 @@ parts: [
     moveY: -3
     mirror: true
     under: true
-    layerOffset: -0.01
+    layerOffset: -0.001
   }
   {
     RegionPart: punch-blade
     suffix: -blade
     moveRot: -50
     moveX: 2
-    moveY: -5.5
+    moveY: -4.5
     mirror: true
     under: true
-    layerOffset: -0.01
+    layerOffset: -0.001
   }
 ]
 weapons: [
