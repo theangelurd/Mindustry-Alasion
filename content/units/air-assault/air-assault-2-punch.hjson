@@ -1,0 +1,113 @@
+type: flying
+name: Punch
+description: "Fires a very strong bullet."
+flying: true
+health: 440
+speed: 2.2
+drag: 0.2
+accel: 0.2
+hitSize: 12
+rotateSpeed: 5
+commandLimit: 4
+lowAltitude: true
+rotateShooting: false
+engineOffset: 7
+engineSize: 4
+parts: [
+  {
+    RegionPart: punch-jaw
+    suffix: -jaw
+    moveRot: -30
+    moveX: 2
+    moveY: -2
+    mirror: true
+    under: true
+  }
+  {
+    RegionPart: blade-1
+    suffix: -blade
+    moveRot: 0
+    moveX: 2.5
+    moveY: 0
+    mirror: true
+    layerOffset: -0.01
+    heatLayerOffset: 0.005
+    progress: 0.02
+    heatProgress: 0.01
+    heatColor: ffc092
+    under: true
+  }
+  {
+    RegionPart: blade-2
+    suffix: -blade
+    moveRot: -10
+    moveX: 1.75
+    moveY: -1
+    mirror: true
+    layerOffset: -0.01
+    heatLayerOffset: 0.005
+    progress: 0.02
+    heatProgress: 0.01
+    heatColor: ffc092
+    under: true
+  }
+  {
+    RegionPart: blade-3
+    suffix: -blade
+    moveRot: -30
+    moveX: 1
+    moveY: -2
+    mirror: true
+    layerOffset: -0.01
+    heatLayerOffset: 0.005
+    progress: 0.02
+    heatProgress: 0.01
+    heatColor: ffc092
+    under: true
+  }
+]
+weapons: [
+  {
+  name: none
+  x: 0
+  y: 0
+  rotate: false
+  rotateSpeed: 0
+  mirror: false
+  shootSound: artillery
+  recoil: 1
+  reload: 110
+  top: true
+  shootY: 6
+  bullet: {
+     type: BasicBulletType
+     knockback: 3
+     speed: 4
+     damage: 15
+     splashDamage: 15
+     lightning: 3
+     lightningDamage: 3
+     lightningLength: 6
+     lightningLengthRand: 6
+     lightningColor: ffc092
+     weaveMag: 6
+     homing: true
+     homingPower: 0.05
+     homignRange: 30
+     weaveRad: 6
+     hitSound: explosion
+     shake: 0.5
+     lifetime: 30
+     length: 120
+     height: 10
+     width: 11
+     frontColor: ffc092
+     backColor: ffc092
+  }
+  shootStatus: slow
+  shootStatusDuration: 40
+  }
+]
+research: {
+  parent: air-assault-fabricator
+}
