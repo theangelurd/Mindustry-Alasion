@@ -37,4 +37,6 @@ weapons: [
   }
   }
 ]
-parent: seed-fabricator
+research: {
+  parent: seed-fabricator
+}
