@@ -52,3 +52,6 @@ weapons: [
   shootStatus: slow
   }
 ]
+research: {
+  parent: air-assault-fabricator
+}
