@@ -1,0 +1,54 @@
+type: flying
+name: Hit
+description: "Fires a beam projectile."
+flying: true
+health: 120
+speed: 3
+drag: 0.05
+accel: 0.04
+hitSize: 8
+rotateSpeed: 4
+commandLimit: 0
+lowAltitude: true
+rotateShooting: false
+engineOffset: 5
+drawer: {}
+parts: [
+  {
+    RegionPart: hit-jaw
+    moveRot: 20
+    moveX: 1
+    moveY: -1
+    mirror: true
+    under: false
+  }
+]
+}
+weapons: [
+  {
+  name: none
+  x: 0
+  y: 0
+  rotate: false
+  rotateSpeed: 0
+  mirror: false
+  shootSound: beam
+  continuous: true
+  recoil: 1
+  reload: 60
+  top: true
+  shootY: 3
+  bullet: {
+     type: ContinuousBulletType
+     knockback: 3
+     speed: 0.01
+     damage: 9
+     shake: 0.5
+     damage: 5
+     lifetime: 80
+     lifetime: 40
+     length: 120
+     width: 3
+  }
+  }
+]
