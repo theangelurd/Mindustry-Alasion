@@ -19,7 +19,7 @@ parts: [
     moveX: 1
     moveY: -1
     mirror: true
-    under: false
+    under: true
   }
 ]
 weapons: [
