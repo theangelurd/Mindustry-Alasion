@@ -37,3 +37,4 @@ weapons: [
   }
   }
 ]
+parent: seed-fabricator
