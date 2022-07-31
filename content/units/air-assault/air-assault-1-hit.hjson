@@ -12,7 +12,7 @@ commandLimit: 0
 lowAltitude: true
 rotateShooting: false
 engineOffset: 5
-drawer: {}
+drawer: {
 parts: [
   {
     RegionPart: hit-jaw
