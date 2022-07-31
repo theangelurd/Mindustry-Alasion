@@ -49,5 +49,6 @@ weapons: [
      length: 120
      width: 3
   }
+  shootStatus: slow
   }
 ]
