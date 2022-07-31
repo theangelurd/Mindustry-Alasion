@@ -9,7 +9,9 @@ accel: 0.2
 hitSize: 12
 rotateSpeed: 5
 commandLimit: 4
-lowAltitude: true
+lowAltitude: false
+layer: 180
+shadowElevation: 1.5
 rotateShooting: false
 engineOffset: 7
 engineSize: 4
