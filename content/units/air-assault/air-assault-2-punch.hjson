@@ -30,7 +30,6 @@ parts: [
     moveX: 3.5
     moveY: 0
     mirror: true
-    layerOffset: -0.01
     under: true
   }
   {
@@ -40,7 +39,6 @@ parts: [
     moveX: 2.5
     moveY: -2
     mirror: true
-    layerOffset: -0.01
     under: true
   }
   {
@@ -50,7 +48,6 @@ parts: [
     moveX: 1.5
     moveY: -3.5
     mirror: true
-    layerOffset: -0.01
     under: true
   }
 ]
@@ -72,9 +69,9 @@ weapons: [
      knockback: 3
      speed: 6.5
      damage: 15
-     splashDamage: 15
+     splashDamage: 30
      lightning: 3
-     lightningDamage: 3
+     lightningDamage: 9
      lightningLength: 6
      lightningLengthRand: 6
      lightningColor: ffc092
