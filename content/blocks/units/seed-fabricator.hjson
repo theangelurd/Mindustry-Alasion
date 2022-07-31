@@ -1,0 +1,23 @@
+type: UnitFactory
+size: 2
+name: Seed Fabricator
+description: Fabricates unit seeds out of materials, allowing for the true start.
+consumes: {
+  power: 1
+}
+plans: [
+  {
+    unit: seed
+    time: 400
+    requirements: [
+      silicon/5
+    ]
+  }
+]
+requirements: [
+  lead/50
+  silicon/80
+  copper/100
+]
+research: core-shard
+category: units
