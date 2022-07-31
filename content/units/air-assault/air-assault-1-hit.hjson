@@ -15,7 +15,7 @@ engineOffset: 5
 parts: [
   {
     RegionPart: "air-assault-1-hit-jaw"
-    name: "air-assault-1-hit-jaw"
+    name: "-jaw"
     moveRot: -20
     moveX: 1
     moveY: -1
