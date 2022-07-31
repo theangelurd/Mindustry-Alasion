@@ -27,7 +27,7 @@ parts: [
     RegionPart: blade-1
     suffix: -blade
     moveRot: 0
-    moveX: 2.5
+    moveX: 3.5
     moveY: 0
     mirror: true
     layerOffset: -0.01
@@ -40,9 +40,9 @@ parts: [
   {
     RegionPart: blade-2
     suffix: -blade
-    moveRot: -10
-    moveX: 1.75
-    moveY: -1
+    moveRot: -25
+    moveX: 2.5
+    moveY: -2
     mirror: true
     layerOffset: -0.01
     heatLayerOffset: 0.005
@@ -54,9 +54,9 @@ parts: [
   {
     RegionPart: blade-3
     suffix: -blade
-    moveRot: -30
-    moveX: 1
-    moveY: -2
+    moveRot: -50
+    moveX: 1.5
+    moveY: -3.5
     mirror: true
     layerOffset: -0.01
     heatLayerOffset: 0.005
@@ -82,7 +82,7 @@ weapons: [
   bullet: {
      type: BasicBulletType
      knockback: 3
-     speed: 4
+     speed: 6.5
      damage: 15
      splashDamage: 15
      lightning: 3
@@ -90,11 +90,11 @@ weapons: [
      lightningLength: 6
      lightningLengthRand: 6
      lightningColor: ffc092
-     weaveMag: 6
+     weaveMag: 13
      homing: true
      homingPower: 0.05
      homignRange: 30
-     weaveRad: 6
+     weaveRad: 8
      hitSound: explosion
      shake: 0.5
      lifetime: 30
