@@ -11,11 +11,14 @@ hitSize: 8
 rotateSpeed: 10
 commandLimit: 0
 lowAltitude: true
+rotateShooting: false
 weapons: [
   {
   name: seed-turret
   x: 0
   y: 0
+  rotate: true
+  rotateSpeed: 8
   mirror: false
   shootSound: pew
   recoil: 1
