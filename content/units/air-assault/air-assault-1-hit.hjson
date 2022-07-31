@@ -34,18 +34,18 @@ weapons: [
   shootSound: beam
   continuous: true
   recoil: 1
-  reload: 60
+  reload: 120
   top: true
   shootY: 3
   bullet: {
-     type: ContinuousBulletType
+     type: ContinuousLaserBulletType
      knockback: 3
      speed: 0.01
      damage: 9
-     drawSize: 320
+     drawSize: 420
      shake: 0.5
      damage: 5
-     lifetime: 80
+     lifetime: 140
      lifetime: 40
      length: 120
      width: 3
