@@ -3,9 +3,9 @@ name: Hit
 description: "Fires a beam projectile."
 flying: true
 health: 120
-speed: 3
-drag: 0.05
-accel: 0.04
+speed: 3.2
+drag: 0.1
+accel: 0.1
 hitSize: 8
 rotateSpeed: 4
 commandLimit: 0
