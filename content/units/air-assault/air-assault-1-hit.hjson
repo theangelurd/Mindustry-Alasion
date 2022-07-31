@@ -14,7 +14,7 @@ rotateShooting: false
 engineOffset: 5
 parts: [
   {
-    RegionPart: air-assault-1-hit-jaw
+    RegionPart: -jaw
     name: -jaw
     moveRot: -20
     moveX: 1
