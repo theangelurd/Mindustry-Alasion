@@ -1,0 +1,26 @@
+type: Reconstructor
+name: Air Assault Unit Fabricator
+description: Fabricates air assault units out of the seed.
+size: 3
+constructTime: 700
+consumes: {
+  power: 10
+    items: {
+      items: [
+        lead/15
+        silicon/15
+      ]
+    }
+}
+upgrades: [
+  [seed, air-assault-1-hit]
+]
+requirements: [
+  lead/140
+  copper/150
+  silicon/100
+]
+category: units
+research: {
+  parent: seed-fabricator
+}
