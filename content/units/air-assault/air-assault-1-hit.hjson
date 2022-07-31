@@ -50,6 +50,7 @@ weapons: [
      width: 3
   }
   shootStatus: slow
+  shootStatusDuration: 160
   }
 ]
 research: {
