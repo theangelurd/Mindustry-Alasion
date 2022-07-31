@@ -65,7 +65,7 @@ weapons: [
   rotateSpeed: 0
   mirror: false
   shootSound: artillery
-  recoil: 1
+  recoil: 0
   reload: 110
   top: true
   shootY: 6
@@ -74,6 +74,7 @@ weapons: [
      knockback: 3
      speed: 6.5
      damage: 15
+     recoil: 3
      splashDamage: 30
      lightning: 3
      lightningDamage: 9
