@@ -22,33 +22,37 @@ parts: [
     moveY: -2
     mirror: true
     under: true
+    layerOffset: -0.01
   }
   {
     RegionPart: punch-blade
     suffix: -blade
     moveRot: 0
-    moveX: 3.5
+    moveX: 7
     moveY: 0
     mirror: true
     under: true
+    layerOffset: -0.01
   }
   {
     RegionPart: punch-blade
     suffix: -blade
     moveRot: -25
-    moveX: 2.5
-    moveY: -2
+    moveX: 5
+    moveY: -4
     mirror: true
     under: true
+    layerOffset: -0.01
   }
   {
     RegionPart: punch-blade
     suffix: -blade
     moveRot: -50
-    moveX: 1.5
-    moveY: -3.5
+    moveX: 3
+    moveY: -7
     mirror: true
     under: true
+    layerOffset: -0.01
   }
 ]
 weapons: [
