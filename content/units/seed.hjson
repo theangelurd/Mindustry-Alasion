@@ -1,7 +1,7 @@
 type: flying
-name: Seed
+name: Air Seed
 description: "Fires a small weak projectile making use of its turret."
-details: "The seed of all branches. Choose what you will go for."
+details: "The seed of all air units. Choose what you will go for."
 flying: true
 health: 50
 speed: 3
