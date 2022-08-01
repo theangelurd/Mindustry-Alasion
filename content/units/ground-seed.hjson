@@ -1,4 +1,4 @@
-type: ground
+type: mech
 name: Ground Seed
 description: "The seed of all ground units."
 flying: true
