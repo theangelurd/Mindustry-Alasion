@@ -3,7 +3,7 @@ name: Ground Seed
 description: "The seed of all ground units."
 flying: false
 health: 100
-speed: 0.32
+speed: 0.6
 drag: 0.4
 accel: 0.4
 hitSize: 8
