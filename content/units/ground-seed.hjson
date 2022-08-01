@@ -52,34 +52,28 @@ parts: [
 ]
 weapons: [
   {
-  name: none
-  x: 0
+  name: ground-seed-weapon
+  x: 3
   y: 0
   rotate: false
   rotateSpeed: 0
-  mirror: false
-  shootSound: beam
-  continuous: true
+  top: false
+  mirror: true
+  shootSound: pew
   recoil: 1
-  reload: 80
+  reload: 15
   top: true
-  shootY: 6
+  shootY: 4
   bullet: {
-     type: ContinuousLaserBulletType
-     knockback: 3
-     speed: 0.01
+     type: BasicBulletType
+     speed: 6
      damage: 9
-     drawSize: 420
-     shake: 0.5
-     damage: 5
-     lifetime: 80
-     length: 120
-     width: 3
+     lifetime: 30
+     width: 9
+     height: 11
   }
-  shootStatus: slow
-  shootStatusDuration: 160
   }
 ]
 research: {
-  parent: air-assault-fabricator
+  parent: seed-fabricator
 }
