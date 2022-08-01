@@ -17,7 +17,7 @@ parts: [
     RegionPart: blade1
     suffix: -blade
     moveRot: 0
-    moveX: 6
+    moveX: 5
     moveY: 0
     mirror: true
     under: true
@@ -27,8 +27,8 @@ parts: [
     RegionPart: blade2
     suffix: -blade
     moveRot: -25
-    moveX: 5
-    moveY: -1
+    moveX: 4
+    moveY: -1.5
     mirror: true
     under: true
     layerOffset: -0.01
@@ -46,8 +46,8 @@ parts: [
     {
     RegionPart: blade4
     suffix: -blade
-    moveRot: 45
-    moveX: 1.5
+    moveRot: 80
+    moveX: 1
     moveY: 2.5
     mirror: true
     under: true
