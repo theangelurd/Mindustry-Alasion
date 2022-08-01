@@ -17,7 +17,7 @@ parts: [
     RegionPart: blade1
     suffix: -blade
     moveRot: 0
-    moveX: 3.5
+    moveX: 4.5
     moveY: 0
     mirror: true
     under: true
@@ -27,7 +27,7 @@ parts: [
     RegionPart: blade2
     suffix: -blade
     moveRot: -25
-    moveX: 2.5
+    moveX: 3.5
     moveY: -1
     mirror: true
     under: true
@@ -46,9 +46,9 @@ parts: [
     {
     RegionPart: blade4
     suffix: -blade
-    moveRot: 25
+    moveRot: 45
     moveX: 1.5
-    moveY: 1
+    moveY: 1.5
     mirror: true
     under: true
     layerOffset: -0.01
@@ -66,7 +66,7 @@ weapons: [
   shootSound: pew
   recoil: 1
   reload: 15
-  top: true
+  top: false
   shootY: 4
   bullet: {
      type: BasicBulletType
