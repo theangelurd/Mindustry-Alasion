@@ -13,6 +13,14 @@ plans: [
       silicon/5
     ]
   }
+    {
+    unit: ground-seed
+    time: 600
+    requirements: [
+      silicon/7
+      lead/7
+    ]
+  }
 ]
 requirements: [
   lead/50
