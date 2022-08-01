@@ -1,0 +1,85 @@
+type: ground
+name: Ground Seed
+description: "The seed of all ground units."
+flying: true
+health: 100
+speed: 0.32
+drag: 0.4
+accel: 0.4
+hitSize: 8
+rotateSpeed: 10
+commandLimit: 0
+rotateShooting: true
+mechFrontSway: 0.4
+mechSideSway: 0.3
+parts: [
+  {
+    RegionPart: blade1
+    suffix: -blade
+    moveRot: 0
+    moveX: 3.5
+    moveY: 0
+    mirror: true
+    under: true
+  }
+    {
+    RegionPart: blade2
+    suffix: -blade
+    moveRot: -25
+    moveX: 2.5
+    moveY: -1
+    mirror: true
+    under: true
+  }
+    {
+    RegionPart: blade3
+    suffix: -blade
+    moveRot: -50
+    moveX: 1.25
+    moveY: -2
+    mirror: true
+    under: true
+  }
+    {
+    RegionPart: blade1
+    suffix: -blade
+    moveRot: 25
+    moveX: 1.5
+    moveY: 1
+    mirror: true
+    under: true
+  }
+]
+weapons: [
+  {
+  name: none
+  x: 0
+  y: 0
+  rotate: false
+  rotateSpeed: 0
+  mirror: false
+  shootSound: beam
+  continuous: true
+  recoil: 1
+  reload: 80
+  top: true
+  shootY: 6
+  bullet: {
+     type: ContinuousLaserBulletType
+     knockback: 3
+     speed: 0.01
+     damage: 9
+     drawSize: 420
+     shake: 0.5
+     damage: 5
+     lifetime: 80
+     length: 120
+     width: 3
+  }
+  shootStatus: slow
+  shootStatusDuration: 160
+  }
+]
+research: {
+  parent: air-assault-fabricator
+}
