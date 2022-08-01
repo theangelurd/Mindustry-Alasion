@@ -21,6 +21,7 @@ parts: [
     moveY: 0
     mirror: true
     under: true
+    layerOffset: -0.01
   }
     {
     RegionPart: blade2
@@ -30,6 +31,7 @@ parts: [
     moveY: -1
     mirror: true
     under: true
+    layerOffset: -0.01
   }
     {
     RegionPart: blade3
@@ -39,15 +41,17 @@ parts: [
     moveY: -2
     mirror: true
     under: true
+    layerOffset: -0.01
   }
     {
-    RegionPart: blade1
+    RegionPart: blade4
     suffix: -blade
     moveRot: 25
     moveX: 1.5
     moveY: 1
     mirror: true
     under: true
+    layerOffset: -0.01
   }
 ]
 weapons: [
