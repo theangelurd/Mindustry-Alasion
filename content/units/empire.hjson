@@ -12,8 +12,8 @@ weapons: [
    {
    name: empire-weapon
    top: false
-   y: 4
-   x: 32
+   y: 3.5
+   x: 31
    shootY: 14
    shootX: 0
    reload: 9
@@ -54,8 +54,8 @@ weapons: [
    {
    name: empire-duo
    top: false
-   y: -16
-   x: 22
+   y: -14
+   x: 17
    shootY: 1
    shootX: 0
    reload: 7
@@ -78,8 +78,8 @@ weapons: [
    {
    name: empire-duo
    top: false
-   y: 16
-   x: 22
+   y: 14
+   x: 17
    shootY: 1
    shootX: 0
    reload: 7
