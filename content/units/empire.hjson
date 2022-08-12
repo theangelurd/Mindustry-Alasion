@@ -3,7 +3,7 @@ name: Empire
 description: Upgraded Reign. Fires yet more destructive bullets, and has additional supporting fire.
 speed: 0.28
 hitSize: 35
-rotateSpeed: 3
+rotateSpeed: 2
 health: 48960
 armor: 18
 mechFrontSway: 4.4
@@ -62,6 +62,7 @@ weapons: [
    rotate: true
    top: true
    recoil: 4
+   rotateSpeed: 10
    shake: 1
    ejectEffect: casing1
    shootSound: shootSnap
@@ -84,6 +85,7 @@ weapons: [
    shootX: 0
    reload: 7
    rotate: true
+   rotateSpeed: 10
    top: true
    recoil: 4
    shake: 1
