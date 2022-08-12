@@ -4,16 +4,16 @@ description: Upgraded Reign. Fires yet more destructive bullets, and has additio
 speed: 0.28
 hitSize: 35
 rotateSpeed: 3
-health: 46000
-armor: 26
+health: 48960
+armor: 18
 mechFrontSway: 4.4
 mechSideSway: 2.55
 weapons: [
    {
    name: empire-weapon
    top: false
-   y: 2
-   x: -20
+   y: 4
+   x: 32
    shootY: 14
    shootX: 0
    reload: 9
@@ -24,8 +24,8 @@ weapons: [
    ejectEffect: casing4
    shootSound: bang
    bullet: {
-       damage: 80
-       splashDamage: 20
+       damage: 90
+       splashDamage: 21
        splashDamageRadius: 22
        pierceCap: 10
        speed: 12
@@ -38,8 +38,8 @@ weapons: [
        fragVelocityMin: 0
        fragLifeMin: 0
        fragBullet: {
-        damage: 18
-        splashDamage: 15
+        damage: 21
+        splashDamage: 16
         splashDamageRadius: 24
         pierce: true
         pierceBuilding: true
@@ -54,11 +54,11 @@ weapons: [
    {
    name: empire-duo
    top: false
-   y: -3
-   x: 7
+   y: -16
+   x: 22
    shootY: 1
    shootX: 0
-   reload: 11.5
+   reload: 7
    rotate: true
    top: true
    recoil: 4
@@ -66,7 +66,7 @@ weapons: [
    ejectEffect: casing1
    shootSound: shootSnap
    bullet: {
-       damage: 9
+       damage: 7
        speed: 4
        lifetime: 60
        pierce: false
@@ -78,11 +78,11 @@ weapons: [
    {
    name: empire-duo
    top: false
-   y: 5
-   x: 5
+   y: 16
+   x: 22
    shootY: 1
    shootX: 0
-   reload: 11.5
+   reload: 7
    rotate: true
    top: true
    recoil: 4
@@ -90,7 +90,7 @@ weapons: [
    ejectEffect: casing1
    shootSound: shootSnap
    bullet: {
-       damage: 9
+       damage: 7
        speed: 4
        lifetime: 60
        pierce: false
