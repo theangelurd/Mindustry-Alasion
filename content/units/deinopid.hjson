@@ -1,6 +1,6 @@
 type: legs
 name: Deinopid
-description: Fires powerful fragging bullets.
+description: Fires powerful fragging artillery, sap and shrapnel.
 speed: 0.5
 hitSize: 25
 health: 39200
@@ -128,6 +128,7 @@ weapons: [
        lightningLengthRand: 8
        fragBullets: 10
        shadow: 35
+       despawnEffect: sapExplosion
        fragBullet: {
             type: ArtilleryBulletType
             pierceCap: 2
@@ -135,6 +136,7 @@ weapons: [
             lightning: 2
             lightningColor: bf92f9
             lightningDamage: 35
+            despawnEffect: sapExplosion
             hitShake: 10
             lightningLength: 6
             lightningLengthRand: 6
