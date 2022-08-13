@@ -10,7 +10,7 @@ size: 1
 range: 180
 shoot: {
   shots: 4
-  shootDelay: 2
+  shootSpread: 2
 }
 consumes: {
   power: 5
