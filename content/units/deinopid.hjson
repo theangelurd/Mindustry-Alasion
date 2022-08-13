@@ -1,0 +1,148 @@
+type: legs
+name: Deinopid
+description: Fires powerful fragging bullets.
+speed: 0.5
+hitSize: 25
+health: 39200
+armor: 15
+rotateSpeed: 3
+buildSpeed: 1
+commandLimit: 10
+itemCapacity: 120
+legCount: 8
+legSpeed: 0.16
+rippleScale: 4
+legLengthScl: 1.2
+stepShake: 2
+legBaseOffset: 12
+legExtension: -25
+legLength: 135
+legPairOffset: 4
+legMoveSpace: 1.2
+lightRadius: 200
+hovering: true
+shadowElevation: 1.15
+weapons: [
+   {
+   name: deinopid-cannon
+   top: false
+   y: -14
+   x: 0
+   shootY: 12
+   shootX: 0
+   reload: 150
+   recoil: 6
+   shake: 11
+   rotate: true
+   top: true
+   rotateSpeed: 4
+   mirror: false
+   ejectEffect: casing4
+   shootSound: artillery
+   bullet: {
+       type: ArtilleryBulletType
+       splashDamage: 150
+       splashDamageRadius: 100
+       pierceCap: 1
+       speed: 3
+       lifetime: 75
+       pierce: false
+       width: 23
+       height: 23
+       pierceBuilding: false
+       knockback: 0.8
+       lightning: 6
+       frontColor: bf92f9
+       backColor: bf92f9
+       lightningColor: bf92f9
+       lightningDamage: 10
+       lightningLength: 8
+       lightningLengthRand: 8
+       fragBullets: 10
+       shadow: 35
+       fragBullet: {
+            type: ArtilleryBulletType
+            pierceCap: 2
+            speed: 3
+            lightning: 2
+            lightningColor: bf92f9
+            lightningDamage: 35
+            hitShake: 10
+            lightningLength: 6
+            lightningLengthRand: 6
+            knockback: 0.8
+            lifetime: 40
+            pierce: true
+            frontColor: bf92f9
+            backColor: bf92f9
+            pierceBuilding: true
+            splashDamage: 45
+            splashDamageRadius: 70
+          }
+      }
+   }
+   {
+   name: spiroct-weapon
+   y: 14
+   x: 12
+   shootY: 3
+   shootX: -1
+   reload: 5
+   recoil: 6
+   shake: 11
+   hitShake: 10
+   rotate: true
+   top: true
+   rotateSpeed: 12
+   mirror: true
+   shadow: 8
+   ejectEffect: none
+   shootSound: sap
+   bullet: {
+       type: SapBulletType
+       sapStrength: 1.2
+       length: 60
+       width: 0.65
+       damage: 45
+       knockback: -2
+       color: bf92f9
+       hitColor: bf92f9
+   }
+   }
+   {
+   name: large-purple-mount
+   top: false
+   y: 10
+   x: 8
+   shootY: 4
+   shootX: -1
+   reload: 35
+   recoil: 3
+   shake: 3.5
+   rotate: true
+   top: true
+   rotateSpeed: 6.5
+   mirror: true
+   ejectEffect: casing3
+   shootSound: shotgun
+   shadow: 20
+   shoot: {
+    shots: 2
+    shootSpread: 15
+   }
+   bullet: {
+       type: ShrapnelBulletType
+       length: 95
+       damage: 125
+       width: 40
+       serrationLensScl: 8
+       serrationSpaceOffset: 60
+       hitShake: 3
+       serrationFadeOffset: 0
+       serrations: 11
+       serrationWidth: 6.5
+       fromColor: bf92f9
+       toColor: bf92f9
+      }
+   }
+]
