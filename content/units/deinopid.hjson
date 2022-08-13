@@ -2,7 +2,7 @@ type: legs
 name: Deinopid
 description: Fires powerful fragging artillery, sap and shrapnel.
 speed: 0.5
-hitSize: 25
+hitSize: 35
 health: 39200
 armor: 15
 rotateSpeed: 3
