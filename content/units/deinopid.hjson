@@ -111,7 +111,7 @@ weapons: [
        splashDamageRadius: 100
        pierceCap: 1
        speed: 3
-       lifetime: 75
+       lifetime: 80
        pierce: false
        width: 23
        height: 23
@@ -144,6 +144,8 @@ weapons: [
             pierceBuilding: true
             splashDamage: 45
             splashDamageRadius: 70
+            width: 15
+            height: 15
           }
       }
    }
