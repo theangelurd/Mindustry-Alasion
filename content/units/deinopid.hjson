@@ -22,7 +22,7 @@ legMoveSpace: 1.2
 lightRadius: 200
 hovering: true
 shadowElevation: 1.15
-layer: legUnit
+layer: 75.1
 weapons: [
    {
    name: large-purple-mount
