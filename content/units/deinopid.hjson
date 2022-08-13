@@ -35,7 +35,7 @@ weapons: [
    shake: 3.5
    rotate: true
    top: true
-   rotateSpeed: 6.5
+   rotateSpeed: 2.5
    mirror: true
    ejectEffect: casing3
    shootSound: shotgun
@@ -100,7 +100,8 @@ weapons: [
    shake: 11
    rotate: true
    top: true
-   rotateSpeed: 4
+   rotateSpeed: 0.9
+   rotationLimit: 90
    mirror: false
    ejectEffect: casing4
    shootSound: artillery
