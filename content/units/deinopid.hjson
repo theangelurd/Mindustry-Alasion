@@ -45,6 +45,21 @@ weapons: [
     shots: 2
     shootSpread: 15
    }
+   bullet: {
+       type: ShrapnelBulletType
+       length: 95
+       damage: 125
+       width: 40
+       serrationLensScl: 8
+       serrationSpaceOffset: 60
+       hitShake: 3
+       serrationFadeOffset: 0
+       serrations: 11
+       serrationWidth: 6.5
+       fromColor: bf92f9
+       toColor: bf92f9
+      }
+   }
    {
    name: spiroct-weapon
    y: 14
@@ -72,21 +87,6 @@ weapons: [
        color: bf92f9
        hitColor: bf92f9
    }
-   }
-   bullet: {
-       type: ShrapnelBulletType
-       length: 95
-       damage: 125
-       width: 40
-       serrationLensScl: 8
-       serrationSpaceOffset: 60
-       hitShake: 3
-       serrationFadeOffset: 0
-       serrations: 11
-       serrationWidth: 6.5
-       fromColor: bf92f9
-       toColor: bf92f9
-      }
    }
    {
    name: deinopid-cannon
