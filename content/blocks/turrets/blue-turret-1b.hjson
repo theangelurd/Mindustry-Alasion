@@ -8,9 +8,13 @@ recoil: 0.8
 inaccuracy: 12
 size: 1
 range: 180
-shoot.shots: 4
-burstSpacing: 5
-consumePower: 5
+shoot: {
+  shots: 4
+  shootSpacing: 2
+}
+consumes: {
+  power: 5
+}
 shootType: {
            type: BasicBulletType
            pierce: false
