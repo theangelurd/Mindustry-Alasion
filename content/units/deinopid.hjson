@@ -42,6 +42,7 @@ weapons: [
    shootSound: shotgun
    shadow: 20
    inaccuracy: 5
+   fragLifeMin: 0.3
    shoot: {
     shots: 2
     shootSpread: 15
