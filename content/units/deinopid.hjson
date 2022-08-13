@@ -15,8 +15,8 @@ rippleScale: 4
 legLengthScl: 1.2
 stepShake: 2
 legBaseOffset: 12
-legExtension: -25
-legLength: 110
+legExtension: -10
+legLength: 90
 legPairOffset: 4
 legMoveSpace: 1.2
 lightRadius: 200
