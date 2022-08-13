@@ -24,9 +24,74 @@ hovering: true
 shadowElevation: 1.15
 weapons: [
    {
+   name: large-purple-mount
+   top: false
+   y: 8
+   x: 7
+   shootY: 4
+   shootX: -1
+   reload: 35
+   recoil: 3
+   shake: 3.5
+   rotate: true
+   top: true
+   rotateSpeed: 6.5
+   mirror: true
+   ejectEffect: casing3
+   shootSound: shotgun
+   shadow: 20
+   inaccuracy: 5
+   shoot: {
+    shots: 2
+    shootSpread: 15
+   }
+   {
+   name: spiroct-weapon
+   y: 14
+   x: 12
+   shootY: 3
+   shootX: -1
+   reload: 5
+   recoil: 6
+   shake: 1
+   rotate: true
+   top: true
+   rotateSpeed: 12
+   mirror: true
+   shadow: 8
+   ejectEffect: none
+   shootSound: sap
+   bullet: {
+       type: SapBulletType
+       sapStrength: 1.2
+       length: 60
+       width: 0.65
+       pierce: true
+       damage: 45
+       knockback: -2
+       color: bf92f9
+       hitColor: bf92f9
+   }
+   }
+   bullet: {
+       type: ShrapnelBulletType
+       length: 95
+       damage: 125
+       width: 40
+       serrationLensScl: 8
+       serrationSpaceOffset: 60
+       hitShake: 3
+       serrationFadeOffset: 0
+       serrations: 11
+       serrationWidth: 6.5
+       fromColor: bf92f9
+       toColor: bf92f9
+      }
+   }
+   {
    name: deinopid-cannon
    top: false
-   y: -14
+   y: -18
    x: 0
    shootY: 12
    shootX: 0
@@ -79,70 +144,6 @@ weapons: [
             splashDamage: 45
             splashDamageRadius: 70
           }
-      }
-   }
-   {
-   name: spiroct-weapon
-   y: 14
-   x: 12
-   shootY: 3
-   shootX: -1
-   reload: 5
-   recoil: 6
-   shake: 11
-   hitShake: 10
-   rotate: true
-   top: true
-   rotateSpeed: 12
-   mirror: true
-   shadow: 8
-   ejectEffect: none
-   shootSound: sap
-   bullet: {
-       type: SapBulletType
-       sapStrength: 1.2
-       length: 60
-       width: 0.65
-       damage: 45
-       knockback: -2
-       color: bf92f9
-       hitColor: bf92f9
-   }
-   }
-   {
-   name: large-purple-mount
-   top: false
-   y: 10
-   x: 8
-   shootY: 4
-   shootX: -1
-   reload: 35
-   recoil: 3
-   shake: 3.5
-   rotate: true
-   top: true
-   rotateSpeed: 6.5
-   mirror: true
-   ejectEffect: casing3
-   shootSound: shotgun
-   shadow: 20
-   shoot: {
-    shots: 2
-    shootSpread: 15
-   }
-   bullet: {
-       type: ShrapnelBulletType
-       length: 95
-       damage: 125
-       width: 40
-       serrationLensScl: 8
-       serrationSpaceOffset: 60
-       hitShake: 3
-       serrationFadeOffset: 0
-       serrations: 11
-       serrationWidth: 6.5
-       fromColor: bf92f9
-       toColor: bf92f9
       }
    }
 ]
