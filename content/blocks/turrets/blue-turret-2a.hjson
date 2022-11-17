@@ -5,13 +5,16 @@ health: 320
 reload: 100
 rotateSpeed: 10
 recoil: 0.8
-inaccuracy: 12
+inaccuracy: 27
 size: 2
 range: 300
-shoot.shots: 5
-spacing: 15
-burstSpacing: 8
-consumePower: 6
+shoot: {
+shots: 5
+shootDelay: 8
+}
+consumes: {
+           power: 6
+}
 shootType: {
            type: BasicBulletType
            damage: 20
