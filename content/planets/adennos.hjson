@@ -10,11 +10,11 @@ mesh: {
   divisions: 4
   color1: e5e5e5
   color2: 949494
-  radius: 3
-  octaves: 2
-  persistence: 0.7
+  radius: 2.1
+  octaves: 3
+  persistence: 0.9
   scale: 3
-  mag: 2
+  mag: 3
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
@@ -62,7 +62,7 @@ bloom: true
 visible: true
 
 #the color of the atmosphere
-atmosphereColor: 000000
+atmosphereColor: ffffff
 
 #the color of the planet's icon displayed in top-left
 iconColor: 29302b
