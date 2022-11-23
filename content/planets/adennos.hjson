@@ -62,10 +62,10 @@ bloom: true
 visible: true
 
 #the color of the atmosphere
-atmosphereColor: ffffff
+atmosphereColor: a7d4ff
 
 #the color of the planet's icon displayed in top-left
-iconColor: 29302b
+iconColor: a7d4ff
 
 #whether this has atmosphere
 hasAtmosphere: true
