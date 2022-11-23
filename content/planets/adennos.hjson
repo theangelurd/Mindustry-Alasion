@@ -19,7 +19,15 @@ mesh: {
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
-#cloudMesh: {}
+#cloudMesh: {
+type: NoiseMesh
+  scale: 2
+  mag: 2
+  color: ffffff
+  radius: 2.3
+  octaves: 1.5
+  divisions: 4
+}
 
 #you can't declare a type for this, but you can at least modify the existing one's fields
 generator: {
@@ -27,7 +35,7 @@ generator: {
   max: 400
   radMin: 500
   radMax: 500
-  seed: 69420
+  seed: 843247
   berylChance: 0
 }
 
@@ -35,7 +43,7 @@ generator: {
 orbitSpacing: 16
 
 #radius of this planet's sphere
-radius: 2.6
+radius: 2.8
 
 #minimum camera zoom
 minZoom: 2.5
