@@ -8,13 +8,13 @@ mesh: {
   planet: adennos
   seed: 158
   divisions: 8
-  color1: #e5e5e5
-  color2: #949494
-  radius: 2
+  color1: e5e5e5
+  color2: 949494
+  radius: 1
   octaves: 3
-  persistence: 0.3
-  scale: 1
-  mag: 2
+  persistence: 0.5
+  scale: 0.8
+  mag: 0.5
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
@@ -43,8 +43,8 @@ minZoom: 3
 drawOrbit: true
 
 #basically, atmosphere offset
-atmosphereRadIn: -0.1
-atmosphereRadOut: 0.5
+atmosphereRadIn: 0.2
+atmosphereRadOut: 0.4
 
 #whether this can be landed on
 accessible: true
