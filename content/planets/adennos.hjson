@@ -10,21 +10,20 @@ mesh: {
   divisions: 4
   color1: ffffff
   color2: b9d6f2
-    color3: a5d3ff
   radius: 2.1
   octaves: 3
   persistence: 1
-  scale: 1.5
-  mag: 2
+  scale: 1
+  mag: 1.5
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
 #you can't declare a type for this, but you can at least modify the existing one's fields
 generator: {
-  min: 250
-  max: 400
-  radMin: 500
-  radMax: 500
+  min: 150
+  max: 300
+  radMin: 300
+  radMax: 300
   seed: 843247
   berylChance: 0
 }
@@ -43,7 +42,7 @@ drawOrbit: true
 
 #basically, atmosphere offset
 atmosphereRadIn: 0
-atmosphereRadOut: 0.4
+atmosphereRadOut: 0.3
 
 #whether this can be landed on
 accessible: true
