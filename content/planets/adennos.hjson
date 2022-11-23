@@ -7,14 +7,14 @@ mesh: {
   type: NoiseMesh
   planet: adennos
   seed: 158
-  divisions: 8
+  divisions: 4
   color1: e5e5e5
   color2: 949494
   radius: 1
-  octaves: 3
+  octaves: 2
   persistence: 0.5
-  scale: 0.8
-  mag: 0.5
+  scale: 3
+  mag: 2
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
