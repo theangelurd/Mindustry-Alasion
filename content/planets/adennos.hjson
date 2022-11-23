@@ -44,7 +44,7 @@ minZoom: 3
 drawOrbit: true
 
 #basically, atmosphere offset
-atmosphereRadIn: 0.3
+atmosphereRadIn: -0.1
 atmosphereRadOut: 1
 
 #whether this can be landed on
