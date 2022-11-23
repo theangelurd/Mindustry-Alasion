@@ -1,0 +1,9 @@
+name: Magnetite
+description: A basic metal, used for construction.
+hardness: 2
+cost: 1
+color: 3f414e
+research: {
+    parent: dirium
+}
+details: "Highly abundant in Adennos."
