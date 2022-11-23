@@ -1,0 +1,18 @@
+type: CoreBlock
+name: "Iron Core"
+description: "A different core with different properties. Has higher health to capacity ratio."
+health: 3000
+itemCapacity: 2000
+size: 3
+unitCapModifier: 6
+unitType: alpha
+researchCostMultiplier: 0.06
+requirements: [
+  silicon/500
+  magnetite/1500
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: true
+research: core-shard
