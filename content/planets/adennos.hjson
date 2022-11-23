@@ -20,7 +20,8 @@ mesh: {
 
 #the mesh used for clouds. commented out since this planet has no clouds
 cloudMesh: {
-type: NoiseSkyMesh
+type: NoiseMesh
+planet: adennos
   scale: 2
   mag: 2
   color: ffffff
