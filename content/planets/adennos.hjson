@@ -19,17 +19,6 @@ mesh: {
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
-cloudMesh: {
-type: NoiseMesh
-planet: adennos
-  scale: 2
-  mag: 2
-  color: ffffff
-  radius: 2.3
-  octaves: 1.5
-  divisions: 4
-}
-
 #you can't declare a type for this, but you can at least modify the existing one's fields
 generator: {
   min: 250
