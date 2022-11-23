@@ -6,13 +6,13 @@ alwaysUnlocked: true
 mesh: {
   type: NoiseMesh
   planet: adennos
-  seed: 158
+  seed: 273432
   divisions: 4
   color1: e5e5e5
   color2: 949494
-  radius: 1
+  radius: 3
   octaves: 2
-  persistence: 0.5
+  persistence: 0.7
   scale: 3
   mag: 2
 }
@@ -43,8 +43,8 @@ minZoom: 3
 drawOrbit: true
 
 #basically, atmosphere offset
-atmosphereRadIn: 0.2
-atmosphereRadOut: 0.4
+atmosphereRadIn: 0.3
+atmosphereRadOut: 1
 
 #whether this can be landed on
 accessible: true
