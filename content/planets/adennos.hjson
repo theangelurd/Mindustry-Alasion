@@ -19,7 +19,7 @@ mesh: {
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
-#cloudMesh: {
+cloudMesh: {
 type: NoiseMesh
   scale: 2
   mag: 2
