@@ -1,0 +1,41 @@
+type: flying
+name: "Dart"
+description: "Quickly shoots bullets at other enemies."
+flying: true
+health: 100
+commandLimit: 8
+lowAltitude: false
+circleEnemy: true
+hitSize: 6
+speed: 3
+drag: 0.08
+range: 160
+accel: 0.2
+engineOffset: 6
+engineSize: 4
+targetGround: true
+targetAir: true
+rotateSpeed: 9.6
+weapons:[
+{
+name: none
+x: 1
+y: 5
+recoil: 0
+reload: 10
+mirror: true
+shootY: 0
+shootSound: pew
+bullet: {
+sprite: bullet
+damage: 9
+speed: 6
+lifetime: 30
+width: 9
+height: 11
+pierceCap: 2
+pierce: true
+pierceBuilding: true
+}
+}
+]
