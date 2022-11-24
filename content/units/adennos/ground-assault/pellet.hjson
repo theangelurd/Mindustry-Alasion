@@ -1,0 +1,45 @@
+type: mech
+name: "Pellet"
+description: "Rapidly fires piercing bullets."
+commandLimit: 8
+health: 200
+speed: 0.5
+flying: false
+drag: 0.3
+accel: 0.3
+range: 136
+hitSize: 8
+mechFrontSway: 0.5
+mechSideSway: 0.8
+targetGround: true
+targetAir: true 
+armor: 1
+rotateSpeed: 5
+weapons:[{
+    name: pellet-weapon
+    reload: 9
+    x: 5
+    y: 0
+    shootY: 2
+    shootCone: 30
+    inaccuracy: 1
+    shootSound: pew
+    rotate: false
+    recoil: 1
+    top: false
+    ejectEffect: casing1
+    bullet:{
+        type: BasicBulletType
+        damage: 8
+        pierceCap: 2
+        pierce: true
+        pierceBuilding: true
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 6
+        lifetime: 30
+        width: 9
+        height: 9
+    }
+}
+]
