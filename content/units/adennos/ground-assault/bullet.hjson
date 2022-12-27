@@ -23,7 +23,7 @@ weapons:[{
     shootY: 2
     shootCone: 30
     inaccuracy: 0
-    shootSound: 
+    shootSound: laser
     rotate: false
     recoil: 1
     top: false
@@ -40,7 +40,7 @@ weapons:[{
         pierceBuilding: true
         colors: [ff9c5aff, ec7458aaff, ffffffff]
         speed: 0.01
-        lifetime: 30
+        lifetime: 10
     }
 }
 ]
