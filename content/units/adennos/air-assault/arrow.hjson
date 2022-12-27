@@ -16,6 +16,7 @@ engineOffset: 5
 engineSize: 6
 targetGround: true
 targetAir: false
+armor: 5
 rotateSpeed: 12
 weapons:[
 {
