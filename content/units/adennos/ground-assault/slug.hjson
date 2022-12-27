@@ -2,18 +2,18 @@ type: mech
 name: "Slug"
 description: "Fires lasers and smaller side-weapons."
 commandLimit: 8
-health: 360
-speed: 0.46
+health: 900
+speed: 0.4
 flying: false
 drag: 0.3
 accel: 0.3
 range: 136
-hitSize: 11
-mechFrontSway: 0.7
-mechSideSway: 1
+hitSize: 15
+mechFrontSway: 1.1
+mechSideSway: 1.2
 targetGround: true
 targetAir: true 
-armor: 3
+armor: 6
 rotateSpeed: 3.5
 weapons:[{
     name: slug-weapon
