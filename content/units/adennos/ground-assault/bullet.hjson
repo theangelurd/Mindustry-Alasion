@@ -19,7 +19,7 @@ weapons:[{
     name: bullet-weapon
     reload: 15
     x: 6.5
-    y: 0
+    y: -1
     shootY: 2
     shootCone: 30
     inaccuracy: 0
