@@ -54,8 +54,10 @@ rotate: true
 shootY: 6
 shootSound: bang
 inaccuracy: 20
-shots: 5
 top: true
+shoot: {
+  shots: 5
+}
 bullet: {
 sprite: bullet
 damage: 19
