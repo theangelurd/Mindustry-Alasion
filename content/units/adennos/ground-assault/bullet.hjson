@@ -2,19 +2,19 @@ type: mech
 name: "Bullet"
 description: "Has small lasers."
 commandLimit: 8
-health: 200
-speed: 0.5
+health: 360
+speed: 0.46
 flying: false
 drag: 0.3
 accel: 0.3
 range: 136
-hitSize: 8
-mechFrontSway: 0.5
-mechSideSway: 0.8
+hitSize: 11
+mechFrontSway: 0.7
+mechSideSway: 1
 targetGround: true
 targetAir: true 
-armor: 1
-rotateSpeed: 5
+armor: 3
+rotateSpeed: 4
 weapons:[{
     name: bullet-weapon
     reload: 15
