@@ -20,8 +20,9 @@ rotateSpeed: 12
 weapons:[
 {
 name: arrow-weapon
-x: 2
-y: 6
+x: 3
+y: 5
+inaccuracy: 4
 recoil: 0
 reload: 7
 mirror: true
