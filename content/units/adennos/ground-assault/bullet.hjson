@@ -23,19 +23,19 @@ weapons:[{
     shootY: 2
     shootCone: 30
     inaccuracy: 0
-    shootSound: laser
+    shootSound: pew
     rotate: false
     recoil: 1
     top: false
     ejectEffect: casing1
     bullet:{
         type: LaserBulletType
-        damage: 14
+        damage: 15
         pierceCap: 3
         pierce: true
-        length: 160
-        width: 10
-        sideWidth: 1.2
+        length: 140
+        width: 7
+        sideWidth: 1
         sideAngle: 45
         pierceBuilding: true
         colors: [ff9c5aff, ec7458aaff, ffffffff]
