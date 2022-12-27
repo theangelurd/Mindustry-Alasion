@@ -51,6 +51,7 @@ recoil: 3
 reload: 50
 mirror: false
 rotate: true
+shadow: 10
 shootY: 6
 shootSound: bang
 inaccuracy: 20
