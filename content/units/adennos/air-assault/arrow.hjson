@@ -1,0 +1,45 @@
+type: flying
+name: "Arrow"
+description: "Rains many bullets down at whatever it is targeting. Cannot target other air units."
+details: "To compensate for its flaws, it has improved speed, agility and armor."
+flying: true
+health: 260
+commandLimit: 8
+lowAltitude: false
+circleEnemy: true
+hitSize: 9
+speed: 3.7
+drag: 0.12
+range: 130
+accel: 0.3
+engineOffset: 5
+engineSize: 6
+targetGround: true
+targetAir: false
+rotateSpeed: 12
+weapons:[
+{
+name: arrow-weapon
+x: 2
+y: 6
+recoil: 0
+reload: 7
+mirror: true
+shootY: 0
+shootSound: pew
+bullet: {
+sprite: bullet
+damage: 11
+speed: 4
+shrinkY: 0.5
+drag: 0.05
+lifetime: 40
+splashDamage: 5
+splashDamageRadius: 10
+hitGround: true
+hitAir: false
+width: 9
+height: 13
+}
+}
+]
