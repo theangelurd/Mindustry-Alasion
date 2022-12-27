@@ -1,0 +1,71 @@
+type: mech
+name: "Slug"
+description: "Fires lasers and smaller side-weapons."
+commandLimit: 8
+health: 360
+speed: 0.46
+flying: false
+drag: 0.3
+accel: 0.3
+range: 136
+hitSize: 11
+mechFrontSway: 0.7
+mechSideSway: 1
+targetGround: true
+targetAir: true 
+armor: 3
+rotateSpeed: 3.5
+weapons:[{
+    name: slug-weapon
+    reload: 32
+    x: 9
+    y: -1
+    shootY: 4
+    shootCone: 30
+    inaccuracy: 0
+    shootSound: laser
+    rotate: false
+    recoil: 2
+    top: false
+    ejectEffect: casing2
+    bullet:{
+        type: LaserBulletType
+        damage: 25
+        pierceCap: 5
+        pierce: true
+        recoil: 1.25
+        length: 180
+        width: 10
+        sideWidth: 1.2
+        sideAngle: 60
+        pierceBuilding: true
+        colors: [ff9c5aff, ec7458aaff, ffffffff]
+        speed: 0.01
+        lifetime: 10
+    }
+    {
+    name: none
+    reload: 16
+    x: 3.5
+    y: 5
+    shootY: 0
+    shootCone: 30
+    inaccuracy: 0
+    spacing: 16
+    shootSound: pew
+    shots: 2
+    rotate: false
+    recoil: 0
+    top: false
+    ejectEffect: casing1
+    bullet:{
+        type: BasicBulletType
+        damage: 10
+        recoil: 0.1
+        height: 9
+        width: 9
+        speed: 5
+        lifetime: 40
+    }
+}
+]
