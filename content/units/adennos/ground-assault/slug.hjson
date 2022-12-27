@@ -43,6 +43,7 @@ weapons:[{
         speed: 0.01
         lifetime: 10
     }
+    }
     {
     name: none
     reload: 16
