@@ -52,7 +52,7 @@ weapons:[{
     shootY: 0
     shootCone: 30
     inaccuracy: 16
-    spacing: 16
+    spacing: 0
     shootSound: pew
     shots: 2
     rotate: false
