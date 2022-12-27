@@ -51,7 +51,6 @@ weapons:[{
     y: 5.5
     shootY: 0
     shootCone: 30
-    spacing: 0
     shootSound: pew
     shoot: {
       shots: 2
@@ -61,6 +60,7 @@ weapons:[{
     recoil: 0
     top: false
     alternate: false
+    inaccuracy: 15
     ejectEffect: casing1
     bullet:{
         type: BasicBulletType
