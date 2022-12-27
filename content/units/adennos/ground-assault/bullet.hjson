@@ -30,7 +30,7 @@ weapons:[{
     ejectEffect: casing1
     bullet:{
         type: LaserBulletType
-        damage: 15
+        damage: 17
         pierceCap: 3
         pierce: true
         length: 140
