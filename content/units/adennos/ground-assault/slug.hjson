@@ -51,10 +51,12 @@ weapons:[{
     y: 5.5
     shootY: 0
     shootCone: 30
-    inaccuracy: 16
     spacing: 0
     shootSound: pew
-    shots: 4
+    shoot: {
+      shots: 2
+      spacing: 15
+    }
     rotate: false
     recoil: 0
     top: false
