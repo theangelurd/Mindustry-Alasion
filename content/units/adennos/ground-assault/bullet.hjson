@@ -18,7 +18,7 @@ rotateSpeed: 5
 weapons:[{
     name: bullet-weapon
     reload: 15
-    x: 7
+    x: 6.5
     y: 0
     shootY: 2
     shootCone: 30
@@ -30,19 +30,17 @@ weapons:[{
     ejectEffect: casing1
     bullet:{
         type: LaserBulletType
-        damage: 13
+        damage: 14
         pierceCap: 3
         pierce: true
         length: 160
         width: 10
-        sideWidth: 6
+        sideWidth: 1.2
         sideAngle: 45
         pierceBuilding: true
         colors: [ff9c5aff, ec7458aaff, ffffffff]
-        speed: 6
+        speed: 0.01
         lifetime: 30
-        width: 9
-        height: 9
     }
 }
 ]
