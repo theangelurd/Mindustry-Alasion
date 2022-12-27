@@ -21,7 +21,7 @@ weapons:[
 {
 name: bolt-minigun
 x: 0
-y: 7
+y: 7.25
 recoil: 0
 reload: 5
 mirror: false
