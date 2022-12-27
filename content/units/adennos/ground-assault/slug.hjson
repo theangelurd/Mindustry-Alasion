@@ -47,14 +47,14 @@ weapons:[{
     {
     name: none
     reload: 16
-    x: 3.5
-    y: 5
+    x: 3
+    y: 5.5
     shootY: 0
     shootCone: 30
     inaccuracy: 16
     spacing: 0
     shootSound: pew
-    shots: 2
+    shots: 4
     rotate: false
     recoil: 0
     top: false
