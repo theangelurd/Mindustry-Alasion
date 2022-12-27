@@ -46,7 +46,7 @@ height: 9
 {
 name: bolt-shotgun
 x: 0
-y: 2
+y: -4
 recoil: 3
 reload: 50
 mirror: false
