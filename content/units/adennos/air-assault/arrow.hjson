@@ -10,7 +10,7 @@ circleEnemy: true
 hitSize: 9
 speed: 3.7
 drag: 0.12
-range: 130
+range: 30
 accel: 0.3
 engineOffset: 5
 engineSize: 6
