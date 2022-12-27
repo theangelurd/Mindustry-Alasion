@@ -58,6 +58,7 @@ weapons:[{
     rotate: false
     recoil: 0
     top: false
+    alternate: false
     ejectEffect: casing1
     bullet:{
         type: BasicBulletType
