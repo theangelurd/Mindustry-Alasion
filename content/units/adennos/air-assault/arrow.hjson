@@ -28,6 +28,8 @@ reload: 7
 mirror: true
 shootY: 0
 shootSound: pew
+top: false
+recoil: 1
 bullet: {
 sprite: bullet
 damage: 11
