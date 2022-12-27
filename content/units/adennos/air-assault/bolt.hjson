@@ -1,0 +1,72 @@
+type: flying
+name: "Bolt"
+description: "Can target other air units, has a shotgun and a minigun."
+flying: true
+health: 800
+commandLimit: 8
+lowAltitude: false
+circleEnemy: true
+hitSize: 15
+speed: 2
+drag: 0.1
+range: 60
+accel: 0.1
+engineOffset: 6
+engineSize: 5
+targetGround: true
+targetAir: true
+armor: 7
+rotateSpeed: 7
+weapons:[
+{
+name: bolt-minigun
+x: 0
+y: 5
+recoil: 0
+reload: 5
+mirror: false
+shootY: 4
+shootSound: pew
+inaccuracy: 15
+top: false
+bullet: {
+sprite: bullet
+damage: 13
+speed: 5
+homing: true
+homingPower: 0.01
+homingRange: 80
+lifetime: 40
+hitGround: true
+hitAir: false
+width: 9
+height: 9
+}
+}
+{
+name: bolt-shotgun
+x: 0
+y: 3
+recoil: 3
+reload: 50
+mirror: false
+shootY: 6
+shootSound: pew
+inaccuracy: 20
+shots: 5
+top: false
+bullet: {
+sprite: bullet
+damage: 19
+speed: 3
+homing: true
+homingPower: 0.011
+homingRange: 80
+lifetime: 70
+hitGround: true
+hitAir: false
+width: 10
+height: 11
+}
+}
+]
