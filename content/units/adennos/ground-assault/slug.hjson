@@ -17,7 +17,7 @@ armor: 6
 rotateSpeed: 3.5
 weapons:[{
     name: slug-weapon
-    reload: 32
+    reload: 45
     x: 9
     y: -1
     shootY: 4
@@ -30,7 +30,7 @@ weapons:[{
     ejectEffect: casing2
     bullet:{
         type: LaserBulletType
-        damage: 25
+        damage: 35
         pierceCap: 5
         pierce: true
         recoil: 1.25
@@ -51,7 +51,7 @@ weapons:[{
     y: 5
     shootY: 0
     shootCone: 30
-    inaccuracy: 0
+    inaccuracy: 16
     spacing: 16
     shootSound: pew
     shots: 2
