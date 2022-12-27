@@ -55,13 +55,11 @@ weapons:[{
     shootSound: pew
     shoot: {
       shots: 2
-      spacing: 15
-      shootSpacing: 15
+      shootSpread: 15
     }
     rotate: false
     recoil: 0
     top: false
-    spacing: 15
     alternate: false
     ejectEffect: casing1
     bullet:{
