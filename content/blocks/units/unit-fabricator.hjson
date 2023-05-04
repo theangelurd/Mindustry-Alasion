@@ -1,0 +1,41 @@
+type: UnitFactory
+size: 2
+name: Producer
+description: Produces units adapted to the Adennos environment.
+consumes: {
+  power: 1.8
+}
+plans: [
+  {
+    unit: pellet
+    time: 1000
+    requirements: [
+      silicon/10
+      magnetite/20
+    ]
+  }
+  {
+    unit: dart
+    time: 900
+    requirements: [
+      silicon/8
+      magnetite/15
+    ]
+  }
+    {
+    unit: adennos-purpleground-1
+    time: 1100
+    requirements: [
+      silicon/15
+      magnetite/15
+      copper/10
+    ]
+  }
+]
+requirements: [
+  magnetite/100
+  graphite/120
+  silicon/100
+]
+research: iron-core
+category: units
