@@ -1,7 +1,7 @@
 type: legs
 name: Hover
 description: Very fast ground unit that can walk over walls.
-speed: 1
+speed: 0.9
 hitSize: 9
 health: 150
 armor: 1
@@ -16,7 +16,7 @@ legLengthScl: 1.2
 stepShake: 0
 legBaseOffset: 2
 legExtension: -2
-legLength: 20
+legLength: 8
 legPairOffset: 2
 legMoveSpace: 1
 lightRadius: 100
@@ -28,7 +28,7 @@ weapons: [
    name: hover-weapon
    top: false
    y: 0
-   x: 3
+   x: 4
    shootY: 2
    shootX: 0
    reload: 35
