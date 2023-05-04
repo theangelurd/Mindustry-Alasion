@@ -1,6 +1,6 @@
 type: UnitFactory
 size: 2
-name: Producer
+name: Unit Fabricator
 description: Produces units adapted to the Adennos environment.
 consumes: {
   power: 1.8
