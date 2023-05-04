@@ -34,6 +34,7 @@ weapons: [
    reload: 35
    recoil: 1.5
    shake: 1
+   inaccuracy: 15
    rotate: false
    mirror: true
    ejectEffect: casing2
