@@ -1,0 +1,60 @@
+type: legs
+name: Hover
+description: Very fast ground unit that can walk over walls.
+speed: 1
+hitSize: 9
+health: 150
+armor: 1
+rotateSpeed: 7
+buildSpeed: 1
+commandLimit: 8
+itemCapacity: 20
+legCount: 4
+legSpeed: 0.2
+rippleScale: 0
+legLengthScl: 1.2
+stepShake: 0
+legBaseOffset: 2
+legExtension: -2
+legLength: 20
+legPairOffset: 2
+legMoveSpace: 1
+lightRadius: 100
+hovering: true
+shadowElevation: 0.4
+layer: 75.1
+weapons: [
+   {
+   name: hover-weapon
+   top: false
+   y: 0
+   x: 3
+   shootY: 2
+   shootX: 0
+   reload: 35
+   recoil: 1.5
+   shake: 1
+   rotate: false
+   mirror: true
+   ejectEffect: casing2
+   shootSound: shotgun
+   shoot: {
+    shots: 2
+    shootSpread: 15
+   }
+   bullet: {
+       type: ShrapnelBulletType
+       length: 60
+       damage: 10
+       width: 20
+       serrationLensScl: 4
+       serrationSpaceOffset: 40
+       hitShake: 3
+       serrationFadeOffset: 0.1
+       serrations: 6
+       serrationWidth: 5
+       fromColor: bf92f9
+       toColor: bf92f9
+      }
+   }
+]
