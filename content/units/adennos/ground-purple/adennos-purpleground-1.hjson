@@ -38,7 +38,7 @@ weapons: [
    rotate: false
    mirror: true
    ejectEffect: casing2
-   shootSound: shotgun
+   shootSound: pew
    shoot: {
     shots: 2
     shootSpread: 15
