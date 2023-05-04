@@ -39,3 +39,6 @@ pierceBuilding: true
 }
 }
 ]
+research: {
+   parent: unit-fabricator
+}
