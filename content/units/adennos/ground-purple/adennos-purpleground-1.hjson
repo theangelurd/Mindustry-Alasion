@@ -18,7 +18,7 @@ legBaseOffset: 2
 legExtension: -2
 legLength: 8
 legPairOffset: 2
-legMoveSpace: 1
+legMoveSpace: 1.5
 lightRadius: 100
 hovering: true
 shadowElevation: 0.4
@@ -28,7 +28,7 @@ weapons: [
    name: hover-weapon
    top: false
    y: 0
-   x: 4
+   x: 4.5
    shootY: 2
    shootX: 0
    reload: 35
