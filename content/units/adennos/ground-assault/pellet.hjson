@@ -43,3 +43,6 @@ weapons:[{
     }
 }
 ]
+research: {
+   parent: unit-fabricator
+}
