@@ -16,7 +16,7 @@ legLengthScl: 1.3
 stepShake: 0
 legBaseOffset: 2.5
 legExtension: -2.5
-legLength: 12
+legLength: 10
 legPairOffset: 2.5
 legMoveSpace: 1.4
 lightRadius: 130
