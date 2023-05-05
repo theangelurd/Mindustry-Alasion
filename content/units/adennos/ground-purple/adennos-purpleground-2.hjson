@@ -1,0 +1,64 @@
+type: legs
+name: Hover
+description: Sacrifices speed for survivability.
+speed: 0.75
+hitSize: 12
+health: 360
+armor: 3
+rotateSpeed: 5
+buildSpeed: 0.3
+commandLimit: 8
+itemCapacity: 20
+legCount: 4
+legSpeed: 0.2
+rippleScale: 0.2
+legLengthScl: 1.3
+stepShake: 0
+legBaseOffset: 2.5
+legExtension: -2.5
+legLength: 12
+legPairOffset: 2.5
+legMoveSpace: 1.4
+lightRadius: 130
+hovering: true
+shadowElevation: 0.8
+layer: 75.1
+weapons: [
+   {
+   name: float-weapon
+   top: false
+   y: 1
+   x: 6
+   shootY: 3
+   shootX: 0
+   reload: 40
+   recoil: 2
+   shake: 1.5
+   inaccuracy: 14
+   rotate: false
+   mirror: true
+   ejectEffect: casing2
+   shootSound: pew
+   shoot: {
+    shots: 3
+    shootSpread: 15
+   }
+   bullet: {
+       type: ShrapnelBulletType
+       length: 70
+       damage: 11
+       lightning: 2
+       lightningDamage: 3
+       lightColor: bf92f9
+       width: 24
+       serrationLensScl: 4.1
+       serrationSpaceOffset: 44
+       hitShake: 3.5
+       serrationFadeOffset: 0.11
+       serrations: 7
+       serrationWidth: 7
+       fromColor: bf92f9
+       toColor: bf92f9
+      }
+   }
+]
