@@ -38,7 +38,7 @@ weapons: [
    rotate: false
    mirror: true
    ejectEffect: casing2
-   shootSound: pew
+   shootSound: lasershoot
    shoot: {
     shots: 3
     shootSpread: 15
@@ -51,6 +51,7 @@ weapons: [
        lightningLength: 10
        lightningDamage: 3
        lightColor: bf92f9
+       lightningColor: bf92f9
        width: 24
        serrationLensScl: 4.1
        serrationSpaceOffset: 44
