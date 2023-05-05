@@ -47,15 +47,16 @@ weapons: [
        type: ShrapnelBulletType
        length: 70
        damage: 11
+       lifetime: 5
        lightning: 2
        lightningLength: 10
        lightningDamage: 3
+       lightningCone: 60
        lightColor: bf92f9
        lightningColor: bf92f9
        width: 24
        serrationLensScl: 4.1
        serrationSpaceOffset: 44
-       hitShake: 3.5
        serrationFadeOffset: 0.11
        serrations: 7
        serrationWidth: 7
