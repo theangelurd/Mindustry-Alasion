@@ -38,12 +38,13 @@ weapons: [
    rotate: false
    mirror: true
    ejectEffect: casing2
-   shootSound: lasershoot
+   shootSound: laser
    shoot: {
     shots: 3
     shootSpread: 15
    }
    bullet: {
+       recoil: 1
        type: ShrapnelBulletType
        length: 70
        damage: 11
