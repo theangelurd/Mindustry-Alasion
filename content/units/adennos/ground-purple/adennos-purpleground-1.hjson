@@ -50,7 +50,6 @@ weapons: [
        width: 20
        serrationLensScl: 4
        serrationSpaceOffset: 40
-       hitShake: 3
        serrationFadeOffset: 0.1
        serrations: 6
        serrationWidth: 5
