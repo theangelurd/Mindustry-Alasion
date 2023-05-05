@@ -27,8 +27,8 @@ weapons: [
    {
    name: float-weapon
    top: false
-   y: 1
-   x: 7
+   y: 0
+   x: 6.9
    shootY: 3
    shootX: 0
    reload: 40
