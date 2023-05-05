@@ -48,6 +48,7 @@ weapons: [
        length: 70
        damage: 11
        lightning: 2
+       lightningLength: 10
        lightningDamage: 3
        lightColor: bf92f9
        width: 24
