@@ -1,0 +1,161 @@
+type: mech
+name: Goodbye
+description: Goodbye Forever
+flying: true
+health: 1
+speed: 90
+drag: 0.02
+accel: 0.04
+hitSize: 9
+rotateSpeed: 20
+commandLimit: 4
+lowAltitude: true
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: pew
+    rotate: true
+    rotateSpeed: 10
+    recoil: 1.5
+    inaccuracy: 4
+    top: true
+    shootY: 3
+    reload: 5
+    bullet: {
+      type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragCount: 8
+      frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragCount: 8
+              frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                      frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                              frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                      frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                              frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                                      frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                                              frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                                                      frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                                                              frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+                                                                                      frag: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+    }
+  }
+]
+research: producer
