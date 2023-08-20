@@ -34,17 +34,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragCount: 8
-      frag: {
-              type: BasicBulletType
-      damage: 1
-      speed: 3.5
-      pierceDamageFactor: 0
-      height: 9
-      width: 9
-      shootEffect: shootSmall
-      smokeEffect: shootSmall
-      fragCount: 8
-              frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -54,7 +45,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                      frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -64,7 +56,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                              frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -74,7 +67,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                      frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -84,7 +78,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                              frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -94,7 +89,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                                      frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -104,7 +100,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                                              frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -114,7 +111,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                                                      frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -124,7 +122,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                                                              frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -134,7 +133,8 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
-                                                                                      frag: {
+      fragCone: 360
+      fragBullet: {
               type: BasicBulletType
       damage: 1
       speed: 3.5
@@ -144,6 +144,28 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmall
       fragBullets: 8
+      fragCone: 360
+      fragBullet: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      fragBullets: 8
+      fragCone: 360
+      fragBullet: {
+              type: BasicBulletType
+      damage: 1
+      speed: 3.5
+      pierceDamageFactor: 0
+      height: 9
+      width: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmall
+      }
       }
       }
       }
