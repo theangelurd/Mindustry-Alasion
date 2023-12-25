@@ -7,7 +7,7 @@ mesh: {
   type: NoiseMesh
   planet: adennos
   seed: 273432
-  divisions: 1
+  divisions: 4
   color1: ffffff
   color2: b9d6f2
   radius: 3
