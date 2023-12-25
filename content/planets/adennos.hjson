@@ -13,7 +13,7 @@ mesh: {
   radius: 3
   octaves: 2
   persistence: 1.5
-  scale: 2
+  scale: 1
   mag: 2.5
 }
 
