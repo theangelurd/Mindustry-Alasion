@@ -13,8 +13,8 @@ mesh: {
   radius: 3
   octaves: 2
   persistence: 1.5
-  scale: 1
-  mag: 2.5
+  scale: 0.8
+  mag: 1.2
 }
 
 #the mesh used for clouds. commented out since this planet has no clouds
