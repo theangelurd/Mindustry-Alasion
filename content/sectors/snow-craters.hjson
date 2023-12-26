@@ -6,4 +6,5 @@
   waves: 15
   sector: 1
   alwaysUnlocked: true
+  objectives: [ground-zero]
 }
