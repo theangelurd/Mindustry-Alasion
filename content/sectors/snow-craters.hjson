@@ -1,10 +1,10 @@
 {
-  localizedName: Snow Craters,
-  difficulty: 2,
-  planet: adennos,
-  captureWave: 15,
+  localizedName: Snow Craters
+  difficulty: 2
+  planet: adennos
+  captureWave: 15
   waves: 15
   sector: 1
   alwaysUnlocked: true
-  objectives: [ground-zero]
+  objectives: [iron-core]
 }
