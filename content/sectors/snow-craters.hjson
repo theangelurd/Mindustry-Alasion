@@ -1,4 +1,4 @@
-{
+
   localizedName: Snow Craters
   difficulty: 2
   planet: adennos
@@ -7,4 +7,3 @@
   sector: 1
   alwaysUnlocked: true
   objectives: [iron-core]
-}
