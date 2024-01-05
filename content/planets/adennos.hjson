@@ -1,90 +1,109 @@
 localizedName: Adennos
-
 alwaysUnlocked: true
-
-#the mesh of the planet
-mesh: {
-  type: NoiseMesh
-  planet: adennos
-  seed: 273432
-  divisions: 6
-  color1: ffffff
-  color2: b9d6f2
-  radius: 3
-  octaves: 5
-  persistence: 1.5
-  scale: 4
-  mag: 0.4
-}
-
-#the mesh used for clouds. commented out since this planet has no clouds
-#you can't declare a type for this, but you can at least modify the existing one's fields
+mesh: [
+ {
+    //snow
+    type: NoiseMesh
+    planet: adennos
+    divisions: 6
+    seed: 7
+    radius: 1.229
+    color1: ffffff
+    color2: d2eaff
+    octaves: 2
+    persistence: 4
+  }
+  {
+    //water
+    type: NoiseMesh
+    planet: adennos
+    seed: 90
+    divisions: 3
+    color1: 5867ac
+    color2: 4d5ca4
+    radius: 0.5
+    octaves: 9
+    persistence: 0.5
+    scale: 0.1
+    mag: 0.5
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: adennos
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: 9ed2ff
+   octaves: 3
+   persistence: 0.3
+   scl: 1.3
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: adennos
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: 7cc2ff
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
 generator: {
-  min: 150
-  max: 300
-  radMin: 300
-  radMax: 300
-  seed: 843247
+  type: PlanetGenerator
+  octaves: 3.5
+  persistence: 0.9
+  scale: 5
+  mag: 1.2
+  thresh: 0.8
+  min: 100
+  max: 150
+  radMin: 200
+  radMax: 800
+  iceChance: 0.9
+  carbonChance: 0.2
   berylChance: 0
+  ferricChance: 0.1
 }
-
-#basically, spacing between a parent (this) and satellites
-orbitSpacing: 16
-
-#radius of this planet's sphere
-radius: 2.8
-
-#minimum camera zoom
-minZoom: 2.5
-
-#whether to draw the orbit
+sectorSize: 2
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 1
+orbitSpacing: 1
+radius: 1.5
+minZoom: 0.5
 drawOrbit: true
-
-#basically, atmosphere offset
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-
-#whether this can be landed on
+atmosphereRadOut: 0.6
 accessible: true
-
-#day-night cycle
+orbitRadius: 24
 updateLighting: true
-
-#a seed of the generator. if -1, planet id is picked instead
-sectorSeed: 0
-
-#whether this blooms
-bloom: true
-
-#this is self-explanatory
+sectorSeed: 14513
+bloom: false
 visible: true
-
-#the color of the atmosphere
-atmosphereColor: a7d4ff
-
-#the color of the planet's icon displayed in top-left
-iconColor: a7d4ff
-
-#whether this has atmosphere
+atmosphereColor: ffffff
+iconColor: ffffff
 hasAtmosphere: true
-
-#whether simulate waves when off-planet
 allowWaveSimulation: true
-
-#whether sectors are cleared when lost
 clearSectorOnLose: true
-
-#whether waves are re-created when a sector is lost
 allowWaves: true
-
-#icon's name displayed in top-left
-icon: "commandRally"
-
-#default core block for launching
+prebuildBase: true
 defaultCore: iron-core
-
-#the parent of the planet
 parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "magnetite",
+  "copper",
+  "coal",
+]
 
 #the parent of the whole solar system the planet is in
 solarSystem: sun
