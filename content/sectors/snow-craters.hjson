@@ -9,7 +9,6 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: ground-zero
     }
   ]
 }
