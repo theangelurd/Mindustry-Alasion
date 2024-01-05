@@ -4,3 +4,4 @@ planet: adennos
 sector: 1
 difficulty: 2
 alwaysUnlocked: true
+research: iron-core
