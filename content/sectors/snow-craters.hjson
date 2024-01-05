@@ -1,9 +1,16 @@
+localizedName: Snow Craters
+captureWave: 15
+planet: erbius
+sector: 1
+difficulty: 2
 
-  localizedName: Snow Craters
-  difficulty: 2
-  planet: adennos
-  captureWave: 15
-  waves: 15
-  sector: 1
-  alwaysUnlocked: true
-  objectives: [iron-core]
+research: {
+  parent: iron-core
+  objectives: [
+    subl
+    {
+      type: SectorComplete
+      preset: iron-core
+    }
+  ]
+}
