@@ -3,12 +3,4 @@ captureWave: 15
 planet: adennos
 sector: 1
 difficulty: 2
-
-research: {
-  parent: iron-core
-  objectives: [
-    {
-      type: SectorComplete
-    }
-  ]
-}
+alwaysUnlocked: true
