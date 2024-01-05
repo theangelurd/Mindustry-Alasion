@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: iron-core
+      preset: ground-zero
     }
   ]
 }
