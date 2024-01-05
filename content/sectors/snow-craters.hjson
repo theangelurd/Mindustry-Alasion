@@ -7,7 +7,6 @@ difficulty: 2
 research: {
   parent: iron-core
   objectives: [
-    subl
     {
       type: SectorComplete
       preset: iron-core
