@@ -11,7 +11,7 @@ shoot: {
   shots: 1
 }
 shootSound: pew
-ammoUseEffect: casing4
+ammoUseEffect: casing2
 ammoTypes: {
   magnetite: {
       type: BasicBulletType
