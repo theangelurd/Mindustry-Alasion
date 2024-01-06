@@ -1,0 +1,9 @@
+name: Lodestone Duct
+type: Duct
+health: 60
+speed: 2.5
+description: Moves items around.
+category: distribution
+requirements: [
+  magnetite/1
+]
