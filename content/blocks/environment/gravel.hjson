@@ -1,5 +1,5 @@
 name: gravel
 type: Floor
 itemDrop: gravel
-playerMineable: false
+playerUnmineable: true
 variants: 3
