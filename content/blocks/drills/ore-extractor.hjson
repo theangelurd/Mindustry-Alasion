@@ -14,6 +14,7 @@ consumes: {
 }
 requirements: [
   magnetite/8
+  azurite/6
 ]
 category: production
 research: iron-core
