@@ -1,0 +1,5 @@
+name: gravel
+type: Floor
+itemDrop: gravel
+playerMineable = false
+variants: 3
