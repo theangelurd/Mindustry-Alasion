@@ -1,5 +1,5 @@
 name: Lodestone Bridge
-type: DuctBridge
+type: Bridge
 health: 60
 speed: 2.5
 description: Moves items around. Goes over blocks.
