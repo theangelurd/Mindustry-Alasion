@@ -1,8 +1,8 @@
-name: Lodestone Bridge
-type: DuctBridge
+name: Lodestone Junction
+type: Junction
 health: 60
 speed: 2.5
-description: "Moves items around. Goes over blocks. Only accepts input from the back."
+description: "Allows passing of 2 ducts between eachother."
 category: distribution
 range: 4
 requirements: [
