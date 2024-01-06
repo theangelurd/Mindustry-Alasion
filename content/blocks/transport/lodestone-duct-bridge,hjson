@@ -2,7 +2,7 @@ name: Lodestone Bridge
 type: DuctBridge
 health: 60
 speed: 2.5
-description: Moves items around. Goes over blocks. Only accepts input from the back.
+description: "Moves items around. Goes over blocks. Only accepts input from the back."
 category: distribution
 range: 4
 requirements: [
