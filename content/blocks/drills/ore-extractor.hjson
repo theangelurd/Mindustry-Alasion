@@ -1,0 +1,19 @@
+name: Ore Extractor
+description: Extracts ores from veins slowly.
+type: Drill
+size: 2
+tier: 3
+drillTime: 120
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 1
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  magnetite/8
+]
+category: production
+research: iron-core
