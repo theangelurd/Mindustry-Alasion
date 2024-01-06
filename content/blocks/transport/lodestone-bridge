@@ -1,0 +1,9 @@
+name: Lodestone Bridge
+type: DuctBridge
+health: 60
+speed: 2.5
+description: Moves items around. Goes over blocks.
+category: distribution
+requirements: [
+  magnetite/4
+]
