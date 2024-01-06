@@ -1,0 +1,9 @@
+name: Gravel
+description: Useful for creating Silicon and other resources.
+hardness: 1
+cost: 0.5
+color: 636568
+research: {
+    parent: magnetite
+}
+details: "Abundant in Adennos."
