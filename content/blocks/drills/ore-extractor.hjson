@@ -3,7 +3,7 @@ description: Extracts ores from veins slowly.
 type: Drill
 size: 2
 tier: 3
-drillTime: 120
+drillTime: 300
 consumes: {
   liquid: {
     liquid: water
