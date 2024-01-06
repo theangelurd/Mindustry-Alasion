@@ -4,6 +4,6 @@ hardness: 2
 cost: 1
 color: 3f414e
 research: {
-    parent: dirium
+    parent: iron-core
 }
 details: "Highly abundant in Adennos."
