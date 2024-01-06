@@ -1,0 +1,8 @@
+name: Azurite
+description: A blue copper mineral, used for similar purposes.
+hardness: 2
+cost: 1.5
+color: 707cd7
+research: {
+    parent: iron-core
+}
