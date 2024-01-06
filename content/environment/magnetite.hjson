@@ -1,4 +1,4 @@
-name: Magnetite
+name: Lodestone
 type: OreBlock
 itemDrop: magnetite
 oreDefault: false
