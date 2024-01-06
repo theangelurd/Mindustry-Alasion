@@ -1,0 +1,10 @@
+name: Lodestone Bridge
+type: DuctBridge
+health: 60
+speed: 2.5
+description: "Allows passing of 2 ducts between eachother."
+category: distribution
+range: 4
+requirements: [
+  magnetite/4
+]
