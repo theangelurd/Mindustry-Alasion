@@ -1,5 +1,5 @@
 name: Lodestone Router
-type: DuctRouter
+type: Router
 health: 60
 speed: 2.5
 description: Moves items around. Distributes items evenly throughout all sides not blocked by input.
