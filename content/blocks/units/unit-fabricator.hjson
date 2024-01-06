@@ -34,7 +34,7 @@ plans: [
 ]
 requirements: [
   magnetite/100
-  graphite/120
+  azurite/120
   silicon/100
 ]
 research: iron-core
