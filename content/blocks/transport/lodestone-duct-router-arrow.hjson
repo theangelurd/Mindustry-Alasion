@@ -1,5 +1,5 @@
 name: Lodestone Router
-type: DuctRouter
+type: Router
 health: 60
 speed: 2.5
 regionRotated1: 1
