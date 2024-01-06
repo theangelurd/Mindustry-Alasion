@@ -4,7 +4,7 @@ type: ItemTurret
 size: 1
 health: 120
 range: 200
-reload: 8
+reload: 32
 recoil: 1.5
 recoilTime: 0.08
 shoot: {
@@ -17,6 +17,8 @@ ammoTypes: {
       type: BasicBulletType
       damage: 14
       width: 9
+      lifetime: 90
+      speed: 5
       ammoMultiplier: 2
       length: 12
       homing: true
