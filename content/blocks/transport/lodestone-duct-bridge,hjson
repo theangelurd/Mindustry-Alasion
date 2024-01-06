@@ -5,5 +5,5 @@ speed: 2.5
 description: Moves items around. Goes over blocks. Only accepts input from the back.
 category: distribution
 requirements: [
-  magnetite/1
+  magnetite/4
 ]
