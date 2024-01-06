@@ -1,9 +1,9 @@
 name: Lodestone Bridge
-type: BufferedItemBridge
+type: DuctBridge
 health: 60
 speed: 2.5
-description: Moves items around. Goes over blocks.
+description: Moves items around. Goes over blocks. Only accepts input from the back.
 category: distribution
 requirements: [
-  magnetite/4
+  magnetite/1
 ]
