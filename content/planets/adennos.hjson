@@ -38,7 +38,7 @@ mesh: [
     radius: 0.5
     octaves: 15
     persistence: 0.3
-    scale: 1.5
+    scale: 1.6
     mag: 0.5
   }
 ]
