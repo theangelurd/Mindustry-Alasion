@@ -1,0 +1,9 @@
+name: "Lodestone Wall"
+description: "Low durability wall that will suffice for defense."
+type: Wall
+health: 450
+requirements:[
+    magnetite/6
+]
+category: defense
+research: iron-core
