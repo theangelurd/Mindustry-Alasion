@@ -19,8 +19,5 @@ requirements: [
 category: production
 research: {
   parent: iron-core
-  objectives: [
-      type: OnSector
-      preset: snow-craters
-  ]
+  objectives: [snow-craters]
 }
