@@ -18,7 +18,8 @@ engineSize: 2
 engineOffset: 9
 fogRadius: 8
 hittable: false
-isEnemy: false
+targetable: false
+flying: true
 research: {
 parent: iron-core
 }
