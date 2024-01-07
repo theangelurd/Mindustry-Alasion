@@ -21,7 +21,7 @@ mesh: [
     divisions: 3
     color1: 5867ac
     color2: 4d5ca4
-    radius: 0.5
+    radius: 1.5
     octaves: 9
     persistence: 0.5
     scale: 1.5
@@ -35,8 +35,8 @@ mesh: [
     divisions: 3
     color1: 707cd7
     color2: 707cd7
-    radius: 0.5
-    octaves: 15
+    radius: 1.5
+    octaves: 5
     persistence: 0.3
     scale: 1.6
     mag: 0.5
