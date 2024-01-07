@@ -1,0 +1,13 @@
+type: PowerNode
+name: "Power Distributor"
+description: "Distributes power across buildings."
+size: 1
+hasPower: true
+maxNodes: 10
+laserRange: 8
+requirements: [
+  magnetite/4
+  azurite/10
+]
+category: power
+research: combuster
