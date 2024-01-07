@@ -23,6 +23,6 @@ research: {
     {
       type: OnSector
       preset: snow-craters
-    {
+    }
   ]
 }
