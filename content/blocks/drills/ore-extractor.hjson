@@ -22,7 +22,7 @@ research: {
    objectives: [
       {
          type: OnSector
-         preset: landing-zone
+         preset: snow-craters
       }
    ]
 }
