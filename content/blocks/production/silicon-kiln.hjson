@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Silicon Kiln
+description: "Smelts a bunch of coal and gravel together to make silicon."
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+craftEffect: smeltsmoke
+consumes: {
+  power: 0.3
+  items: {
+    items: [
+      coal/3
+      gravel/5
+    ]
+  }
+}
+requirements: [
+    azurite/70
+    magnetite/50
+]
+category: crafting
+research: {
+  parent: iron-core
+    objectives: [
+    {
+      type: SectorComplete
+      preset: snow-craters
+    }
+    ]
+}
+outputItem: silicon/3
