@@ -76,14 +76,14 @@ allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: true
-orbitSpacing: 1
+orbitSpacing: 3
 radius: 1.5
 minZoom: 0.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.6
 accessible: true
-orbitRadius: 40
+orbitRadius: 180
 updateLighting: true
 sectorSeed: 14513
 bloom: false
