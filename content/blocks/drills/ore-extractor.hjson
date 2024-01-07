@@ -18,6 +18,11 @@ requirements: [
 ]
 category: production
 research: {
-  parent: iron-core
-  objectives: [snow-craters]
+   parent: iron-core
+   objectives: [
+      {
+         type: OnSector
+         preset: landing-zone
+      }
+   ]
 }
