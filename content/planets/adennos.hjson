@@ -74,7 +74,7 @@ generator: {
 sectorSize: 3
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
-allowLaunchLoadout: true
+allowLaunchLoadout: false
 allowSectorInvasion: true
 orbitSpacing: 1
 radius: 1.5
