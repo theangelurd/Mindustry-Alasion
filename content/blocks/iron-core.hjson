@@ -15,4 +15,9 @@ category: effect
 hasItems: true
 solid: true
 alwaysUnlocked: true
-research: core-shard
+research: {
+  planet: adennos
+  root: true
+  name: Adennos
+  requiresUnlock: false
+}
