@@ -2,7 +2,7 @@ type: flying
 name: Zap
 description: "Has a higher build speed than most other base core units."
 coreUnitDock: true
-mineFloor: false
+mineFloor: true
 mineSpeed: 10
 mineTier: 2
 buildSpeed: 0.8
@@ -14,8 +14,8 @@ itemCapacity: 80
 health: 100
 armor: 0
 hitSize: 5
-engineSize: 2
-engineOffset: 9
+engineSize: 2.5
+engineOffset: 7
 fogRadius: 8
 hittable: false
 targetable: false
