@@ -7,3 +7,12 @@ category: distribution
 requirements: [
   magnetite/1
 ]
+research: {
+   parent: iron-core
+   objectives: [
+      {
+         type: OnSector
+         preset: snow-craters
+      }
+   ]
+}
