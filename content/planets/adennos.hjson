@@ -95,7 +95,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: iron-core
+defaultCore: iron-core-schematic
 parent: sun
 solarSystem: sun
 launchCandidates: []
