@@ -8,3 +8,4 @@ category: distribution
 requirements: [
   magnetite/4
 ]
+research: lodestone-duct
