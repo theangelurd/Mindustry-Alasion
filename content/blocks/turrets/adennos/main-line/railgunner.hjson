@@ -1,0 +1,43 @@
+type: PowerTurret
+name: Railgunner
+description: Shoots a weak, but fast to fire laser blast.
+health: 80
+reload: 45
+rotateSpeed: 8
+recoil: 1.2
+size: 2
+shootSound: shotgun
+range: 150
+shoot: {
+  shots: 1
+}
+consumes: {
+  power: 4
+}
+shootType: {
+           type: LaserBulletType
+           pierce: true
+           damage: 50
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 5
+           width: 9
+           sideWidth: 2
+           sideAngle: 30
+           length: 150
+           lifetime: 10
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           hitShake: 1.5
+           shrinkY: 0
+           colors: [373f8a, 707cd7, a7b5f7]
+}
+requirements: [
+  azurite/80
+  magnetite/100
+  silicon/50
+]
+category: turret
+research: piercer
