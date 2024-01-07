@@ -1,0 +1,23 @@
+type: ConsumeGenerator
+name: "Combustor"
+description: "Consumes coal and uses combustion to generate power."
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 10
+itemDuration: 80
+powerProduction: 1.5
+consumes: {
+  items: {
+   items: [
+    coal/1
+    ]
+  }
+}
+requirements: [
+  magnetite/20
+  azurite/20
+]
+category: power
+research: iron-core
