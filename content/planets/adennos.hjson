@@ -19,8 +19,8 @@ mesh: [
     planet: adennos
     seed: 90
     divisions: 3
-    color1: 7885e7
-    color2: 9aa6ff
+    color1: b0c4ff
+    color2: 8aa4f4
     radius: 1.5
     octaves: 9
     persistence: 0.5
