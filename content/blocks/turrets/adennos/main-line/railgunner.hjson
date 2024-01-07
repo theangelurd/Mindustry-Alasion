@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Railgunner
 description: Shoots a weak, but fast to fire laser blast.
-health: 80
+health: 420
 reload: 45
 rotateSpeed: 8
 recoil: 1.2
