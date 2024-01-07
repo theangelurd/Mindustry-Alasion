@@ -1,12 +1,12 @@
 name: "Long Range Healer"
-description: "A mender that allows for much longe range, but has more power usage and slightly lower healing.."
+description: "A mender that allows for much longer range, but has more power usage and slightly lower healing.."
 type: Mender
 health: 120
 requirements:[
   magnetite/60
   azurite/100
 ]
-category: storage
+category: effect
 healPercent: 3
 range: 80
 
