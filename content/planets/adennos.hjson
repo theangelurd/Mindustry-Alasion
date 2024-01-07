@@ -19,8 +19,8 @@ mesh: [
     planet: adennos
     seed: 90
     divisions: 3
-    color1: 5867ac
-    color2: 4d5ca4
+    color1: 7885e7
+    color2: 9aa6ff
     radius: 1.5
     octaves: 9
     persistence: 0.5
@@ -32,14 +32,14 @@ mesh: [
     type: NoiseMesh
     planet: adennos
     seed: 123
-    divisions: 3
-    color1: 707cd7
-    color2: 707cd7
+    divisions: 4
+    color1: 787c88
+    color2: 636568
     radius: 1.5
     octaves: 5
-    persistence: 0.3
-    scale: 1.6
-    mag: 0.5
+    persistence: 0.2
+    scale: 0.3
+    mag: 0.2
   }
 ]
 cloudMesh: [
