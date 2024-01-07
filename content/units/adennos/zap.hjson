@@ -1,0 +1,24 @@
+type: flying
+name: Zap
+description: "Has a higher build speed than most other base core units."
+coreUnitDock: true
+mineFloor: false
+mineSpeed: 10
+mineTier: 2
+buildSpeed: 0.8
+drag: 0.015
+accel: 0.018
+speed: 7
+rotateSpeed: 12
+itemCapacity: 80
+health: 100
+armor: 0
+hitSize: 5
+engineSize: 2
+engineOffset: 9
+fogRadius: 8
+hittable: false
+isEnemy: false
+research: {
+parent: iron-core
+}
