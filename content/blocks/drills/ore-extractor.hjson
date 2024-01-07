@@ -17,4 +17,10 @@ requirements: [
   azurite/6
 ]
 category: production
-research: iron-core
+research: {
+  parent: iron-core
+  objectives: {
+    type: OnSector
+    preset: snow-craters
+  }
+}
