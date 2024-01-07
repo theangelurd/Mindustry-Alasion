@@ -27,6 +27,20 @@ mesh: [
     scale: 1.5
     mag: 0.5
   }
+  {
+    //water
+    type: NoiseMesh
+    planet: adennos
+    seed: 123
+    divisions: 3
+    color1: 707cd7
+    color2: 707cd7
+    radius: 0.5
+    octaves: 15
+    persistence: 0.3
+    scale: 1.5
+    mag: 0.5
+  }
 ]
 cloudMesh: [
  {
