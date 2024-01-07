@@ -6,4 +6,12 @@ requirements:[
     magnetite/6
 ]
 category: defense
-research: iron-core
+research: {
+   parent: iron-core
+   objectives: [
+      {
+         type: OnSector
+         preset: snow-craters
+      }
+   ]
+}
