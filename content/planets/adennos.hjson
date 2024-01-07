@@ -36,10 +36,10 @@ mesh: [
     color1: 787c88
     color2: 636568
     radius: 1.5
-    octaves: 5
+    octaves: 10
     persistence: 0.2
-    scale: 1.5
-    mag: 1
+    scale: 0.5
+    mag: 0.4
   }
 ]
 cloudMesh: [
