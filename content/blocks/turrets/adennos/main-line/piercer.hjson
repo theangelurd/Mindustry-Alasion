@@ -30,10 +30,15 @@ ammoTypes: {
 }
 category: turret
 research: {
-    parent: iron-core
-    objectives: [magnetite]
+   parent: iron-core
+   objectives: [
+      {
+         type: OnSector
+         preset: snow-craters
+      }
+   ]
 }
 requirements: [
   magnetite/40
-  copper/20
+  azurite/20
 ]
