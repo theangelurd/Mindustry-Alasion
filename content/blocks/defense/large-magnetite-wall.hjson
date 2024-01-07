@@ -1,0 +1,9 @@
+name: "Large Lodestone Wall"
+description: "Low durability wall that will suffice for defense. Larger in size."
+type: Wall
+health: 1800
+requirements:[
+    magnetite/24
+]
+category: defense
+research: magnetite-wall
