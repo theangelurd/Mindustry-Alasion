@@ -5,10 +5,10 @@ health: 3000
 itemCapacity: 2000
 size: 3
 unitCapModifier: 6
-unitType: alpha
+unitType: zap
 researchCostMultiplier: 0.06
 requirements: [
-  silicon/500
+  azurite/1000
   magnetite/1500
 ] 
 category: effect
