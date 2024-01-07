@@ -38,8 +38,8 @@ mesh: [
     radius: 1.5
     octaves: 5
     persistence: 0.2
-    scale: 0.3
-    mag: 0.2
+    scale: 1.5
+    mag: 1
   }
 ]
 cloudMesh: [
