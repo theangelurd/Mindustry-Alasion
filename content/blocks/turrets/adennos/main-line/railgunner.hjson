@@ -40,4 +40,12 @@ requirements: [
   silicon/50
 ]
 category: turret
-research: piercer
+research: {
+   parent: piercer
+   objectives: [
+      {
+         type: SectorComplete
+         preset: snow-craters
+      }
+   ]
+}
