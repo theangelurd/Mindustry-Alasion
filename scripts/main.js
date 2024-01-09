@@ -1,4 +1,4 @@
-const target = "manifold";
+const target = "assemblyDrone";
 const baseColor = Color.valueOf("a7b5f7");
 let palette = [
 Color.valueOf("707cd7"),
@@ -17,7 +17,7 @@ Events.on(ContentInitEvent, () => {
   let ch = Fonts.getUnicode(target);
 
   let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-  let tex = Core.atlas.find("farborne-industries-team-dread");
+  let tex = Core.atlas.find("mindustry-alasion-frost");
   let out = Scaling.fit.apply(tex.width, tex.height, size, size);
 
   for(let font of fonts){
