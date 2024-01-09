@@ -6,6 +6,7 @@ reload: 45
 rotateSpeed: 8
 recoil: 1.2
 size: 2
+planet: adennos
 shootSound: shotgun
 range: 150
 shoot: {
