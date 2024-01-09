@@ -42,6 +42,7 @@ requirements: [
 category: turret
 research: {
    parent: piercer
+  planet: adennos
    objectives: [
       {
          type: SectorComplete
